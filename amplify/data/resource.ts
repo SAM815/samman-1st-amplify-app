@@ -14,6 +14,24 @@ const schema = a.schema({
       anime: a.string(),
       rating: a.integer(),
       createdAt: a.datetime(),
+      images: a.string().array(),
+      tags: a.string().array(),
+      likes: a.integer().default(0),
+      views: a.integer().default(0),
+      comments: a.hasMany('Comment', 'postId'),
+    })
+    .authorization((allow) => [allow.publicApiKey()]),
+  
+  Comment: a
+    .model({
+      content: a.string(),
+      postId: a.id(),
+      post: a.belongsTo('AnimeBlogPost', 'postId'),
+      parentId: a.id(),
+      parent: a.belongsTo('Comment', 'parentId'),
+      replies: a.hasMany('Comment', 'parentId'),
+      createdAt: a.datetime(),
+      authorName: a.string().default("Anonymous"),
     })
     .authorization((allow) => [allow.publicApiKey()]),
 });
