@@ -9,8 +9,13 @@ export const metadata: Metadata = {
   title: "My Anime Blog",
   description: "Reviews, thoughts, and recommendations from the anime world!",
   manifest: "/manifest.json",
-  themeColor: "#ff6b9d",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#ff6b9d',
 };
 
 export default function RootLayout({

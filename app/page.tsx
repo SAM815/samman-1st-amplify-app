@@ -65,7 +65,9 @@ export default function App() {
         // Extract unique tags
         const tags = new Set<string>();
         sortedPosts.forEach(post => {
-          post.tags?.forEach(tag => tags.add(tag));
+          post.tags?.forEach(tag => {
+            if (tag) tags.add(tag);
+          });
         });
         setAvailableTags(Array.from(tags));
         
@@ -275,7 +277,7 @@ export default function App() {
                 
                 {post.images && post.images.length > 0 && (
                   <div className="post-images">
-                    {post.images.map((image, idx) => (
+                    {post.images.map((image, idx) => image ? (
                       <div key={idx} className="post-image">
                         <StorageImage
                           path={image}
@@ -285,15 +287,15 @@ export default function App() {
                           className="anime-image"
                         />
                       </div>
-                    ))}
+                    ) : null)}
                   </div>
                 )}
                 
                 {post.tags && post.tags.length > 0 && (
                   <div className="post-tags">
-                    {post.tags.map(tag => (
+                    {post.tags.map(tag => tag ? (
                       <span key={tag} className="post-tag">#{tag}</span>
-                    ))}
+                    ) : null)}
                   </div>
                 )}
                 
@@ -307,13 +309,13 @@ export default function App() {
                   </button>
                   <span className="comment-count">
                     <MessageCircle size={18} />
-                    {post.comments?.length || 0}
+                    0
                   </span>
                 </div>
                 
                 <CommentSection
                   postId={post.id}
-                  comments={post.comments?.items || []}
+                  comments={[]}
                 />
               </motion.div>
             ))}
