@@ -4,8 +4,6 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { generateClient } from "aws-amplify/data";
 import type { Schema } from "@/amplify/data/resource";
 import "./../app/app.css";
-import { Amplify } from "aws-amplify";
-import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Eye, MessageCircle, Plus } from "lucide-react";
@@ -19,8 +17,7 @@ import SearchFilter from "@/components/SearchFilter";
 import PostSkeleton from "@/components/PostSkeleton";
 import ThemeToggle from "@/components/ThemeToggle";
 import StorageImage from "@/components/StorageImage";
-
-Amplify.configure(outputs);
+import AuthTest from "@/components/AuthTest";
 
 const client = generateClient<Schema>();
 
@@ -159,6 +156,8 @@ export default function App() {
         </div>
         <ThemeToggle />
       </div>
+
+      <AuthTest />
 
       <SearchFilter
         onSearch={setSearchQuery}

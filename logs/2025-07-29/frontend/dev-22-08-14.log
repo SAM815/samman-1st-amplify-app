@@ -1,0 +1,22 @@
+[2025-07-29T02:08:14.775Z] Starting: npm run dev (Process ID: npm-dev220814log)
+[2025-07-29T02:08:14.855Z] [npm-dev220814log] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-07-29T02:08:15.174Z] [npm-dev220814log]   ▲ Next.js 14.2.10
+[2025-07-29T02:08:15.174Z] [npm-dev220814log]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-07-29T02:08:16.098Z] [npm-dev220814log]  ✓ Ready in 976ms
+[2025-07-29T02:08:40.978Z] [npm-dev220814log]  ○ Compiling / ...
+[2025-07-29T02:08:41.134Z] [npm-dev220814log] [ERROR] Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[2025-07-29T02:08:44.304Z] [npm-dev220814log]  ✓ Compiled / in 3.8s (3208 modules)
+[2025-07-29T02:08:44.522Z] [npm-dev220814log]  GET / 200 in 4053ms
+[2025-07-29T02:08:45.098Z] [npm-dev220814log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T02:08:45.531Z] [npm-dev220814log]  ✓ Compiled /_not-found in 369ms (3193 modules)
+[2025-07-29T02:08:45.607Z] [npm-dev220814log]  GET /favicon.ico 200 in 452ms
+[2025-07-29T02:08:45.613Z] [npm-dev220814log]  GET /icon-192.png 404 in 425ms
+[2025-07-29T02:08:46.868Z] [npm-dev220814log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T02:09:45.909Z] [npm-dev220814log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
