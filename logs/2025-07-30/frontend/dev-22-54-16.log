@@ -1,0 +1,283 @@
+[2025-07-30T02:54:16.381Z] Starting: npm run dev (Process ID: frontend-with-browser)
+[2025-07-30T02:54:16.382Z] [frontend-with-browser] ✅ Starting development server...
+[2025-07-30T02:54:16.468Z] [frontend-with-browser] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-07-30T02:54:16.690Z] [frontend-with-browser] 🔍 Detected port: 3000
+[2025-07-30T02:54:16.690Z] [frontend-with-browser] [ERROR]  ⚠ Port 3000 is in use, trying 3001 instead.
+[2025-07-30T02:54:16.731Z] [frontend-with-browser]   ▲ Next.js 14.2.10
+[2025-07-30T02:54:16.731Z] [frontend-with-browser]   - Local:        http://localhost:3001
+
+ ✓ Starting...
+[2025-07-30T02:54:16.731Z] [frontend-with-browser] ✅ Server ready on http://localhost:3000
+[2025-07-30T02:54:16.731Z] [frontend-with-browser] ⏳ Waiting 1000ms before launching browser...
+[2025-07-30T02:54:17.591Z] [frontend-with-browser]  ✓ Ready in 912ms
+[2025-07-30T02:54:17.733Z] [frontend-with-browser] ✅ Launching test browser...
+[2025-07-30T02:54:17.735Z] [frontend-with-browser] [ERROR] Failed to launch browser: browserType.launch: Executable doesn't exist at /Users/sammanbhetwal/Library/Caches/ms-playwright/chromium-1181/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+[2025-07-30T02:55:02.456Z] [frontend-with-browser]  ○ Compiling / ...
+[2025-07-30T02:55:04.271Z] [frontend-with-browser]  ✓ Compiled / in 2.4s (1642 modules)
+[2025-07-30T02:55:04.484Z] [frontend-with-browser]  GET / 200 in 2662ms
+[2025-07-30T02:55:04.549Z] [frontend-with-browser]  ✓ Compiled in 228ms (812 modules)
+[2025-07-30T02:55:05.036Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:55:05.246Z] [frontend-with-browser]  ✓ Compiled /_not-found in 301ms (1653 modules)
+[2025-07-30T02:55:05.296Z] [frontend-with-browser]  GET /favicon.ico 200 in 356ms
+[2025-07-30T02:55:05.334Z] [frontend-with-browser]  GET /icon-192.png 404 in 364ms
+[2025-07-30T02:55:06.526Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:55:20.215Z] [frontend-with-browser]  ✓ Compiled /login in 306ms (1671 modules)
+[2025-07-30T02:55:20.373Z] [frontend-with-browser]  GET /icon-192.png 404 in 48ms
+[2025-07-30T02:55:57.055Z] [frontend-with-browser] [ERROR]  ⨯ ./app/home/page.tsx
+Error: 
+  [31mx[0m Expected ',', got 's'
+    ,-[[36;1;4m/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/app/home/page.tsx[0m:28:1]
+ [2m28[0m | const mockBlogPosts: BlogPost[] = [
+ [2m29[0m |   {
+ [2m30[0m |     id: '1',
+ [2m31[0m |     title: 'Why Attack on Titan's Final Season is a Masterpiece',
+    : [31;1m                                ^[0m
+ [2m32[0m |     excerpt: 'An in-depth analysis of the storytelling, character development, and thematic brilliance that makes the final season of Attack on Titan one of the greatest anime conclusions ever...',
+ [2m33[0m |     author: {
+ [2m34[0m |       name: 'Sarah Chen',
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/home/page.tsx
+[2025-07-30T02:55:57.411Z] [frontend-with-browser]  ○ Compiling /home ...
+[2025-07-30T02:55:57.967Z] [frontend-with-browser] [ERROR]  ⨯ ./app/home/page.tsx
+Error: 
+  [31mx[0m Expected ',', got 's'
+    ,-[[36;1;4m/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/app/home/page.tsx[0m:28:1]
+ [2m28[0m | const mockBlogPosts: BlogPost[] = [
+ [2m29[0m |   {
+ [2m30[0m |     id: '1',
+ [2m31[0m |     title: 'Why Attack on Titan's Final Season is a Masterpiece',
+    : [31;1m                                ^[0m
+ [2m32[0m |     excerpt: 'An in-depth analysis of the storytelling, character development, and thematic brilliance that makes the final season of Attack on Titan one of the greatest anime conclusions ever...',
+ [2m33[0m |     author: {
+ [2m34[0m |       name: 'Sarah Chen',
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/home/page.tsx
+[2025-07-30T02:55:58.053Z] [frontend-with-browser]  GET /home 500 in 6ms
+[2025-07-30T02:55:58.894Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:56:58.517Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:56:58.564Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:57:00.129Z] [frontend-with-browser]  ✓ Compiled /_not-found in 254ms (1880 modules)
+[2025-07-30T02:57:00.203Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T02:57:00.204Z] [frontend-with-browser]  GET /_next/static/webpack/63767bd9a3ff57b6.webpack.hot-update.json 404 in 322ms
+[2025-07-30T02:57:00.419Z] [frontend-with-browser]  ✓ Compiled /home in 221ms (1913 modules)
+[2025-07-30T02:57:00.421Z] [frontend-with-browser]  GET /home 200 in 211ms
+[2025-07-30T02:57:00.495Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T02:57:00.495Z] [frontend-with-browser]  GET /home 200 in 47ms
+[2025-07-30T02:57:00.496Z] [frontend-with-browser]  GET /_next/static/webpack/63767bd9a3ff57b6.webpack.hot-update.json 404 in 14ms
+[2025-07-30T02:57:00.532Z] [frontend-with-browser]  GET /home 200 in 26ms
+[2025-07-30T02:57:01.079Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 51ms (922 modules)
+[2025-07-30T02:57:01.116Z] [frontend-with-browser]  GET /favicon.ico 200 in 89ms
+[2025-07-30T02:57:01.174Z] [frontend-with-browser]  GET /icon-192.png 404 in 56ms
+[2025-07-30T02:57:27.544Z] Restarting: npm run dev (Process ID: frontend-with-browser)
+[2025-07-30T02:57:27.647Z] [frontend-with-browser] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-07-30T02:57:27.915Z] [frontend-with-browser]   ▲ Next.js 14.2.10
+[2025-07-30T02:57:27.915Z] [frontend-with-browser]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-07-30T02:57:28.970Z] [frontend-with-browser]  ✓ Ready in 1107ms
+[2025-07-30T03:02:41.523Z] [frontend-with-browser]  ○ Compiling / ...
+[2025-07-30T03:02:43.230Z] [frontend-with-browser]  ✓ Compiled / in 2.3s (1642 modules)
+[2025-07-30T03:02:43.453Z] [frontend-with-browser]  GET / 200 in 2514ms
+[2025-07-30T03:02:43.511Z] [frontend-with-browser]  ✓ Compiled in 268ms (812 modules)
+[2025-07-30T03:02:44.070Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:02:44.124Z] [frontend-with-browser]  ✓ Compiled /_not-found in 206ms (1622 modules)
+[2025-07-30T03:02:44.177Z] [frontend-with-browser]  GET /icon-192.png 404 in 266ms
+[2025-07-30T03:02:45.311Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:02:47.438Z] [frontend-with-browser] [ERROR]  ⨯ ./components/auth/Login.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/components/auth/Login.tsx[0m:34:1]
+ [2m34[0m |   }
+ [2m35[0m | 
+ [2m36[0m |   return (
+ [2m37[0m |     <div className="min-h-screen relative overflow-hidden">
+    : [31;1m     ^^^[0m
+ [2m38[0m |       {/* Animated Background */}
+ [2m39[0m |       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-gray-900 to-black">
+ [2m40[0m |         <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.05"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/auth/Login.tsx
+./app/(auth)/login/page.tsx
+[2025-07-30T03:02:47.764Z] [frontend-with-browser]  ○ Compiling /login ...
+[2025-07-30T03:02:48.270Z] [frontend-with-browser] [ERROR]  ⨯ ./components/auth/Login.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/components/auth/Login.tsx[0m:34:1]
+ [2m34[0m |   }
+ [2m35[0m | 
+ [2m36[0m |   return (
+ [2m37[0m |     <div className="min-h-screen relative overflow-hidden">
+    : [31;1m     ^^^[0m
+ [2m38[0m |       {/* Animated Background */}
+ [2m39[0m |       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-gray-900 to-black">
+ [2m40[0m |         <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.05"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/auth/Login.tsx
+./app/(auth)/login/page.tsx
+[2025-07-30T03:02:48.371Z] [frontend-with-browser]  GET /login 500 in 4ms
+[2025-07-30T03:02:49.152Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:03:19.006Z] [frontend-with-browser]  GET / 500 in 19ms
+[2025-07-30T03:03:21.994Z] [frontend-with-browser]  GET / 500 in 15ms
+[2025-07-30T03:03:25.045Z] [frontend-with-browser]  GET / 500 in 14ms
+[2025-07-30T03:03:48.745Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:03:48.796Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:05:21.741Z] [frontend-with-browser]  ✓ Compiled /_not-found in 249ms (1853 modules)
+[2025-07-30T03:05:21.814Z] [frontend-with-browser]  GET /_next/static/webpack/63767bd9a3ff57b6.webpack.hot-update.json 404 in 315ms
+[2025-07-30T03:05:21.819Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T03:05:21.826Z] [frontend-with-browser]  GET / 200 in 19ms
+[2025-07-30T03:05:21.841Z] [frontend-with-browser]  GET / 200 in 13ms
+[2025-07-30T03:05:22.599Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 215ms (1898 modules)
+[2025-07-30T03:05:22.670Z] [frontend-with-browser]  GET /favicon.ico 200 in 289ms
+[2025-07-30T03:05:22.677Z] [frontend-with-browser]  GET /icon-192.png 404 in 277ms
+[2025-07-30T03:05:22.738Z] [frontend-with-browser]  GET /icon-192.png 404 in 11ms
+[2025-07-30T03:05:32.765Z] [frontend-with-browser]  ✓ Compiled in 113ms (1005 modules)
+[2025-07-30T03:05:39.141Z] [frontend-with-browser]  ✓ Compiled in 103ms (1005 modules)
+[2025-07-30T03:05:54.407Z] [frontend-with-browser]  ✓ Compiled in 104ms (1005 modules)
+[2025-07-30T03:06:22.930Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:06:54.737Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:07:17.414Z] [frontend-with-browser]  ✓ Compiled in 157ms (1003 modules)
+[2025-07-30T03:07:28.471Z] [frontend-with-browser]  ✓ Compiled in 80ms (1003 modules)
+[2025-07-30T03:08:28.779Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:10:11.835Z] [frontend-with-browser]  ✓ Compiled /login in 314ms (1896 modules)
+[2025-07-30T03:10:12.210Z] [frontend-with-browser]  ✓ Compiled /_not-found in 269ms (1913 modules)
+[2025-07-30T03:10:12.272Z] [frontend-with-browser]  GET /icon-192.png 404 in 325ms
+[2025-07-30T03:10:12.367Z] [frontend-with-browser]  GET /icon-192.png 404 in 28ms
+[2025-07-30T03:10:17.378Z] [frontend-with-browser]  GET /icon-192.png 404 in 17ms
+[2025-07-30T03:10:18.783Z] [frontend-with-browser]  GET /icon-192.png 404 in 22ms
+[2025-07-30T03:10:25.300Z] [frontend-with-browser]  ✓ Compiled /signup in 260ms (1926 modules)
+[2025-07-30T03:10:25.446Z] [frontend-with-browser]  GET /icon-192.png 404 in 49ms
+[2025-07-30T03:10:36.636Z] [frontend-with-browser]  GET /icon-192.png 404 in 20ms
+[2025-07-30T03:11:14.377Z] [frontend-with-browser]  GET /forgot-password 404 in 20ms
+[2025-07-30T03:11:14.839Z] [frontend-with-browser]  GET /icon-192.png 404 in 19ms
+[2025-07-30T03:11:18.590Z] [frontend-with-browser]  GET /login 200 in 47ms
+[2025-07-30T03:11:18.985Z] [frontend-with-browser]  GET /icon-192.png 404 in 21ms
+[2025-07-30T03:11:22.588Z] [frontend-with-browser]  GET /icon-192.png 404 in 14ms
+[2025-07-30T03:11:25.797Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:11:25.854Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:13:17.817Z] [frontend-with-browser]  GET /icon-192.png 404 in 27ms
+[2025-07-30T03:13:33.146Z] [frontend-with-browser]  GET /icon-192.png 404 in 20ms
+[2025-07-30T03:13:44.388Z] [frontend-with-browser]  ✓ Compiled /explore in 226ms (1934 modules)
+[2025-07-30T03:13:44.522Z] [frontend-with-browser]  GET /icon-192.png 404 in 30ms
+[2025-07-30T03:13:49.618Z] [frontend-with-browser]  ✓ Compiled /profile in 157ms (1940 modules)
+[2025-07-30T03:13:49.735Z] [frontend-with-browser]  GET /icon-192.png 404 in 34ms
+[2025-07-30T03:13:55.194Z] [frontend-with-browser]  GET /icon-192.png 404 in 21ms
+[2025-07-30T03:14:12.706Z] [frontend-with-browser]  ○ Compiling /create ...
+[2025-07-30T03:14:12.781Z] [frontend-with-browser]  ✓ Compiled /create in 585ms (2064 modules)
+[2025-07-30T03:14:19.355Z] [frontend-with-browser]  GET /home 200 in 78ms
+[2025-07-30T03:14:19.822Z] [frontend-with-browser]  GET /icon-192.png 404 in 22ms
+[2025-07-30T03:14:42.059Z] [frontend-with-browser]  ✓ Compiled / in 111ms (977 modules)
+[2025-07-30T03:14:42.121Z] [frontend-with-browser]  GET / 200 in 179ms
+[2025-07-30T03:14:43.193Z] [frontend-with-browser]  GET /home 200 in 35ms
+[2025-07-30T03:14:43.579Z] [frontend-with-browser]  GET /icon-192.png 404 in 24ms
+[2025-07-30T03:15:13.140Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:15:42.404Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:19:03.012Z] [frontend-with-browser]  ✓ Compiled in 256ms (2069 modules)
+[2025-07-30T03:19:03.239Z] [frontend-with-browser]  ✓ Compiled /_not-found in 162ms (2058 modules)
+[2025-07-30T03:19:03.275Z] [frontend-with-browser]  GET /icon-192.png 404 in 199ms
+[2025-07-30T03:19:54.024Z] [frontend-with-browser]  ✓ Compiled in 102ms (1105 modules)
+[2025-07-30T03:20:00.918Z] [frontend-with-browser]  ✓ Compiled in 261ms (2072 modules)
+[2025-07-30T03:20:08.944Z] [frontend-with-browser]  ✓ Compiled in 227ms (2069 modules)
+[2025-07-30T03:20:24.792Z] [frontend-with-browser]  ✓ Compiled in 281ms (2075 modules)
+[2025-07-30T03:21:25.254Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:21:25.345Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:22:32.482Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T03:22:32.621Z] [frontend-with-browser]  ✓ Compiled in 318ms (2075 modules)
+[2025-07-30T03:22:32.771Z] [frontend-with-browser]  GET /create 200 in 263ms
+[2025-07-30T03:22:33.477Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 198ms (1000 modules)
+[2025-07-30T03:22:33.515Z] [frontend-with-browser]  GET /favicon.ico 200 in 238ms
+[2025-07-30T03:23:32.841Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:23:33.850Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:24:08.121Z] [frontend-with-browser]  ✓ Compiled / in 164ms (979 modules)
+[2025-07-30T03:24:08.343Z] [frontend-with-browser]  GET / 200 in 392ms
+[2025-07-30T03:24:08.353Z] [frontend-with-browser]  GET /create 200 in 219ms
+[2025-07-30T03:24:08.893Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 104ms (1010 modules)
+[2025-07-30T03:24:08.932Z] [frontend-with-browser]  GET /favicon.ico 200 in 147ms
+[2025-07-30T03:24:09.249Z] [frontend-with-browser]  GET /home 200 in 73ms
+[2025-07-30T03:24:09.897Z] [frontend-with-browser]  ✓ Compiled /_not-found in 258ms (2119 modules)
+[2025-07-30T03:24:09.949Z] [frontend-with-browser]  GET /icon-192.png 404 in 311ms
+[2025-07-30T03:24:10.015Z] [frontend-with-browser]  GET /icon-192.png 404 in 14ms
+[2025-07-30T03:24:33.513Z] [frontend-with-browser]  ✓ Compiled in 295ms (2119 modules)
+[2025-07-30T03:24:41.650Z] [frontend-with-browser]  ✓ Compiled in 105ms (1108 modules)
+[2025-07-30T03:24:47.218Z] [frontend-with-browser]  ✓ Compiled in 277ms (2131 modules)
+[2025-07-30T03:25:43.266Z] [frontend-with-browser]  GET /icon-192.png 404 in 68ms
+[2025-07-30T03:25:47.725Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:25:47.835Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:26:24.021Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T03:26:24.088Z] [frontend-with-browser]  ✓ Compiled in 264ms (2090 modules)
+[2025-07-30T03:26:24.227Z] [frontend-with-browser]  GET /create 200 in 193ms
+[2025-07-30T03:26:24.823Z] [frontend-with-browser]  GET /icon-192.png 404 in 34ms
+[2025-07-30T03:26:24.887Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 95ms (1007 modules)
+[2025-07-30T03:26:24.927Z] [frontend-with-browser]  GET /favicon.ico 200 in 143ms
+[2025-07-30T03:26:44.217Z] [frontend-with-browser]  ✓ Compiled in 100ms (1114 modules)
+[2025-07-30T03:26:44.304Z] [frontend-with-browser]  GET /icon-192.png 404 in 35ms
+[2025-07-30T03:26:50.674Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T03:26:50.780Z] [frontend-with-browser]  ✓ Compiled in 299ms (1991 modules)
+[2025-07-30T03:26:50.921Z] [frontend-with-browser]  GET /create 200 in 227ms
+[2025-07-30T03:26:51.498Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-07-30T03:26:56.611Z] [frontend-with-browser] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-07-30T03:26:56.667Z] [frontend-with-browser]  ✓ Compiled in 195ms (1993 modules)
+[2025-07-30T03:26:56.838Z] [frontend-with-browser]  GET /create 200 in 226ms
+[2025-07-30T03:26:57.233Z] [frontend-with-browser]  GET /favicon.ico 200 in 15ms
+[2025-07-30T03:26:57.252Z] [frontend-with-browser]  GET /icon-192.png 404 in 15ms
+[2025-07-30T03:27:05.198Z] [frontend-with-browser]  ✓ Compiled in 284ms (1993 modules)
+[2025-07-30T03:27:05.295Z] [frontend-with-browser]  GET /icon-192.png 404 in 24ms
+[2025-07-30T03:27:31.913Z] [frontend-with-browser]  GET /icon-192.png 404 in 23ms
+[2025-07-30T03:27:33.473Z] [frontend-with-browser]  GET /icon-192.png 404 in 19ms
+[2025-07-30T03:27:47.189Z] [frontend-with-browser]  GET /icon-192.png 404 in 25ms
+[2025-07-30T03:28:06.184Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:28:06.206Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:28:06.270Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:29:13.807Z] [frontend-with-browser]  ✓ Compiled in 200ms (1048 modules)
+[2025-07-30T03:29:19.507Z] [frontend-with-browser]  ✓ Compiled in 194ms (1959 modules)
+[2025-07-30T03:29:23.985Z] [frontend-with-browser]  ✓ Compiled in 285ms (1959 modules)
+[2025-07-30T03:29:28.975Z] [frontend-with-browser]  ✓ Compiled in 188ms (1959 modules)
+[2025-07-30T03:29:33.501Z] [frontend-with-browser]  ✓ Compiled in 163ms (1959 modules)
+[2025-07-30T03:29:44.247Z] [frontend-with-browser]  ✓ Compiled in 249ms (1959 modules)
+[2025-07-30T03:29:49.381Z] [frontend-with-browser]  ✓ Compiled in 255ms (1959 modules)
+[2025-07-30T03:29:54.740Z] [frontend-with-browser]  ✓ Compiled in 209ms (1959 modules)
+[2025-07-30T03:29:59.813Z] [frontend-with-browser]  ✓ Compiled in 177ms (1959 modules)
+[2025-07-30T03:30:04.459Z] [frontend-with-browser]  ✓ Compiled in 254ms (1959 modules)
+[2025-07-30T03:30:09.749Z] [frontend-with-browser]  ✓ Compiled in 224ms (1967 modules)
+[2025-07-30T03:31:10.420Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:31:10.470Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T03:35:41.221Z] [frontend-with-browser]  ✓ Compiled /_not-found in 282ms (1970 modules)
+[2025-07-30T03:35:41.288Z] [frontend-with-browser]  GET /icon-192.png 404 in 352ms
+[2025-07-30T03:35:47.276Z] [frontend-with-browser]  ✓ Compiled in 149ms (1970 modules)
+[2025-07-30T03:35:56.560Z] [frontend-with-browser]  ✓ Compiled in 292ms (1970 modules)
+[2025-07-30T03:36:01.559Z] [frontend-with-browser]  ✓ Compiled in 176ms (1970 modules)
+[2025-07-30T03:36:05.602Z] [frontend-with-browser]  ✓ Compiled in 174ms (1970 modules)
+[2025-07-30T03:36:29.407Z] [frontend-with-browser]  GET /icon-192.png 404 in 66ms

@@ -1,0 +1,47 @@
+[2025-07-29T19:39:49.688Z] Starting: npm run dev (Process ID: frontend-anime-blog)
+[2025-07-29T19:39:49.688Z] [frontend-anime-blog] ✅ Starting development server...
+[2025-07-29T19:39:49.817Z] [frontend-anime-blog] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-07-29T19:39:50.137Z] [frontend-anime-blog] 🔍 Detected port: 3000
+[2025-07-29T19:39:50.137Z] [frontend-anime-blog] [ERROR]  ⚠ Port 3000 is in use, trying 3001 instead.
+[2025-07-29T19:39:50.184Z] [frontend-anime-blog]   ▲ Next.js 14.2.10
+[2025-07-29T19:39:50.185Z] [frontend-anime-blog]   - Local:        http://localhost:3001
+
+ ✓ Starting...
+[2025-07-29T19:39:50.185Z] [frontend-anime-blog] ✅ Server ready on http://localhost:3000
+[2025-07-29T19:39:50.185Z] [frontend-anime-blog] ⏳ Waiting 1000ms before launching browser...
+[2025-07-29T19:39:51.141Z] [frontend-anime-blog]  ✓ Ready in 1020ms
+[2025-07-29T19:39:51.187Z] [frontend-anime-blog] ✅ Launching test browser...
+[2025-07-29T19:39:51.193Z] [frontend-anime-blog] [ERROR] Failed to launch browser: browserType.launch: Executable doesn't exist at /Users/sammanbhetwal/Library/Caches/ms-playwright/chromium-1181/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+[2025-07-29T19:42:59.521Z] [frontend-anime-blog] [ERROR] Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[2025-07-29T19:42:59.552Z] [frontend-anime-blog]  ○ Compiling / ...
+[2025-07-29T19:43:02.789Z] [frontend-anime-blog]  ✓ Compiled / in 3.9s (3210 modules)
+[2025-07-29T19:43:03.012Z] [frontend-anime-blog]  GET / 200 in 4143ms
+[2025-07-29T19:43:03.397Z] [frontend-anime-blog] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T19:43:03.540Z] [frontend-anime-blog]  ✓ Compiled /favicon.ico in 186ms (1623 modules)
+[2025-07-29T19:43:03.582Z] [frontend-anime-blog]  GET /favicon.ico 200 in 231ms
+[2025-07-29T19:43:04.219Z] [frontend-anime-blog] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T19:44:03.877Z] [frontend-anime-blog] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T19:44:50.519Z] [frontend-anime-blog]  ✓ Compiled in 222ms (3161 modules)
+[2025-07-29T19:45:02.297Z] [frontend-anime-blog]  ✓ Compiled in 147ms (3161 modules)
+[2025-07-29T19:45:08.705Z] [frontend-anime-blog]  ✓ Compiled in 142ms (3161 modules)
+[2025-07-29T19:45:15.423Z] [frontend-anime-blog]  ✓ Compiled in 171ms (3161 modules)
+[2025-07-29T19:45:29.126Z] [frontend-anime-blog]  ✓ Compiled in 147ms (3161 modules)
+[2025-07-29T19:45:37.267Z] [frontend-anime-blog]  ✓ Compiled in 136ms (3161 modules)
+[2025-07-29T19:45:41.854Z] [frontend-anime-blog]  ✓ Compiled in 175ms (3161 modules)
+[2025-07-29T19:45:49.186Z] [frontend-anime-blog]  ✓ Compiled in 186ms (3161 modules)
+[2025-07-29T19:46:49.659Z] [frontend-anime-blog] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T19:46:49.712Z] [frontend-anime-blog] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-29T19:50:06.519Z] [frontend-anime-blog] Process exited with code 0 and signal null

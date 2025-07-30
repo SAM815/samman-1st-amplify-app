@@ -1,0 +1,36 @@
+[2025-07-30T02:24:47.122Z] Starting: npm run dev (Process ID: frontend-restructured)
+[2025-07-30T02:24:47.122Z] [frontend-restructured] ✅ Starting development server...
+[2025-07-30T02:24:47.201Z] [frontend-restructured] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-07-30T02:24:47.451Z] [frontend-restructured]   ▲ Next.js 14.2.10
+[2025-07-30T02:24:47.451Z] [frontend-restructured] 🔍 Detected port: 3000
+[2025-07-30T02:24:47.451Z] [frontend-restructured]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-07-30T02:24:47.451Z] [frontend-restructured] ✅ Server ready on http://localhost:3000
+[2025-07-30T02:24:47.451Z] [frontend-restructured] ⏳ Waiting 1000ms before launching browser...
+[2025-07-30T02:24:48.309Z] [frontend-restructured]  ✓ Ready in 910ms
+[2025-07-30T02:24:48.453Z] [frontend-restructured] ✅ Launching test browser...
+[2025-07-30T02:24:48.454Z] [frontend-restructured] [ERROR] Failed to launch browser: browserType.launch: Executable doesn't exist at /Users/sammanbhetwal/Library/Caches/ms-playwright/chromium-1181/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+[2025-07-30T02:25:49.050Z] [frontend-restructured] [ERROR] Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[2025-07-30T02:25:49.076Z] [frontend-restructured]  ○ Compiling / ...
+[2025-07-30T02:25:50.599Z] [frontend-restructured]  ✓ Compiled / in 2.1s (1638 modules)
+[2025-07-30T02:25:50.698Z] [frontend-restructured]  GET / 200 in 2194ms
+[2025-07-30T02:25:51.322Z] [frontend-restructured] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:25:51.491Z] [frontend-restructured]  ✓ Compiled /_not-found in 304ms (1649 modules)
+[2025-07-30T02:25:51.560Z] [frontend-restructured]  GET /favicon.ico 200 in 378ms
+[2025-07-30T02:25:51.565Z] [frontend-restructured]  GET /icon-192.png 404 in 360ms
+[2025-07-30T02:25:52.811Z] [frontend-restructured] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-07-30T02:26:26.100Z] [frontend-restructured] Process exited with code 0 and signal null
