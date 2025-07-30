@@ -177,7 +177,6 @@ export default function CreatePage() {
             <TagsInput
               tags={tags}
               onChange={setTags}
-              suggestions={[...GENRES, 'Review', 'First Impressions', 'Analysis', 'Character Study', 'Season Review']}
             />
             <p className="text-gray-500 text-sm mt-1">Add tags to help others find your post</p>
           </div>
