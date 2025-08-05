@@ -1,0 +1,302 @@
+[2025-08-04T20:27:24.262Z] Starting: npx ampx sandbox (Process ID: amplify-sandbox-reverted)
+[2025-08-04T20:27:26.076Z] [amplify-sandbox-reverted]   
+  Amplify Sandbox
+  [2025-08-04T20:27:26.077Z] [amplify-sandbox-reverted] 
+  Identifier: 	sammanbhetwal
+  Stack: 	amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa
+  
+  To specify a different sandbox identifier, use --identifier
+[2025-08-04T20:27:29.061Z] [amplify-sandbox-reverted] 
+NOTICES         (What's this? https://github.com/aws/aws-cdk/wiki/CLI-Notices)
+
+[2025-08-04T20:27:29.062Z] [amplify-sandbox-reverted] 34892	CDK CLI will collect telemetry data on command usage starting at version 2.1100.0 (unless opted out)
+
+	Overview: We do not collect customer content and we anonymize the
+	          telemetry we do collect. See the attached issue for more
+	          information on what data is collected, why, and how to
+	          opt-out. Telemetry will NOT be collected for any CDK CLI
+	          version prior to version 2.1100.0 - regardless of
+	          opt-in/out. You can also preview the telemetry we will start
+	          collecting by logging it to a local file, by adding
+	          `--unstable=telemetry --telemetry-file=my/local/file` to any
+	          `cdk` command.
+
+	Affected versions: cli: ^2.0.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/34892
+
+
+32775	(cli): CLI versions and CDK library versions have diverged
+
+	Overview: Starting in CDK 2.179.0, CLI versions will no longer be in
+	          lockstep with CDK library versions. CLI versions will now be
+	          released as 2.1000.0 and continue with 2.1001.0, etc.
+
+	Affected versions: cli: >=2.0.0 <=2.1005.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/32775
+
+
+If you don’t want to see a notice anymore, use "cdk acknowledge <id>". For example, "cdk acknowledge 34892".
+[2025-08-04T20:27:32.113Z] [amplify-sandbox-reverted] 
+✨  Synthesis time: 0.02s
+
+[2025-08-04T20:27:32.114Z] [amplify-sandbox-reverted] [33m⚠️ The --hotswap and --hotswap-fallback flags deliberately introduce CloudFormation drift to speed up deployments[39m
+[33m⚠️ They should only be used for development - never use them for your production Stacks![39m
+[33m[39m
+[2025-08-04T20:27:33.601Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 9c982f4fabcafb30a56f7fb637bcd7e1cd815ae363fa4edd11f21f5bb32fbf8a:current_account-current_region
+[2025-08-04T20:27:33.601Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 9c982f4fabcafb30a56f7fb637bcd7e1cd815ae363fa4edd11f21f5bb32fbf8a:current_account-current_region
+[2025-08-04T20:27:33.602Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building ba62784fde4ff2a52fbe9ace7a14a733f7bd29d2a8a454c666bf1ebec3b92318:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built ba62784fde4ff2a52fbe9ace7a14a733f7bd29d2a8a454c666bf1ebec3b92318:current_account-current_region
+[2025-08-04T20:27:33.606Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 93cf3291dcc32fdd8656532a39b1bba0b9c1b4484e3a91d62177c9e83ff4c9b1:current_account-current_region
+[2025-08-04T20:27:33.606Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 93cf3291dcc32fdd8656532a39b1bba0b9c1b4484e3a91d62177c9e83ff4c9b1:current_account-current_region
+[2025-08-04T20:27:33.606Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 4012044c90ab7de316859b01e9b2cb1e4b5c4d06964da542567575688a9456d1:current_account-current_region
+[2025-08-04T20:27:33.606Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 4012044c90ab7de316859b01e9b2cb1e4b5c4d06964da542567575688a9456d1:current_account-current_region
+[2025-08-04T20:27:33.609Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building f54830026cfccb9ff4fe390cf800505de42c4a4ceb8fcfcec3bd52c4af8cf42d:current_account-current_region
+[2025-08-04T20:27:33.609Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built f54830026cfccb9ff4fe390cf800505de42c4a4ceb8fcfcec3bd52c4af8cf42d:current_account-current_region
+[2025-08-04T20:27:33.612Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 1e9c89d9e3c0fd98b16c2941c0debce9a0599ce9c9a886ab36dc5e33cfd5fc4c:current_account-current_region
+[2025-08-04T20:27:33.612Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 1e9c89d9e3c0fd98b16c2941c0debce9a0599ce9c9a886ab36dc5e33cfd5fc4c:current_account-current_region
+[2025-08-04T20:27:33.612Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building bc31f7ba5dac3c9b5c9465ca00d467f6f598857b2facead9c276be56bfc94915:current_account-current_region
+[2025-08-04T20:27:33.612Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built bc31f7ba5dac3c9b5c9465ca00d467f6f598857b2facead9c276be56bfc94915:current_account-current_region
+[2025-08-04T20:27:33.614Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 983c466ed2453a5231291d9b1348f369b66e59085b01f8aeeea1a03c8b9d16a7:current_account-current_region
+[2025-08-04T20:27:33.615Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 983c466ed2453a5231291d9b1348f369b66e59085b01f8aeeea1a03c8b9d16a7:current_account-current_region
+[2025-08-04T20:27:34.095Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing f54830026cfccb9ff4fe390cf800505de42c4a4ceb8fcfcec3bd52c4af8cf42d:current_account-current_region
+[2025-08-04T20:27:34.108Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing ba62784fde4ff2a52fbe9ace7a14a733f7bd29d2a8a454c666bf1ebec3b92318:current_account-current_region
+[2025-08-04T20:27:34.111Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 9c982f4fabcafb30a56f7fb637bcd7e1cd815ae363fa4edd11f21f5bb32fbf8a:current_account-current_region
+[2025-08-04T20:27:34.111Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 983c466ed2453a5231291d9b1348f369b66e59085b01f8aeeea1a03c8b9d16a7:current_account-current_region
+[2025-08-04T20:27:34.112Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 93cf3291dcc32fdd8656532a39b1bba0b9c1b4484e3a91d62177c9e83ff4c9b1:current_account-current_region
+[2025-08-04T20:27:34.115Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 1e9c89d9e3c0fd98b16c2941c0debce9a0599ce9c9a886ab36dc5e33cfd5fc4c:current_account-current_region
+[2025-08-04T20:27:34.118Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 4012044c90ab7de316859b01e9b2cb1e4b5c4d06964da542567575688a9456d1:current_account-current_region
+[2025-08-04T20:27:34.126Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing bc31f7ba5dac3c9b5c9465ca00d467f6f598857b2facead9c276be56bfc94915:current_account-current_region
+[2025-08-04T20:27:35.086Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published ba62784fde4ff2a52fbe9ace7a14a733f7bd29d2a8a454c666bf1ebec3b92318:current_account-current_region
+[2025-08-04T20:27:35.087Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 9c982f4fabcafb30a56f7fb637bcd7e1cd815ae363fa4edd11f21f5bb32fbf8a:current_account-current_region
+[2025-08-04T20:27:35.119Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 983c466ed2453a5231291d9b1348f369b66e59085b01f8aeeea1a03c8b9d16a7:current_account-current_region
+[2025-08-04T20:27:35.143Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 93cf3291dcc32fdd8656532a39b1bba0b9c1b4484e3a91d62177c9e83ff4c9b1:current_account-current_region
+[2025-08-04T20:27:35.180Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 1e9c89d9e3c0fd98b16c2941c0debce9a0599ce9c9a886ab36dc5e33cfd5fc4c:current_account-current_region
+[2025-08-04T20:27:35.181Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published f54830026cfccb9ff4fe390cf800505de42c4a4ceb8fcfcec3bd52c4af8cf42d:current_account-current_region
+[2025-08-04T20:27:35.190Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 4012044c90ab7de316859b01e9b2cb1e4b5c4d06964da542567575688a9456d1:current_account-current_region
+[2025-08-04T20:27:35.226Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published bc31f7ba5dac3c9b5c9465ca00d467f6f598857b2facead9c276be56bfc94915:current_account-current_region
+[2025-08-04T20:27:35.832Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: deploying... [1/1]
+[2025-08-04T20:27:41.584Z] [amplify-sandbox-reverted] 
+[31m⚠️[39m [31mThe following non-hotswappable changes were found:[39m
+[2025-08-04T20:27:41.585Z] [amplify-sandbox-reverted]     logicalID: [1mamplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5[22m, type: [1mAWS::CloudFormation::Stack[22m, reason: [31mresource 'amplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5' was destroyed by this deployment[39m
+
+Could not perform a hotswap deployment, as the stack amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa contains non-Asset changes
+Falling back to doing a full deployment
+[2025-08-04T20:27:41.585Z] [amplify-sandbox-reverted] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: updating stack...
+[2025-08-04T20:27:48.171Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 4:27:42 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m[0m [36m[1mUser Initiated[22m[39m
+[2025-08-04T20:27:48.172Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 4:27:45 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mauth.NestedStack/auth.NestedStackResource[22m[0m (auth179371D7) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   1 | 4:27:45 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mauth.NestedStack/auth.NestedStackResource[22m[39m (auth179371D7) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   1 | 4:27:46 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mstorage.NestedStack/storage.NestedStackResource[22m[0m (storage0EC3F24A) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   1 | 4:27:46 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mdata.NestedStack/data.NestedStackResource[22m[0m (data7552DF31) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   1 | 4:27:47 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM[22m[0m [36m[1mUser Initiated[22m[39m
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   2 | 4:27:47 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mstorage.NestedStack/storage.NestedStackResource[22m[39m (storage0EC3F24A) 
+[2025-08-04T20:27:54.214Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   2 | 4:27:51 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mdata/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource[22m[0m (amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833) 
+[2025-08-04T20:27:54.214Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   2 | 4:27:51 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::AppSync::GraphQLSchema | [0m[1mdata/amplifyData/GraphQLAPI/TransformerSchema[22m[0m (amplifyDataGraphQLAPITransformerSchemaFF50A789) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   2 | 4:27:51 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::AppSync::ApiKey       | [0m[1mdata/amplifyData/GraphQLAPI/DefaultApiKey[22m[0m (amplifyDataGraphQLAPIDefaultApiKey1C8ED374) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   2 | 4:27:52 PM | [0mUPDATE_IN_PROGRESS  [0m | Custom::CDKBucketDeployment | [0m[1mdata/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default[22m[0m (amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   3 | 4:27:52 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource[22m[39m (amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   4 | 4:27:52 PM | [32mUPDATE_COMPLETE     [39m | AWS::AppSync::ApiKey       | [32m[1mdata/amplifyData/GraphQLAPI/DefaultApiKey[22m[39m (amplifyDataGraphQLAPIDefaultApiKey1C8ED374) 
+[2025-08-04T20:28:00.241Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   5 | 4:27:56 PM | [32mUPDATE_COMPLETE     [39m | Custom::CDKBucketDeployment | [32m[1mdata/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default[22m[39m (amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929) 
+[2025-08-04T20:28:06.839Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   6 | 4:28:03 PM | [32mUPDATE_COMPLETE     [39m | AWS::AppSync::GraphQLSchema | [32m[1mdata/amplifyData/GraphQLAPI/TransformerSchema[22m[39m (amplifyDataGraphQLAPITransformerSchemaFF50A789) 
+[2025-08-04T20:28:06.840Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   6 | 4:28:04 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mdata/amplifyData/AnimeBlogPost.NestedStack/AnimeBlogPost.NestedStackResource[22m[0m (amplifyDataAnimeBlogPostNestedStackAnimeBlogPostNestedStackResource0C3D28F0) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |   6 | 4:28:04 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mdata/amplifyData/Comment.NestedStack/Comment.NestedStackResource[22m[0m (amplifyDataCommentNestedStackCommentNestedStackResource87C7BB35) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1 |   6 | 4:28:05 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1[22m[0m [36m[1mUser Initiated[22m[39m
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM |   6 | 4:28:05 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM[22m[0m [36m[1mUser Initiated[22m[39m
+[2025-08-04T20:28:13.434Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM |   6 | 4:28:10 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mdata/amplifyData/Comment/MutationcreateCommentinit1Function/MutationcreateCommentinit1Function.AppSyncFunction[22m[0m (MutationcreateCommentinit1FunctionMutationcreateCommentinit1FunctionAppSyncFunction56BBCAE0) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1 |   6 | 4:28:10 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mdata/amplifyData/AnimeBlogPost/MutationcreateAnimeBlogPostinit1Function/MutationcreateAnimeBlogPostinit1Function.AppSyncFunction[22m[0m (MutationcreateAnimeBlogPostinit1FunctionMutationcreateAnimeBlogPostinit1FunctionAppSyncFunctionF5C78C51) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM |   7 | 4:28:12 PM | [32mUPDATE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mdata/amplifyData/Comment/MutationcreateCommentinit1Function/MutationcreateCommentinit1Function.AppSyncFunction[22m[39m (MutationcreateCommentinit1FunctionMutationcreateCommentinit1FunctionAppSyncFunction56BBCAE0) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1 |   8 | 4:28:12 PM | [32mUPDATE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mdata/amplifyData/AnimeBlogPost/MutationcreateAnimeBlogPostinit1Function/MutationcreateAnimeBlogPostinit1Function.AppSyncFunction[22m[39m (MutationcreateAnimeBlogPostinit1FunctionMutationcreateAnimeBlogPostinit1FunctionAppSyncFunctionF5C78C51) 
+[2025-08-04T20:28:20.237Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM |   9 | 4:28:15 PM | [32mUPDATE_COMPLETE_CLEA[39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM[22m[39m 
+[2025-08-04T20:28:20.237Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1 |  10 | 4:28:15 PM | [32mUPDATE_COMPLETE_CLEA[39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  11 | 4:28:15 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/AnimeBlogPost.NestedStack/AnimeBlogPost.NestedStackResource[22m[39m (amplifyDataAnimeBlogPostNestedStackAnimeBlogPostNestedStackResource0C3D28F0) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  12 | 4:28:16 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/Comment.NestedStack/Comment.NestedStackResource[22m[39m (amplifyDataCommentNestedStackCommentNestedStackResource87C7BB35) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  12 | 4:28:17 PM | [0mUPDATE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mdata/amplifyData/ConnectionStack.NestedStack/ConnectionStack.NestedStackResource[22m[0m (amplifyDataConnectionStackNestedStackConnectionStackNestedStackResourceAB0F312B) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  13 | 4:28:17 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/ConnectionStack.NestedStack/ConnectionStack.NestedStackResource[22m[39m (amplifyDataConnectionStackNestedStackConnectionStackNestedStackResourceAB0F312B) 
+[2025-08-04T20:28:27.223Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  14 | 4:28:19 PM | [32mUPDATE_COMPLETE_CLEA[39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM[22m[39m 
+[2025-08-04T20:28:27.224Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |  15 | 4:28:20 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata.NestedStack/data.NestedStackResource[22m[39m (data7552DF31) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |  16 | 4:28:21 PM | [32mUPDATE_COMPLETE_CLEA[39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |  15 | 4:28:23 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mstorage.NestedStack/storage.NestedStackResource[22m[39m (storage0EC3F24A) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  15 | 4:28:24 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mamplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  14 | 4:28:24 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/ConnectionStack.NestedStack/ConnectionStack.NestedStackResource[22m[39m (amplifyDataConnectionStackNestedStackConnectionStackNestedStackResourceAB0F312B) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  14 | 4:28:24 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::CloudFormation::Stack | [0m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ[22m[0m [36m[1mUser Initiated[22m[39m
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM |  15 | 4:28:25 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataCommentNestedStackCommentNested-1QWB4ZV0619DM[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1 |  16 | 4:28:25 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataAnimeBlogPostNestedStackAnimeBl-X53OT833JYG1[22m[39m 
+[2025-08-04T20:28:33.717Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mSubscriptiononCreateUserProfileResolver[22m[0m 
+[2025-08-04T20:28:33.718Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::CDK::Metadata         | [0m[1mauth/CDKMetadata/Default[22m[0m (CDKMetadata) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mUpdateUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mCreateUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mDeleteUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mGetUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mSubscriptiononUpdateUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mUserProfileownerResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mListUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  16 | 4:28:27 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::Resolver     | [0m[1mSubscriptiononDeleteUserProfileResolver[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  17 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::CDK::Metadata         | [32m[1mauth/CDKMetadata/Default[22m[39m (CDKMetadata) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  18 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mSubscriptiononCreateUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  19 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mUserProfileownerResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  20 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mGetUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  21 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mListUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  22 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mCreateUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  23 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mSubscriptiononDeleteUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  24 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mDeleteUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  25 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mUpdateUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::Resolver     | [32m[1mSubscriptiononUpdateUserProfileResolver[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mUserProfileOwnerDataResolverFnUserProfileOwnerDataResolverFnAppSyncFunction23A35218[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQuerygetUserProfilepostAuth0FunctionQuerygetUserProfilepostAuth0FunctionAppSyncFunction92890504[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQueryGetUserProfileDataResolverFnQueryGetUserProfileDataResolverFnAppSyncFunction8EB8BD57[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationcreateUserProfileinit0FunctionMutationcreateUserProfileinit0FunctionAppSyncFunction7EFE9ED4[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationcreateUserProfileauth0FunctionMutationcreateUserProfileauth0FunctionAppSyncFunctionCF3841B8[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQuerygetUserProfileauth0FunctionQuerygetUserProfileauth0FunctionAppSyncFunctionDAD22839[22m[0m 
+[2025-08-04T20:28:33.718Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationcreateUserProfileinit1FunctionMutationcreateUserProfileinit1FunctionAppSyncFunction9B1EF9A1[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQuerylistUserProfilespreAuth0FunctionQuerylistUserProfilespreAuth0FunctionAppSyncFunction536D5235[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationcreateUserProfilepostAuth0FunctionMutationcreateUserProfilepostAuth0FunctionAppSyncFunctionF0C8FEFF[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQuerylistUserProfilespostAuth0FunctionQuerylistUserProfilespostAuth0FunctionAppSyncFunction01122A7A[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQuerylistUserProfilesauth0FunctionQuerylistUserProfilesauth0FunctionAppSyncFunction468B41DC[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationCreateUserProfileDataResolverFnMutationCreateUserProfileDataResolverFnAppSyncFunction120FE646[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQuerygetUserProfilepreAuth0FunctionQuerygetUserProfilepreAuth0FunctionAppSyncFunctionA8F2289A[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mQueryListUserProfilesDataResolverFnQueryListUserProfilesDataResolverFnAppSyncFunctionA05E8B7A[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationdeleteUserProfileauth0FunctionMutationdeleteUserProfileauth0FunctionAppSyncFunction4A3AC4FD[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationdeleteUserProfilepreAuth0FunctionMutationdeleteUserProfilepreAuth0FunctionAppSyncFunctionAF1B77BA[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationupdateUserProfilepreAuth0FunctionMutationupdateUserProfilepreAuth0FunctionAppSyncFunction19D7D821[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationUpdateUserProfileDataResolverFnMutationUpdateUserProfileDataResolverFnAppSyncFunction1707D92F[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationDeleteUserProfileDataResolverFnMutationDeleteUserProfileDataResolverFnAppSyncFunction4835094F[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationupdateUserProfilepostAuth0FunctionMutationupdateUserProfilepostAuth0FunctionAppSyncFunction206AFA76[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationdeleteUserProfilepostAuth0FunctionMutationdeleteUserProfilepostAuth0FunctionAppSyncFunctionEE3F21F4[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationupdateUserProfileauth0FunctionMutationupdateUserProfileauth0FunctionAppSyncFunction7E8F945B[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptionOnUpdateUserProfileDataResolverFnSubscriptionOnUpdateUserProfileDataResolverFnAppSyncFunctionBCF119CA[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptiononUpdateUserProfileauth0FunctionSubscriptiononUpdateUserProfileauth0FunctionAppSyncFunction48B7E90B[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationupdateUserProfileinit0FunctionMutationupdateUserProfileinit0FunctionAppSyncFunction9A840BAA[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mMutationcreateUserProfilepreAuth0FunctionMutationcreateUserProfilepreAuth0FunctionAppSyncFunction060B63D9[22m[0m 
+[2025-08-04T20:28:33.718Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:28 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptiononUpdateUserProfilepostAuth0FunctionSubscriptiononUpdateUserProfilepostAuth0FunctionAppSyncFunction446153A7[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:29 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptionOnDeleteUserProfileDataResolverFnSubscriptionOnDeleteUserProfileDataResolverFnAppSyncFunction6EDD6652[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:29 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptiononDeleteUserProfilepostAuth0FunctionSubscriptiononDeleteUserProfilepostAuth0FunctionAppSyncFunction3E69A1F9[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:29 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptiononDeleteUserProfileauth0FunctionSubscriptiononDeleteUserProfileauth0FunctionAppSyncFunction4558BD0E[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:29 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptionOnCreateUserProfileDataResolverFnSubscriptionOnCreateUserProfileDataResolverFnAppSyncFunction08AFEB08[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:29 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptiononCreateUserProfileauth0FunctionSubscriptiononCreateUserProfileauth0FunctionAppSyncFunctionD90BBD82[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  26 | 4:28:29 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::FunctionConfiguration | [0m[1mSubscriptiononCreateUserProfilepostAuth0FunctionSubscriptiononCreateUserProfilepostAuth0FunctionAppSyncFunctionD659A080[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  27 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationcreateUserProfileinit0FunctionMutationcreateUserProfileinit0FunctionAppSyncFunction7EFE9ED4[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  28 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQuerygetUserProfilepostAuth0FunctionQuerygetUserProfilepostAuth0FunctionAppSyncFunction92890504[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  29 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationcreateUserProfileauth0FunctionMutationcreateUserProfileauth0FunctionAppSyncFunctionCF3841B8[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  30 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQueryListUserProfilesDataResolverFnQueryListUserProfilesDataResolverFnAppSyncFunctionA05E8B7A[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  31 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQuerylistUserProfilesauth0FunctionQuerylistUserProfilesauth0FunctionAppSyncFunction468B41DC[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  32 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQuerylistUserProfilespostAuth0FunctionQuerylistUserProfilespostAuth0FunctionAppSyncFunction01122A7A[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  33 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQuerygetUserProfileauth0FunctionQuerygetUserProfileauth0FunctionAppSyncFunctionDAD22839[22m[39m 
+[2025-08-04T20:28:33.718Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  34 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationUpdateUserProfileDataResolverFnMutationUpdateUserProfileDataResolverFnAppSyncFunction1707D92F[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  35 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQuerygetUserProfilepreAuth0FunctionQuerygetUserProfilepreAuth0FunctionAppSyncFunctionA8F2289A[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  36 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationcreateUserProfileinit1FunctionMutationcreateUserProfileinit1FunctionAppSyncFunction9B1EF9A1[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  37 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mUserProfileOwnerDataResolverFnUserProfileOwnerDataResolverFnAppSyncFunction23A35218[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  38 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationdeleteUserProfilepostAuth0FunctionMutationdeleteUserProfilepostAuth0FunctionAppSyncFunctionEE3F21F4[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  39 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQuerylistUserProfilespreAuth0FunctionQuerylistUserProfilespreAuth0FunctionAppSyncFunction536D5235[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  40 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationcreateUserProfilepreAuth0FunctionMutationcreateUserProfilepreAuth0FunctionAppSyncFunction060B63D9[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  41 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptiononUpdateUserProfileauth0FunctionSubscriptiononUpdateUserProfileauth0FunctionAppSyncFunction48B7E90B[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  42 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptiononUpdateUserProfilepostAuth0FunctionSubscriptiononUpdateUserProfilepostAuth0FunctionAppSyncFunction446153A7[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  43 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationupdateUserProfilepostAuth0FunctionMutationupdateUserProfilepostAuth0FunctionAppSyncFunction206AFA76[22m[39m 
+[2025-08-04T20:28:33.718Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  44 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mQueryGetUserProfileDataResolverFnQueryGetUserProfileDataResolverFnAppSyncFunction8EB8BD57[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  45 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationupdateUserProfilepreAuth0FunctionMutationupdateUserProfilepreAuth0FunctionAppSyncFunction19D7D821[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  46 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationupdateUserProfileinit0FunctionMutationupdateUserProfileinit0FunctionAppSyncFunction9A840BAA[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  47 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationdeleteUserProfileauth0FunctionMutationdeleteUserProfileauth0FunctionAppSyncFunction4A3AC4FD[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  48 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationupdateUserProfileauth0FunctionMutationupdateUserProfileauth0FunctionAppSyncFunction7E8F945B[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  49 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationdeleteUserProfilepreAuth0FunctionMutationdeleteUserProfilepreAuth0FunctionAppSyncFunctionAF1B77BA[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  50 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationCreateUserProfileDataResolverFnMutationCreateUserProfileDataResolverFnAppSyncFunction120FE646[22m[39m 
+[2025-08-04T20:28:33.718Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  51 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationDeleteUserProfileDataResolverFnMutationDeleteUserProfileDataResolverFnAppSyncFunction4835094F[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  52 | 4:28:29 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mMutationcreateUserProfilepostAuth0FunctionMutationcreateUserProfilepostAuth0FunctionAppSyncFunctionF0C8FEFF[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  53 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptionOnUpdateUserProfileDataResolverFnSubscriptionOnUpdateUserProfileDataResolverFnAppSyncFunctionBCF119CA[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  54 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptiononDeleteUserProfileauth0FunctionSubscriptiononDeleteUserProfileauth0FunctionAppSyncFunction4558BD0E[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  55 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptiononDeleteUserProfilepostAuth0FunctionSubscriptiononDeleteUserProfilepostAuth0FunctionAppSyncFunction3E69A1F9[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  56 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptionOnDeleteUserProfileDataResolverFnSubscriptionOnDeleteUserProfileDataResolverFnAppSyncFunction6EDD6652[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  57 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptionOnCreateUserProfileDataResolverFnSubscriptionOnCreateUserProfileDataResolverFnAppSyncFunction08AFEB08[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  58 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptiononCreateUserProfileauth0FunctionSubscriptiononCreateUserProfileauth0FunctionAppSyncFunctionD90BBD82[22m[39m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  59 | 4:28:30 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::FunctionConfiguration | [32m[1mSubscriptiononCreateUserProfilepostAuth0FunctionSubscriptiononCreateUserProfilepostAuth0FunctionAppSyncFunctionD659A080[22m[39m 
+[2025-08-04T20:28:33.719Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  59 | 4:28:31 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::AppSync::DataSource   | [0m[1mUserProfileDataSource[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  60 | 4:28:32 PM | [32mDELETE_COMPLETE     [39m | AWS::AppSync::DataSource   | [32m[1mUserProfileDataSource[22m[39m 
+[2025-08-04T20:28:40.278Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  60 | 4:28:33 PM | [0mDELETE_IN_PROGRESS  [0m | Custom::AmplifyDynamoDBTable | [0m[1mUserProfileTable[22m[0m 
+[2025-08-04T20:28:40.279Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  60 | 4:28:33 PM | [0mDELETE_IN_PROGRESS  [0m | AWS::IAM::Role             | [0m[1mUserProfileIAMRoleA4E2934B[22m[0m 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  59 | 4:28:34 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/AnimeBlogPost.NestedStack/AnimeBlogPost.NestedStackResource[22m[39m (amplifyDataAnimeBlogPostNestedStackAnimeBlogPostNestedStackResource0C3D28F0) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  58 | 4:28:34 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/Comment.NestedStack/Comment.NestedStackResource[22m[39m (amplifyDataCommentNestedStackCommentNestedStackResource87C7BB35) 
+amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  59 | 4:28:36 PM | [32mDELETE_COMPLETE     [39m | Custom::AmplifyDynamoDBTable | [32m[1mUserProfileTable[22m[39m 
+[2025-08-04T20:28:46.724Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  60 | 4:28:43 PM | [32mDELETE_COMPLETE     [39m | AWS::IAM::Role             | [32m[1mUserProfileIAMRoleA4E2934B[22m[39m 
+[2025-08-04T20:28:46.725Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ |  61 | 4:28:43 PM | [32mDELETE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbo-amplifyDataUserProfileNestedStackUserProfi-27P2VSCGCOPJ[22m[39m 
+[2025-08-04T20:28:53.348Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  62 | 4:28:46 PM | [32mDELETE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mamplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5[22m[39m 
+[2025-08-04T20:28:53.349Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  61 | 4:28:46 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource[22m[39m (amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM |  62 | 4:28:46 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-data7552DF31-TM7JTQ5MBGDM[22m[39m 
+[2025-08-04T20:28:58.965Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |  61 | 4:28:56 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mdata.NestedStack/data.NestedStackResource[22m[39m (data7552DF31) 
+[2025-08-04T20:28:58.966Z] [amplify-sandbox-reverted] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |  60 | 4:28:56 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mauth.NestedStack/auth.NestedStackResource[22m[39m (auth179371D7) 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |  61 | 4:28:57 PM | [32mUPDATE_COMPLETE     [39m | AWS::CloudFormation::Stack | [32m[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m[39m 
+[2025-08-04T20:29:00.344Z] [amplify-sandbox-reverted] [32m[39m
+[32m ✅  amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m
+[2025-08-04T20:29:00.345Z] [amplify-sandbox-reverted] 
+✨  Deployment time: 84.51s
+
+Outputs:
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mallowUnauthenticatedIdentities[39m = [4m[36mtrue[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mamplifyApiModelSchemaS3Uri[39m = [4m[36ms3://amplify-awsamplifygen2-sa-amplifydataamplifycodege-3a0chhfedkud/model-schema.graphql[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mauthRegion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncAdditionalAuthenticationTypes[39m = [4m[36mAPI_KEY,AWS_IAM[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncApiEndpoint[39m = [4m[36mhttps://zankq24gjzcr3ol5ckuoexieye.appsync-api.us-east-1.amazonaws.com/graphql[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncApiId[39m = [4m[36mndxul7ixu5hl7hxwrpuznwxgbu[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncApiKey[39m = [4m[36mda2-xnp7qmlucrgl5myh7ie22ybcpy[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncAuthenticationType[39m = [4m[36mAMAZON_COGNITO_USER_POOLS[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncRegion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mbucketName[39m = [4m[36mamplify-awsamplifygen2-sa-animeblogimagesbucket1b0-wqnk32mqrsb4[39m[24m
+[2025-08-04T20:29:00.345Z] [amplify-sandbox-reverted] [36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mbuckets[39m = [4m[36m["{\"name\":\"animeBlogImages\",\"bucketName\":\"amplify-awsamplifygen2-sa-animeblogimagesbucket1b0-wqnk32mqrsb4\",\"storageRegion\":\"us-east-1\",\"paths\":{\"blog-images/*\":{\"guest\":[\"get\",\"list\",\"write\"],\"authenticated\":[\"get\",\"list\",\"write\",\"delete\"]}}}"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mdeploymentType[39m = [4m[36msandbox[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mgroups[39m = [4m[36m[][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36midentityPoolId[39m = [4m[36mus-east-1:c6a289b7-82cc-4d8c-8a9d-530369302db9[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mmfaConfiguration[39m = [4m[36mOFF[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mmfaTypes[39m = [4m[36m[][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthClientId[39m = [4m[36m7777j2pd3bmfsl2of7255r4mte[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthCognitoDomain[39m = 
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthRedirectSignIn[39m = [4m[36mhttps://example.com[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthRedirectSignOut[39m = 
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthResponseType[39m = [4m[36mcode[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthScope[39m = [4m[36m["profile","phone","email","openid","aws.cognito.signin.user.admin"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mpasswordPolicyMinLength[39m = [4m[36m8[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mpasswordPolicyRequirements[39m = [4m[36m["REQUIRES_NUMBERS","REQUIRES_LOWERCASE","REQUIRES_UPPERCASE","REQUIRES_SYMBOLS"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mregion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36msignupAttributes[39m = [4m[36m["email"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36msocialProviders[39m = 
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mstorageRegion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36muserPoolId[39m = [4m[36mus-east-1_d9D1rWo0h[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36musernameAttributes[39m = [4m[36m["email"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mverificationMechanisms[39m = [4m[36m["email"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mwebClientId[39m = [4m[36m7777j2pd3bmfsl2of7255r4mte[39m[24m
+Stack ARN:
+arn:aws:cloudformation:us-east-1:905307302838:stack/amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa/8e79e000-6db7-11f0-b7aa-0eb8826c64a5
+
+✨  Total time: 84.53s
+
+[2025-08-04T20:29:00.388Z] [amplify-sandbox-reverted] 
+NOTICES         (What's this? https://github.com/aws/aws-cdk/wiki/CLI-Notices)
+
+[2025-08-04T20:29:00.389Z] [amplify-sandbox-reverted] 34892	CDK CLI will collect telemetry data on command usage starting at version 2.1100.0 (unless opted out)
+
+	Overview: We do not collect customer content and we anonymize the
+	          telemetry we do collect. See the attached issue for more
+	          information on what data is collected, why, and how to
+	          opt-out. Telemetry will NOT be collected for any CDK CLI
+	          version prior to version 2.1100.0 - regardless of
+	          opt-in/out. You can also preview the telemetry we will start
+	          collecting by logging it to a local file, by adding
+	          `--unstable=telemetry --telemetry-file=my/local/file` to any
+	          `cdk` command.
+
+	Affected versions: cli: ^2.0.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/34892
+
+
+32775	(cli): CLI versions and CDK library versions have diverged
+
+	Overview: Starting in CDK 2.179.0, CLI versions will no longer be in
+	          lockstep with CDK library versions. CLI versions will now be
+	          released as 2.1000.0 and continue with 2.1001.0, etc.
+
+	Affected versions: cli: >=2.0.0 <=2.1005.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/32775
+
+
+If you don’t want to see a notice anymore, use "cdk acknowledge <id>". For example, "cdk acknowledge 34892".
+[2025-08-04T20:29:00.422Z] [amplify-sandbox-reverted] [Sandbox] Watching for file changes...
+[2025-08-04T20:29:00.943Z] [amplify-sandbox-reverted] File written: amplify_outputs.json[2025-08-04T20:29:00.943Z] [amplify-sandbox-reverted] 

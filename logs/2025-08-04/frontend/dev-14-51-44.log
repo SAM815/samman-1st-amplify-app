@@ -1,0 +1,8 @@
+[2025-08-04T18:51:44.509Z] Starting: npm run dev (Process ID: frontend-with-browser)
+[2025-08-04T18:51:44.509Z] [frontend-with-browser] ✅ Starting development server...
+[2025-08-04T18:51:44.606Z] [frontend-with-browser] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T18:51:44.698Z] [frontend-with-browser] [ERROR] sh: next: command not found
+[2025-08-04T18:51:44.703Z] [frontend-with-browser] Process exited with code 127 and signal null

@@ -1,0 +1,172 @@
+[2025-08-04T20:17:11.248Z] Starting: npx ampx sandbox --once (Process ID: npx-sandbox-deploy)
+[2025-08-04T20:17:12.856Z] [npx-sandbox-deploy]   
+  Amplify Sandbox
+  [2025-08-04T20:17:12.856Z] [npx-sandbox-deploy] 
+  Identifier: 	sammanbhetwal
+  Stack: 	amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa
+  
+  To specify a different sandbox identifier, use --identifier
+[2025-08-04T20:17:15.729Z] [npx-sandbox-deploy] 
+NOTICES         (What's this? https://github.com/aws/aws-cdk/wiki/CLI-Notices)
+[2025-08-04T20:17:15.730Z] [npx-sandbox-deploy] 
+34892	CDK CLI will collect telemetry data on command usage starting at version 2.1100.0 (unless opted out)
+
+	Overview: We do not collect customer content and we anonymize the
+	          telemetry we do collect. See the attached issue for more
+	          information on what data is collected, why, and how to
+	          opt-out. Telemetry will NOT be collected for any CDK CLI
+	          version prior to version 2.1100.0 - regardless of
+	          opt-in/out. You can also preview the telemetry we will start
+	          collecting by logging it to a local file, by adding
+	          `--unstable=telemetry --telemetry-file=my/local/file` to any
+	          `cdk` command.
+
+	Affected versions: cli: ^2.0.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/34892
+
+
+32775	(cli): CLI versions and CDK library versions have diverged
+
+	Overview: Starting in CDK 2.179.0, CLI versions will no longer be in
+	          lockstep with CDK library versions. CLI versions will now be
+	          released as 2.1000.0 and continue with 2.1001.0, etc.
+
+	Affected versions: cli: >=2.0.0 <=2.1005.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/32775
+
+
+If you don’t want to see a notice anymore, use "cdk acknowledge <id>". For example, "cdk acknowledge 34892".
+[2025-08-04T20:17:18.468Z] [npx-sandbox-deploy] 
+✨  Synthesis time: 0.03s
+
+[2025-08-04T20:17:18.468Z] [npx-sandbox-deploy] [33m⚠️ The --hotswap and --hotswap-fallback flags deliberately introduce CloudFormation drift to speed up deployments[39m
+[33m⚠️ They should only be used for development - never use them for your production Stacks![39m
+[33m[39m
+[2025-08-04T20:17:20.070Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 4beafc0743c01a8f5078cfb9c9ae3c2c817adabe745d4f62e561def3fddde4c6:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 4beafc0743c01a8f5078cfb9c9ae3c2c817adabe745d4f62e561def3fddde4c6:current_account-current_region
+[2025-08-04T20:17:20.073Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 9c6272411e386ed674745df54bc07e62fde0d6a0a3691faf87045e790c813bb1:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 9c6272411e386ed674745df54bc07e62fde0d6a0a3691faf87045e790c813bb1:current_account-current_region
+[2025-08-04T20:17:20.074Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building dcbe6c01e5f07b4a80f857cc219e018b5019c371eeda7d84f099fbae76f77c69:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built dcbe6c01e5f07b4a80f857cc219e018b5019c371eeda7d84f099fbae76f77c69:current_account-current_region
+[2025-08-04T20:17:20.085Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building ecb37670dede4ef73e3cc8c67bbadfd7afc86b62222ec26a946d4aa3b79897e3:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built ecb37670dede4ef73e3cc8c67bbadfd7afc86b62222ec26a946d4aa3b79897e3:current_account-current_region
+[2025-08-04T20:17:20.086Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 34bd689b593f91864db0d4c064a2884bb14b3edc9aa37f80de1f9d7ec5e98576:current_account-current_region
+[2025-08-04T20:17:20.093Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 34bd689b593f91864db0d4c064a2884bb14b3edc9aa37f80de1f9d7ec5e98576:current_account-current_region
+[2025-08-04T20:17:20.101Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 8b528cb32abac9bd76130d6217c2dfe93999e27416a1500f75141d2cda195c98:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 8b528cb32abac9bd76130d6217c2dfe93999e27416a1500f75141d2cda195c98:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 08f2894ec3d484605a1bca903bd2f6ec5db6918fc090568c54eceacc9d7d5023:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 08f2894ec3d484605a1bca903bd2f6ec5db6918fc090568c54eceacc9d7d5023:current_account-current_region
+[2025-08-04T20:17:20.108Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building 96a4e3b9003743492534c1486a0a763e0375f231e2a876c7589fee6d9f69581a:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built 96a4e3b9003743492534c1486a0a763e0375f231e2a876c7589fee6d9f69581a:current_account-current_region
+[2025-08-04T20:17:20.117Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Building ae618c53c636185d5776e30ae09e03070b2ec534944670b127f03f461e48cbe4:current_account-current_region
+[1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Built ae618c53c636185d5776e30ae09e03070b2ec534944670b127f03f461e48cbe4:current_account-current_region
+[2025-08-04T20:17:20.474Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 4beafc0743c01a8f5078cfb9c9ae3c2c817adabe745d4f62e561def3fddde4c6:current_account-current_region
+[2025-08-04T20:17:20.482Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 34bd689b593f91864db0d4c064a2884bb14b3edc9aa37f80de1f9d7ec5e98576:current_account-current_region
+[2025-08-04T20:17:20.482Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 9c6272411e386ed674745df54bc07e62fde0d6a0a3691faf87045e790c813bb1:current_account-current_region
+[2025-08-04T20:17:20.506Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing ecb37670dede4ef73e3cc8c67bbadfd7afc86b62222ec26a946d4aa3b79897e3:current_account-current_region
+[2025-08-04T20:17:20.509Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing dcbe6c01e5f07b4a80f857cc219e018b5019c371eeda7d84f099fbae76f77c69:current_account-current_region
+[2025-08-04T20:17:20.517Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 08f2894ec3d484605a1bca903bd2f6ec5db6918fc090568c54eceacc9d7d5023:current_account-current_region
+[2025-08-04T20:17:20.520Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 96a4e3b9003743492534c1486a0a763e0375f231e2a876c7589fee6d9f69581a:current_account-current_region
+[2025-08-04T20:17:20.521Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing 8b528cb32abac9bd76130d6217c2dfe93999e27416a1500f75141d2cda195c98:current_account-current_region
+[2025-08-04T20:17:21.450Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published ecb37670dede4ef73e3cc8c67bbadfd7afc86b62222ec26a946d4aa3b79897e3:current_account-current_region
+[2025-08-04T20:17:21.464Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published dcbe6c01e5f07b4a80f857cc219e018b5019c371eeda7d84f099fbae76f77c69:current_account-current_region
+[2025-08-04T20:17:21.507Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 4beafc0743c01a8f5078cfb9c9ae3c2c817adabe745d4f62e561def3fddde4c6:current_account-current_region
+[2025-08-04T20:17:21.513Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 9c6272411e386ed674745df54bc07e62fde0d6a0a3691faf87045e790c813bb1:current_account-current_region
+[2025-08-04T20:17:21.538Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 8b528cb32abac9bd76130d6217c2dfe93999e27416a1500f75141d2cda195c98:current_account-current_region
+[2025-08-04T20:17:21.558Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: start: Publishing ae618c53c636185d5776e30ae09e03070b2ec534944670b127f03f461e48cbe4:current_account-current_region
+[2025-08-04T20:17:21.559Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 08f2894ec3d484605a1bca903bd2f6ec5db6918fc090568c54eceacc9d7d5023:current_account-current_region
+[2025-08-04T20:17:21.562Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 96a4e3b9003743492534c1486a0a763e0375f231e2a876c7589fee6d9f69581a:current_account-current_region
+[2025-08-04T20:17:21.592Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published 34bd689b593f91864db0d4c064a2884bb14b3edc9aa37f80de1f9d7ec5e98576:current_account-current_region
+[2025-08-04T20:17:21.920Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: success: Published ae618c53c636185d5776e30ae09e03070b2ec534944670b127f03f461e48cbe4:current_account-current_region
+[2025-08-04T20:17:22.507Z] [npx-sandbox-deploy] [1mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[22m: deploying... [1/1]
+[2025-08-04T20:17:29.172Z] [npx-sandbox-deploy] 
+✨ hotswapping resources:
+[2025-08-04T20:17:29.174Z] [npx-sandbox-deploy]    ✨ [1mAWS::AppSync::FunctionConfiguration 'MutationcreateUserProfileinit1Function'[22m
+   ✨ [1mAWS::AppSync::FunctionConfiguration 'MutationcreateAnimeBlogPostinit1Function'[22m
+   ✨ [1mAWS::AppSync::FunctionConfiguration 'MutationcreateCommentinit1Function'[22m
+[2025-08-04T20:17:29.174Z] [npx-sandbox-deploy]    ✨ [1mAWS::AppSync::ApiKey 'arn:aws:appsync:us-east-1:905307302838:apis/ndxul7ixu5hl7hxwrpuznwxgbu/apikeys/da2-xnp7qmlucrgl5myh7ie22ybcpy'[22m
+   ✨ [1mContents of S3 Bucket 'amplify-awsamplifygen2-sa-amplifydataamplifycodege-3a0chhfedkud'[22m
+[2025-08-04T20:17:29.424Z] [npx-sandbox-deploy] ✨ [1mAWS::AppSync::ApiKey 'arn:aws:appsync:us-east-1:905307302838:apis/ndxul7ixu5hl7hxwrpuznwxgbu/apikeys/da2-xnp7qmlucrgl5myh7ie22ybcpy'[22m [32mhotswapped![39m
+[2025-08-04T20:17:29.792Z] [npx-sandbox-deploy] ✨ [1mAWS::AppSync::FunctionConfiguration 'MutationcreateAnimeBlogPostinit1Function'[22m [32mhotswapped![39m
+[2025-08-04T20:17:29.826Z] [npx-sandbox-deploy] ✨ [1mAWS::AppSync::FunctionConfiguration 'MutationcreateCommentinit1Function'[22m [32mhotswapped![39m
+[2025-08-04T20:17:29.873Z] [npx-sandbox-deploy] ✨ [1mAWS::AppSync::FunctionConfiguration 'MutationcreateUserProfileinit1Function'[22m [32mhotswapped![39m
+[2025-08-04T20:17:33.792Z] [npx-sandbox-deploy] ✨ [1mContents of S3 Bucket 'amplify-awsamplifygen2-sa-amplifydataamplifycodege-3a0chhfedkud'[22m [32mhotswapped![39m
+[2025-08-04T20:17:33.792Z] [npx-sandbox-deploy] [32m[39m
+[32m ✅  amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m
+
+✨  Deployment time: 11.29s
+
+Outputs:
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mallowUnauthenticatedIdentities[39m = [4m[36mtrue[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mamplifyApiModelSchemaS3Uri[39m = [4m[36ms3://amplify-awsamplifygen2-sa-amplifydataamplifycodege-3a0chhfedkud/model-schema.graphql[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mauthRegion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncAdditionalAuthenticationTypes[39m = [4m[36mAPI_KEY,AWS_IAM[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncApiEndpoint[39m = [4m[36mhttps://zankq24gjzcr3ol5ckuoexieye.appsync-api.us-east-1.amazonaws.com/graphql[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncApiId[39m = [4m[36mndxul7ixu5hl7hxwrpuznwxgbu[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncApiKey[39m = [4m[36mda2-xnp7qmlucrgl5myh7ie22ybcpy[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncAuthenticationType[39m = [4m[36mAMAZON_COGNITO_USER_POOLS[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mawsAppsyncRegion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mbucketName[39m = [4m[36mamplify-awsamplifygen2-sa-animeblogimagesbucket1b0-wqnk32mqrsb4[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mbuckets[39m = [4m[36m["{\"name\":\"animeBlogImages\",\"bucketName\":\"amplify-awsamplifygen2-sa-animeblogimagesbucket1b0-wqnk32mqrsb4\",\"storageRegion\":\"us-east-1\",\"paths\":{\"blog-images/*\":{\"guest\":[\"get\",\"list\",\"write\"],\"authenticated\":[\"get\",\"list\",\"write\",\"delete\"]}}}"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mdeploymentType[39m = [4m[36msandbox[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mgroups[39m = [4m[36m[][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36midentityPoolId[39m = [4m[36mus-east-1:c6a289b7-82cc-4d8c-8a9d-530369302db9[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mmfaConfiguration[39m = [4m[36mOFF[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mmfaTypes[39m = [4m[36m[][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthClientId[39m = [4m[36m7777j2pd3bmfsl2of7255r4mte[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthCognitoDomain[39m = 
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthRedirectSignIn[39m = [4m[36mhttps://example.com[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthRedirectSignOut[39m = 
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthResponseType[39m = [4m[36mcode[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36moauthScope[39m = [4m[36m["profile","phone","email","openid","aws.cognito.signin.user.admin"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mpasswordPolicyMinLength[39m = [4m[36m8[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mpasswordPolicyRequirements[39m = [4m[36m["REQUIRES_NUMBERS","REQUIRES_LOWERCASE","REQUIRES_UPPERCASE","REQUIRES_SYMBOLS"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mregion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36msignupAttributes[39m = [4m[36m["email"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36msocialProviders[39m = 
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mstorageRegion[39m = [4m[36mus-east-1[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36muserPoolId[39m = [4m[36mus-east-1_d9D1rWo0h[39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36musernameAttributes[39m = [4m[36m["email"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mverificationMechanisms[39m = [4m[36m["email"][39m[24m
+[36mamplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa[39m.[36mwebClientId[39m = [4m[36m7777j2pd3bmfsl2of7255r4mte[39m[24m
+Stack ARN:
+arn:aws:cloudformation:us-east-1:905307302838:stack/amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa/8e79e000-6db7-11f0-b7aa-0eb8826c64a5
+
+✨  Total time: 11.32s
+
+[2025-08-04T20:17:33.847Z] [npx-sandbox-deploy] 
+[2025-08-04T20:17:33.848Z] [npx-sandbox-deploy] NOTICES         (What's this? https://github.com/aws/aws-cdk/wiki/CLI-Notices)
+
+34892	CDK CLI will collect telemetry data on command usage starting at version 2.1100.0 (unless opted out)
+
+	Overview: We do not collect customer content and we anonymize the
+	          telemetry we do collect. See the attached issue for more
+	          information on what data is collected, why, and how to
+	          opt-out. Telemetry will NOT be collected for any CDK CLI
+	          version prior to version 2.1100.0 - regardless of
+	          opt-in/out. You can also preview the telemetry we will start
+	          collecting by logging it to a local file, by adding
+	          `--unstable=telemetry --telemetry-file=my/local/file` to any
+	          `cdk` command.
+
+	Affected versions: cli: ^2.0.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/34892
+
+
+32775	(cli): CLI versions and CDK library versions have diverged
+
+	Overview: Starting in CDK 2.179.0, CLI versions will no longer be in
+	          lockstep with CDK library versions. CLI versions will now be
+	          released as 2.1000.0 and continue with 2.1001.0, etc.
+
+	Affected versions: cli: >=2.0.0 <=2.1005.0
+
+	More information at: https://github.com/aws/aws-cdk/issues/32775
+
+
+If you don’t want to see a notice anymore, use "cdk acknowledge <id>". For example, "cdk acknowledge 34892".
+[2025-08-04T20:17:34.468Z] [npx-sandbox-deploy] File written: amplify_outputs.json[2025-08-04T20:17:34.468Z] [npx-sandbox-deploy] 
+[2025-08-04T20:17:34.711Z] [npx-sandbox-deploy] Process exited with code 0 and signal null

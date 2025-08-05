@@ -1,0 +1,21 @@
+[2025-08-04T19:08:30.123Z] Starting: npx ampx sandbox (Process ID: npx-sandbox150830log)
+[2025-08-04T19:08:30.492Z] [npx-sandbox150830log] [ERROR] node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/is-inside-container/' imported from /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/is-wsl/index.js
+    at new NodeError (node:internal/errors:405:5)
+    at legacyMainResolve (node:internal/modules/esm/resolve:218:9)
+    at packageResolve (node:internal/modules/esm/resolve:903:14)
+    at moduleResolve (node:internal/modules/esm/resolve:973:20)
+    at defaultResolve (node:internal/modules/esm/resolve:1206:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:404:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:373:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:250:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:76:39)
+    at link (node:internal/modules/esm/module_job:75:36) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v18.20.8
+[2025-08-04T19:08:30.498Z] [npx-sandbox150830log] Process exited with code 1 and signal null

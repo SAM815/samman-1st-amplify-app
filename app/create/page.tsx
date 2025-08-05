@@ -44,7 +44,7 @@ export default function CreatePage() {
       
       // Use actual username from preferred_username
       const displayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0]
-      setUserName(displayName)
+      setUserName(displayName || 'User')
       
       setLoading(false)
     } catch (error) {

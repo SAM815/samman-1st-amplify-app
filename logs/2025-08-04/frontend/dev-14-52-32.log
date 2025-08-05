@@ -1,0 +1,7 @@
+[2025-08-04T18:52:32.572Z] Starting: npm run dev (Process ID: npm-dev145232log)
+[2025-08-04T18:52:32.682Z] [npm-dev145232log] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T18:52:32.687Z] [npm-dev145232log] [ERROR] sh: next: command not found
+[2025-08-04T18:52:32.691Z] [npm-dev145232log] Process exited with code 127 and signal null

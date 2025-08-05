@@ -1,0 +1,1059 @@
+[2025-08-04T17:14:47.272Z] Starting: npm run dev (Process ID: frontend-with-browser)
+[2025-08-04T17:14:47.272Z] [frontend-with-browser] ✅ Starting development server...
+[2025-08-04T17:14:47.377Z] [frontend-with-browser] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T17:14:47.689Z] [frontend-with-browser]   ▲ Next.js 14.2.10
+[2025-08-04T17:14:47.689Z] [frontend-with-browser]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-08-04T17:14:47.689Z] [frontend-with-browser] ✅ Server ready on http://localhost:3000
+[2025-08-04T17:14:47.689Z] [frontend-with-browser] ⏳ Waiting 1000ms before launching browser...
+[2025-08-04T17:14:48.690Z] [frontend-with-browser] ✅ Launching test browser...
+[2025-08-04T17:14:48.707Z] [frontend-with-browser]  ✓ Ready in 1074ms
+[2025-08-04T17:14:49.801Z] [frontend-with-browser]  ○ Compiling / ...
+[2025-08-04T17:14:52.170Z] [frontend-with-browser]  ✓ Compiled / in 2.9s (1763 modules)
+[2025-08-04T17:14:52.404Z] [frontend-with-browser]  GET / 200 in 3107ms
+[2025-08-04T17:14:52.457Z] [frontend-with-browser] [BROWSER] Console capture started for http://localhost:3000
+[2025-08-04T17:14:52.457Z] [frontend-with-browser] 
+🎯 TEST BROWSER LAUNCHED!
+
+👉 Use the browser window that just opened (with green banner)
+📝 All console logs are being saved
+🔍 DevTools is open for debugging
+⚠️  Errors will flash red on screen
+
+Happy debugging! 🚀
+
+[2025-08-04T17:14:52.732Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:14:52.825Z] [frontend-with-browser]  ○ Compiling /_not-found ...
+[2025-08-04T17:14:52.930Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:14:53.150Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 928ms (1774 modules)
+[2025-08-04T17:14:53.245Z] [frontend-with-browser]  GET /favicon.ico 200 in 418ms
+[2025-08-04T17:14:53.248Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 939ms
+[2025-08-04T17:14:54.434Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:15:20.645Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:15:21.023Z] [frontend-with-browser]  ✓ Compiled /login in 435ms (1832 modules)
+[2025-08-04T17:15:21.071Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 426ms
+[2025-08-04T17:15:21.163Z] [frontend-with-browser]  GET /favicon.ico 200 in 11ms
+[2025-08-04T17:15:21.219Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:15:41.854Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:15:42.323Z] [frontend-with-browser]  ○ Compiling /home ...
+[2025-08-04T17:15:42.665Z] [frontend-with-browser]  ✓ Compiled /home in 856ms (2348 modules)
+[2025-08-04T17:15:42.729Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 875ms
+[2025-08-04T17:15:42.824Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T17:15:43.684Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:15:43.832Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:15:43.832Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:15:43.833Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 49ms
+[2025-08-04T17:16:05.603Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:16:05.803Z] [frontend-with-browser]  ✓ Compiled /profile in 256ms (2354 modules)
+[2025-08-04T17:16:05.831Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 227ms
+[2025-08-04T17:16:05.906Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T17:16:10.112Z] [frontend-with-browser]  GET /favicon.ico 200 in 3ms
+[2025-08-04T17:16:10.524Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:16:10.525Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:16:10.525Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 69ms
+[2025-08-04T17:16:11.315Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:16:11.492Z] [frontend-with-browser]  ✓ Compiled /create in 226ms (2368 modules)
+[2025-08-04T17:16:11.518Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 203ms
+[2025-08-04T17:16:11.593Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T17:16:58.364Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:16:58.768Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:16:58.768Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:16:58.769Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 54ms
+[2025-08-04T17:17:06.526Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:17:10.307Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T17:17:10.700Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:17:10.700Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:17:10.701Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 32ms
+[2025-08-04T17:17:11.992Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:17:12.044Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:17:13.366Z] [frontend-with-browser]  GET /home 200 in 39ms
+[2025-08-04T17:17:13.574Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:17:13.627Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:17:14.424Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 17ms
+[2025-08-04T17:17:14.426Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:17:14.426Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:22:06.338Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:22:06.573Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 236ms
+[2025-08-04T17:22:06.657Z] [frontend-with-browser]  ✓ Compiled in 321ms (2348 modules)
+[2025-08-04T17:22:33.857Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:22:34.109Z] [frontend-with-browser]  ✓ Compiled in 253ms (2348 modules)
+[2025-08-04T17:22:34.116Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 259ms
+[2025-08-04T17:23:29.764Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:23:29.973Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 209ms
+[2025-08-04T17:23:30.094Z] [frontend-with-browser]  ✓ Compiled in 330ms (2348 modules)
+[2025-08-04T17:23:42.192Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:23:42.326Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 134ms
+[2025-08-04T17:23:42.398Z] [frontend-with-browser]  ✓ Compiled in 206ms (2348 modules)
+[2025-08-04T17:23:48.895Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:23:49.043Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 149ms
+[2025-08-04T17:23:49.115Z] [frontend-with-browser]  ✓ Compiled in 220ms (2348 modules)
+[2025-08-04T17:24:49.629Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:24:49.669Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:26:20.491Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:26:20.690Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 199ms
+[2025-08-04T17:26:20.770Z] [frontend-with-browser]  ✓ Compiled in 278ms (2348 modules)
+[2025-08-04T17:26:28.483Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:26:28.613Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 130ms
+[2025-08-04T17:26:28.681Z] [frontend-with-browser]  ✓ Compiled in 199ms (2348 modules)
+[2025-08-04T17:26:35.132Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:26:35.250Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 119ms
+[2025-08-04T17:26:35.316Z] [frontend-with-browser]  ✓ Compiled in 185ms (2348 modules)
+[2025-08-04T17:26:41.165Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:26:41.284Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 120ms
+[2025-08-04T17:26:41.351Z] [frontend-with-browser]  ✓ Compiled in 187ms (2348 modules)
+[2025-08-04T17:27:41.947Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:27:41.983Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:28:16.862Z] [frontend-with-browser]  GET /home 200 in 79ms
+[2025-08-04T17:28:17.027Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:28:17.100Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:28:17.100Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:28:17.248Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 171ms (1239 modules)
+[2025-08-04T17:28:17.304Z] [frontend-with-browser]  GET /favicon.ico 200 in 229ms
+[2025-08-04T17:28:17.928Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:28:17.967Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:28:18.177Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:28:18.178Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:28:18.178Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:28:18.178Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:28:18.179Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:28:18.179Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:28:18.211Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:28:18.213Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:28:18.213Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:28:18.214Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:28:18.214Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:28:18.214Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:28:18.214Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:28:18.391Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 181ms
+[2025-08-04T17:28:18.473Z] [frontend-with-browser]  ✓ Compiled /_not-found in 269ms (2382 modules)
+[2025-08-04T17:28:18.531Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:28:18.532Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:28:18.533Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 331ms
+[2025-08-04T17:28:57.731Z] [frontend-with-browser]  GET /favicon.ico 200 in 7ms
+[2025-08-04T17:29:12.098Z] [frontend-with-browser] [BROWSER] [LOG] Creating post as user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:29:12.270Z] [frontend-with-browser] [BROWSER] [ERROR] Error publishing post: Error: Failed to create post
+    at handlePublish (webpack-internal:///(app-pages-browser)/./app/create/page.tsx:90:23)
+[2025-08-04T17:29:19.066Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:29:19.117Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:29:28.675Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 15ms
+[2025-08-04T17:29:38.962Z] [frontend-with-browser] [BROWSER] [LOG] Creating post as user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:29:39.081Z] [frontend-with-browser] [BROWSER] [ERROR] Error publishing post: Error: Failed to create post
+    at handlePublish (webpack-internal:///(app-pages-browser)/./app/create/page.tsx:90:23)
+[2025-08-04T17:29:48.069Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:29:48.071Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:29:48.075Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:29:48.191Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:29:48.221Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:29:48.391Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:29:48.393Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:29:48.393Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:29:48.393Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:29:48.394Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:29:48.394Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:29:48.434Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:29:48.434Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:29:48.434Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:29:48.434Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:29:48.435Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:29:48.435Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:29:48.435Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:29:48.435Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:29:48.440Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 28ms
+[2025-08-04T17:32:57.183Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:32:57.428Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 244ms
+[2025-08-04T17:32:57.510Z] [frontend-with-browser]  ✓ Compiled in 328ms (2348 modules)
+[2025-08-04T17:33:24.920Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:33:25.104Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 184ms
+[2025-08-04T17:33:25.230Z] [frontend-with-browser]  ✓ Compiled in 310ms (2348 modules)
+[2025-08-04T17:33:40.404Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:33:40.556Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 152ms
+[2025-08-04T17:33:40.634Z] [frontend-with-browser]  ✓ Compiled in 231ms (2348 modules)
+[2025-08-04T17:33:51.728Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:33:51.916Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 189ms
+[2025-08-04T17:33:52.030Z] [frontend-with-browser]  ✓ Compiled in 303ms (2348 modules)
+[2025-08-04T17:34:10.145Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:34:10.292Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 147ms
+[2025-08-04T17:34:10.368Z] [frontend-with-browser]  ✓ Compiled in 224ms (2348 modules)
+[2025-08-04T17:34:18.531Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:34:18.755Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 224ms
+[2025-08-04T17:34:18.861Z] [frontend-with-browser]  ✓ Compiled in 331ms (2348 modules)
+[2025-08-04T17:34:26.112Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:34:26.236Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 123ms
+[2025-08-04T17:34:26.304Z] [frontend-with-browser]  ✓ Compiled in 193ms (2348 modules)
+[2025-08-04T17:34:32.984Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:34:33.143Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 160ms
+[2025-08-04T17:34:33.255Z] [frontend-with-browser]  ✓ Compiled in 271ms (2348 modules)
+[2025-08-04T17:35:16.416Z] [frontend-with-browser]  GET /home 200 in 86ms
+[2025-08-04T17:35:16.581Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:35:16.654Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:35:16.655Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:35:16.769Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 136ms (1239 modules)
+[2025-08-04T17:35:16.806Z] [frontend-with-browser]  GET /favicon.ico 200 in 175ms
+[2025-08-04T17:35:17.412Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:35:17.413Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:35:17.413Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:35:17.413Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:35:17.413Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:35:17.414Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:35:17.417Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:35:17.418Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:35:17.418Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:35:17.419Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:35:17.419Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:35:17.419Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:35:17.500Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:35:17.510Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:35:17.724Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:35:17.725Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:35:17.726Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:35:17.726Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:35:17.726Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:35:17.727Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:35:17.755Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:35:17.755Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:35:17.756Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:35:17.756Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:35:17.756Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:35:17.756Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:35:17.762Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:35:17.888Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 126ms
+[2025-08-04T17:35:17.958Z] [frontend-with-browser]  ✓ Compiled /_not-found in 208ms (2382 modules)
+[2025-08-04T17:35:18.022Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:35:18.022Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:35:18.026Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 277ms
+[2025-08-04T17:36:13.710Z] [frontend-with-browser]  GET /favicon.ico 200 in 23ms
+[2025-08-04T17:36:15.004Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:36:15.004Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:36:15.009Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:36:15.248Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:36:15.249Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:15.249Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:36:15.250Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:36:15.250Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:15.251Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:36:15.252Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:36:15.252Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:15.252Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:36:15.252Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:36:15.252Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:15.253Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:36:15.331Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:36:15.385Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:36:15.551Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:36:15.552Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:15.553Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:36:15.553Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:36:15.554Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:15.554Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:36:15.570Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:36:15.571Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:15.571Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:36:15.571Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:36:15.572Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:15.572Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:36:15.592Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:36:15.593Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:36:15.594Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 30ms
+[2025-08-04T17:36:16.459Z] [frontend-with-browser]  GET /home 200 in 43ms
+[2025-08-04T17:36:16.633Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:36:16.671Z] [frontend-with-browser]  GET /favicon.ico 200 in 3ms
+[2025-08-04T17:36:16.689Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:36:16.689Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:36:17.091Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:36:17.092Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:17.092Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:36:17.092Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:36:17.092Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:17.092Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:36:17.129Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:36:17.130Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:17.130Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:36:17.130Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:36:17.130Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:36:17.130Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:36:17.155Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:36:17.238Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:36:17.372Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:36:17.373Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:17.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:36:17.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:36:17.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:17.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:36:17.414Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:36:17.414Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:36:17.415Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 21ms
+[2025-08-04T17:36:17.453Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:36:17.453Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:17.453Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:36:17.453Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:36:17.454Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:36:17.454Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:36:18.568Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:36:18.633Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:36:34.627Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:36:49.278Z] [frontend-with-browser] [BROWSER] [LOG] Creating post as user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:36:49.413Z] [frontend-with-browser] [BROWSER] [ERROR] Error publishing post - Full error: Error: Failed to create post
+    at handlePublish (webpack-internal:///(app-pages-browser)/./app/create/page.tsx:92:23)
+[2025-08-04T17:36:49.413Z] [frontend-with-browser] [BROWSER] [ERROR] Error details: {message: Failed to create post, errors: undefined, code: undefined}
+[2025-08-04T17:36:55.130Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 14ms
+[2025-08-04T17:40:06.026Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:40:06.314Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 290ms
+[2025-08-04T17:40:06.412Z] [frontend-with-browser]  ✓ Compiled in 390ms (2348 modules)
+[2025-08-04T17:40:40.813Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:40:41.087Z] [frontend-with-browser]  ✓ Compiled in 273ms (2348 modules)
+[2025-08-04T17:40:41.117Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 304ms
+[2025-08-04T17:40:50.109Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:40:50.285Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 176ms
+[2025-08-04T17:40:50.409Z] [frontend-with-browser]  ✓ Compiled in 299ms (2348 modules)
+[2025-08-04T17:40:58.572Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:40:58.741Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 168ms
+[2025-08-04T17:40:58.875Z] [frontend-with-browser]  ✓ Compiled in 303ms (2348 modules)
+[2025-08-04T17:41:03.619Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:41:03.763Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 144ms
+[2025-08-04T17:41:03.835Z] [frontend-with-browser]  ✓ Compiled in 216ms (2348 modules)
+[2025-08-04T17:41:21.900Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:41:22.024Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 124ms
+[2025-08-04T17:41:22.105Z] [frontend-with-browser]  ✓ Compiled in 206ms (2348 modules)
+[2025-08-04T17:41:38.573Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:41:38.773Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 201ms
+[2025-08-04T17:41:38.882Z] [frontend-with-browser]  ✓ Compiled in 310ms (2348 modules)
+[2025-08-04T17:42:13.180Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:13.180Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:13.337Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 153ms (1239 modules)
+[2025-08-04T17:42:13.376Z] [frontend-with-browser]  GET /favicon.ico 200 in 194ms
+[2025-08-04T17:42:13.492Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:13.493Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:13.499Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:14.009Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:14.009Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:14.195Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:14.285Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:14.414Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:14.415Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:14.415Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:14.416Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:14.416Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:14.417Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:14.448Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:42:14.461Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:14.462Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:14.462Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:14.462Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:14.462Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:14.462Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:14.580Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 134ms
+[2025-08-04T17:42:14.656Z] [frontend-with-browser]  ✓ Compiled /_not-found in 221ms (2382 modules)
+[2025-08-04T17:42:14.725Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:42:14.725Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:42:14.734Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 301ms
+[2025-08-04T17:42:21.505Z] [frontend-with-browser]  GET /home 200 in 45ms
+[2025-08-04T17:42:21.721Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:42:21.783Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T17:42:21.797Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:21.798Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:22.229Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:22.229Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:22.229Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:22.229Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:22.230Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:22.230Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:22.230Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:22.230Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:22.273Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:22.273Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:22.273Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:22.274Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:22.274Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:22.274Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:22.274Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:22.274Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:22.465Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:22.530Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:22.674Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:22.707Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:22.907Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:22.908Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:22.908Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:22.908Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:22.908Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:22.909Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:22.924Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:22.925Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:22.925Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:22.925Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:22.925Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:22.926Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:22.967Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:42:22.967Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:42:22.975Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 46ms
+[2025-08-04T17:42:29.177Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:42:33.901Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:33.901Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:33.907Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:42:34.073Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:34.074Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:34.079Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:34.080Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:34.080Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:34.081Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:34.081Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:34.081Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:34.081Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:34.081Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:34.339Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:34.357Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:34.582Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:34.584Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:34.790Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:34.792Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:34.792Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:34.793Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:34.793Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:34.793Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:34.821Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:34.821Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:34.822Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:34.822Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:34.822Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:34.822Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:34.828Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:42:34.828Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:42:34.831Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 25ms
+[2025-08-04T17:42:37.367Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:42:43.469Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:43.470Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:43.476Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:42:43.589Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:43.589Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:43.590Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:43.590Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:43.590Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:43.590Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:43.590Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:43.590Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:43.646Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:42:43.646Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:43.647Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:42:43.647Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:43.647Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:42:43.647Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:42:43.648Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:42:43.648Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:42:43.818Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:43.860Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:42:44.048Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:44.193Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:42:44.269Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:44.270Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:44.270Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:44.270Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:44.270Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:44.271Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:44.309Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:42:44.309Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:42:44.312Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 24ms
+[2025-08-04T17:42:44.373Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 5 total posts
+[2025-08-04T17:42:44.373Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:44.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:42:44.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "anime", Owner: "null"
+[2025-08-04T17:42:44.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:42:44.374Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:42:59.903Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:43:15.352Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:43:15.407Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:43:20.587Z] [frontend-with-browser] [BROWSER] [LOG] Creating post as user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:20.589Z] [frontend-with-browser] [BROWSER] [LOG] Creating post with data: {title: test test, content: test test test test test test test test test test test test test, anime: test test, rating: 5, images: Array(0)}
+[2025-08-04T17:43:20.870Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:20.870Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:20.875Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:43:21.044Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:43:21.045Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:21.045Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:21.045Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:43:21.045Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:43:21.045Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:43:21.046Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:43:21.046Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:43:21.046Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:43:21.052Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:43:21.053Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:43:21.450Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:43:21.508Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:43:21.646Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:43:21.649Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 0 posts found
+[2025-08-04T17:43:21.891Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:43:21.892Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:43:21.893Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:43:21.894Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:43:21.894Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:43:21.894Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:43:21.895Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:43:21.917Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:43:21.918Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:43:21.919Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:43:21.919Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:43:21.919Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:43:21.919Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:43:21.919Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:43:21.932Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:43:21.933Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:43:21.933Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 26ms
+[2025-08-04T17:43:39.204Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 16ms
+[2025-08-04T17:44:13.587Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:44:15.968Z] [frontend-with-browser]  GET /profile 200 in 21ms
+[2025-08-04T17:44:16.134Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:44:16.183Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:47:42.614Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:47:42.901Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 289ms
+[2025-08-04T17:47:43.000Z] [frontend-with-browser]  ✓ Compiled in 389ms (2348 modules)
+[2025-08-04T17:47:58.319Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:47:58.504Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 184ms
+[2025-08-04T17:47:58.619Z] [frontend-with-browser]  ✓ Compiled in 300ms (2348 modules)
+[2025-08-04T17:48:05.419Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:48:05.639Z] [frontend-with-browser]  ✓ Compiled in 220ms (2348 modules)
+[2025-08-04T17:48:05.648Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 229ms
+[2025-08-04T17:48:30.239Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:48:30.398Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 158ms
+[2025-08-04T17:48:30.526Z] [frontend-with-browser]  ✓ Compiled in 288ms (2348 modules)
+[2025-08-04T17:48:39.430Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:48:39.610Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 179ms
+[2025-08-04T17:48:39.731Z] [frontend-with-browser]  ✓ Compiled in 301ms (2348 modules)
+[2025-08-04T17:49:40.314Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:49:40.410Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:50:49.776Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:50:49.777Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:50:49.937Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 157ms (1239 modules)
+[2025-08-04T17:50:49.994Z] [frontend-with-browser]  GET /favicon.ico 200 in 217ms
+[2025-08-04T17:50:50.099Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:50:50.099Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:50:50.099Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:50:50.100Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:50:50.101Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:50:50.564Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:50:50.564Z] [frontend-with-browser] [BROWSER] [LOG] === Testing different filter approaches ===
+[2025-08-04T17:50:50.585Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:50:50.585Z] [frontend-with-browser] [BROWSER] [LOG] === Testing different filter approaches ===
+[2025-08-04T17:50:50.780Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 - No filter with userPool: 6 posts
+[2025-08-04T17:50:50.781Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 posts owners: [Object, Object, Object, Object, Object, Object]
+[2025-08-04T17:50:50.793Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 - No filter with userPool: 6 posts
+[2025-08-04T17:50:50.793Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 posts owners: [Object, Object, Object, Object, Object, Object]
+[2025-08-04T17:50:50.947Z] [frontend-with-browser] [BROWSER] [LOG] Test 2 - Filter owner eq userId: 0 posts
+[2025-08-04T17:50:50.974Z] [frontend-with-browser] [BROWSER] [LOG] Test 2 - Filter owner eq userId: 0 posts
+[2025-08-04T17:50:51.091Z] [frontend-with-browser] [BROWSER] [LOG] Test 3 - Filter owner eq username: 0 posts
+[2025-08-04T17:50:51.091Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 6 posts found
+[2025-08-04T17:50:51.092Z] [frontend-with-browser] [BROWSER] [LOG] Sample post owner field: 046824a8-20a1-70a6-7a5f-1e50456cba48
+[2025-08-04T17:50:51.143Z] [frontend-with-browser] [BROWSER] [LOG] Test 3 - Filter owner eq username: 0 posts
+[2025-08-04T17:50:51.144Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 6 posts found
+[2025-08-04T17:50:51.144Z] [frontend-with-browser] [BROWSER] [LOG] Sample post owner field: 046824a8-20a1-70a6-7a5f-1e50456cba48
+[2025-08-04T17:50:51.326Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:50:51.327Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:50:51.327Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:50:51.328Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:50:51.328Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:50:51.328Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:50:51.329Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:50:51.366Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:50:51.394Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:50:51.395Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:50:51.395Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:50:51.396Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:50:51.396Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:50:51.397Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:50:51.397Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:50:51.561Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 196ms
+[2025-08-04T17:50:51.639Z] [frontend-with-browser]  ✓ Compiled /_not-found in 284ms (2382 modules)
+[2025-08-04T17:50:51.703Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:50:51.703Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:50:51.704Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 351ms
+[2025-08-04T17:51:26.178Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T17:51:29.237Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:51:29.238Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:51:29.244Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T17:51:29.431Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:51:29.431Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:51:29.431Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:51:29.432Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:51:29.432Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:51:29.432Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:51:29.433Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:51:29.433Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:51:29.433Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:51:29.434Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:51:29.434Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:51:29.434Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:51:29.434Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:51:29.434Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:51:29.434Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:51:29.435Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:51:29.435Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:51:29.435Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:51:29.678Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:51:29.679Z] [frontend-with-browser] [BROWSER] [LOG] === Testing different filter approaches ===
+[2025-08-04T17:51:29.710Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:51:29.711Z] [frontend-with-browser] [BROWSER] [LOG] === Testing different filter approaches ===
+[2025-08-04T17:51:29.898Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 - No filter with userPool: 6 posts
+[2025-08-04T17:51:29.899Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 posts owners: [Object, Object, Object, Object, Object, Object]
+[2025-08-04T17:51:29.918Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 - No filter with userPool: 6 posts
+[2025-08-04T17:51:29.918Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 posts owners: [Object, Object, Object, Object, Object, Object]
+[2025-08-04T17:51:30.051Z] [frontend-with-browser] [BROWSER] [LOG] Test 2 - Filter owner eq userId: 0 posts
+[2025-08-04T17:51:30.073Z] [frontend-with-browser] [BROWSER] [LOG] Test 2 - Filter owner eq userId: 0 posts
+[2025-08-04T17:51:30.217Z] [frontend-with-browser] [BROWSER] [LOG] Test 3 - Filter owner eq username: 0 posts
+[2025-08-04T17:51:30.218Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 6 posts found
+[2025-08-04T17:51:30.219Z] [frontend-with-browser] [BROWSER] [LOG] Sample post owner field: 046824a8-20a1-70a6-7a5f-1e50456cba48
+[2025-08-04T17:51:30.268Z] [frontend-with-browser] [BROWSER] [LOG] Test 3 - Filter owner eq username: 0 posts
+[2025-08-04T17:51:30.269Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 6 posts found
+[2025-08-04T17:51:30.269Z] [frontend-with-browser] [BROWSER] [LOG] Sample post owner field: 046824a8-20a1-70a6-7a5f-1e50456cba48
+[2025-08-04T17:51:30.445Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:51:30.446Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:51:30.447Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:51:30.447Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:51:30.448Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:51:30.448Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:51:30.448Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:51:30.475Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:51:30.476Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:51:30.476Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:51:30.476Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:51:30.476Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:51:30.476Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:51:30.477Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:51:30.492Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:51:30.492Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:51:30.497Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 33ms
+[2025-08-04T17:51:52.342Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:51:52.394Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:55:20.202Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T17:55:22.951Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:55:22.952Z] [frontend-with-browser] [BROWSER] [LOG] Fetching posts for user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:55:22.958Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T17:55:23.129Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:55:23.129Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:55:23.129Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:55:23.129Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:55:23.129Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:55:23.130Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:55:23.130Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:55:23.130Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:55:23.130Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:55:23.171Z] [frontend-with-browser] [BROWSER] [LOG] All posts with owner info:
+[2025-08-04T17:55:23.174Z] [frontend-with-browser] [BROWSER] [LOG] Current user ID: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:55:23.175Z] [frontend-with-browser] [BROWSER] [LOG] Current username: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T17:55:23.175Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:55:23.176Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" (is mine: false)
+[2025-08-04T17:55:23.176Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:55:23.176Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" (is mine: false)
+[2025-08-04T17:55:23.176Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" (is mine: false)
+[2025-08-04T17:55:23.176Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" (is mine: true)
+[2025-08-04T17:55:23.342Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:55:23.343Z] [frontend-with-browser] [BROWSER] [LOG] === Testing different filter approaches ===
+[2025-08-04T17:55:23.378Z] [frontend-with-browser] [BROWSER] [LOG] User attributes: {email: sbhetwal@ramapo.edu, email_verified: true, preferred_username: Nammas, sub: d418f418-8031-70cf-142c-d758c88de8b3}
+[2025-08-04T17:55:23.379Z] [frontend-with-browser] [BROWSER] [LOG] === Testing different filter approaches ===
+[2025-08-04T17:55:23.572Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 - No filter with userPool: 6 posts
+[2025-08-04T17:55:23.573Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 posts owners: [Object, Object, Object, Object, Object, Object]
+[2025-08-04T17:55:23.649Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 - No filter with userPool: 6 posts
+[2025-08-04T17:55:23.649Z] [frontend-with-browser] [BROWSER] [LOG] Test 1 posts owners: [Object, Object, Object, Object, Object, Object]
+[2025-08-04T17:55:23.753Z] [frontend-with-browser] [BROWSER] [LOG] Test 2 - Filter owner eq userId: 0 posts
+[2025-08-04T17:55:23.789Z] [frontend-with-browser] [BROWSER] [LOG] Test 2 - Filter owner eq userId: 0 posts
+[2025-08-04T17:55:23.882Z] [frontend-with-browser] [BROWSER] [LOG] Test 3 - Filter owner eq username: 0 posts
+[2025-08-04T17:55:23.883Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 6 posts found
+[2025-08-04T17:55:23.883Z] [frontend-with-browser] [BROWSER] [LOG] Sample post owner field: 046824a8-20a1-70a6-7a5f-1e50456cba48
+[2025-08-04T17:55:24.023Z] [frontend-with-browser] [BROWSER] [LOG] Test 3 - Filter owner eq username: 0 posts
+[2025-08-04T17:55:24.024Z] [frontend-with-browser] [BROWSER] [LOG] User posts response: 6 posts found
+[2025-08-04T17:55:24.024Z] [frontend-with-browser] [BROWSER] [LOG] Sample post owner field: 046824a8-20a1-70a6-7a5f-1e50456cba48
+[2025-08-04T17:55:24.118Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:55:24.119Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:55:24.119Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:55:24.119Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:55:24.120Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:55:24.120Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:55:24.120Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:55:24.161Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:55:24.161Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:55:24.165Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 27ms
+[2025-08-04T17:55:24.204Z] [frontend-with-browser] [BROWSER] [LOG] Community posts: 6 total posts
+[2025-08-04T17:55:24.205Z] [frontend-with-browser] [BROWSER] [LOG] Post 1 - Title: "goat goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:55:24.205Z] [frontend-with-browser] [BROWSER] [LOG] Post 2 - Title: "new anime", Owner: "c4089438-4031-701e-9c90-972ff955fa77"
+[2025-08-04T17:55:24.205Z] [frontend-with-browser] [BROWSER] [LOG] Post 3 - Title: "test test", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:55:24.205Z] [frontend-with-browser] [BROWSER] [LOG] Post 4 - Title: "anime", Owner: "null"
+[2025-08-04T17:55:24.205Z] [frontend-with-browser] [BROWSER] [LOG] Post 5 - Title: "one piece is the goat", Owner: "046824a8-20a1-70a6-7a5f-1e50456cba48"
+[2025-08-04T17:55:24.205Z] [frontend-with-browser] [BROWSER] [LOG] Post 6 - Title: "Naruto is the Goat anime", Owner: "d418f418-8031-70cf-142c-d758c88de8b3"
+[2025-08-04T17:56:25.238Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:56:25.513Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 276ms
+[2025-08-04T17:56:25.596Z] [frontend-with-browser]  ✓ Compiled in 360ms (2348 modules)
+[2025-08-04T17:56:45.103Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:56:45.304Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 199ms
+[2025-08-04T17:56:45.425Z] [frontend-with-browser]  ✓ Compiled in 321ms (2348 modules)
+[2025-08-04T17:56:51.910Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:56:52.052Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 141ms
+[2025-08-04T17:56:52.131Z] [frontend-with-browser]  ✓ Compiled in 222ms (2348 modules)
+[2025-08-04T17:57:09.322Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:57:09.521Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 198ms
+[2025-08-04T17:57:09.601Z] [frontend-with-browser]  ✓ Compiled in 278ms (2348 modules)
+[2025-08-04T17:57:16.490Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:57:16.719Z] [frontend-with-browser]  ✓ Compiled in 230ms (2348 modules)
+[2025-08-04T17:57:16.748Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 258ms
+[2025-08-04T17:57:38.118Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:57:38.304Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 186ms
+[2025-08-04T17:57:38.424Z] [frontend-with-browser]  ✓ Compiled in 307ms (2348 modules)
+[2025-08-04T17:57:45.323Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:57:45.458Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 134ms
+[2025-08-04T17:57:45.522Z] [frontend-with-browser]  ✓ Compiled in 199ms (2348 modules)
+[2025-08-04T17:57:52.294Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:57:52.464Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 169ms
+[2025-08-04T17:57:52.541Z] [frontend-with-browser]  ✓ Compiled in 247ms (2348 modules)
+[2025-08-04T17:58:22.153Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:58:22.350Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 197ms
+[2025-08-04T17:58:22.476Z] [frontend-with-browser]  ✓ Compiled in 324ms (2348 modules)
+[2025-08-04T17:58:29.701Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:58:29.844Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 144ms
+[2025-08-04T17:58:29.916Z] [frontend-with-browser]  ✓ Compiled in 216ms (2348 modules)
+[2025-08-04T17:59:30.627Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:59:30.677Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:00:02.763Z] [frontend-with-browser]  GET /home 200 in 86ms
+[2025-08-04T18:00:02.933Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:00:03.206Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 220ms (1239 modules)
+[2025-08-04T18:00:03.245Z] [frontend-with-browser]  GET /favicon.ico 200 in 262ms
+[2025-08-04T18:00:03.939Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:00:04.120Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 182ms
+[2025-08-04T18:00:04.202Z] [frontend-with-browser]  ✓ Compiled /_not-found in 269ms (2382 modules)
+[2025-08-04T18:00:04.265Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:00:04.265Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:00:04.267Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 334ms
+[2025-08-04T18:00:12.676Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T18:00:13.023Z] [frontend-with-browser] [BROWSER] [LOG] Profile - User posts found: 0
+[2025-08-04T18:00:13.075Z] [frontend-with-browser] [BROWSER] [LOG] Profile - User posts found: 0
+[2025-08-04T18:00:15.283Z] [frontend-with-browser]  GET /profile 200 in 42ms
+[2025-08-04T18:00:15.448Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:00:15.497Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T18:00:16.168Z] [frontend-with-browser] [BROWSER] [LOG] Profile - User posts found: 0
+[2025-08-04T18:00:16.179Z] [frontend-with-browser] [BROWSER] [LOG] Profile - User posts found: 0
+[2025-08-04T18:00:28.406Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T18:00:28.773Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:00:28.773Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:00:28.774Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 30ms
+[2025-08-04T18:00:39.584Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T18:00:50.554Z] [frontend-with-browser] [BROWSER] [LOG] Creating post as user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:00:50.555Z] [frontend-with-browser] [BROWSER] [LOG] Creating post with data: {title: new test post, content: new test post, anime: new test post, rating: 5, images: Array(0)}
+[2025-08-04T18:00:50.707Z] [frontend-with-browser] [BROWSER] [ERROR] Error publishing post - Full error: Error: Failed to create post
+    at handlePublish (webpack-internal:///(app-pages-browser)/./app/create/page.tsx:91:23)
+[2025-08-04T18:00:50.707Z] [frontend-with-browser] [BROWSER] [ERROR] Error details: {message: Failed to create post, errors: undefined, code: undefined}
+[2025-08-04T18:00:54.264Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 15ms
+[2025-08-04T18:01:05.042Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:01:05.101Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:01:36.139Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:01:36.381Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 242ms
+[2025-08-04T18:01:36.482Z] [frontend-with-browser]  ✓ Compiled in 344ms (2382 modules)
+[2025-08-04T18:02:03.811Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:02:04.029Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 219ms
+[2025-08-04T18:02:04.171Z] [frontend-with-browser]  ✓ Compiled in 363ms (2348 modules)
+[2025-08-04T18:02:17.098Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:02:17.303Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 204ms
+[2025-08-04T18:02:17.432Z] [frontend-with-browser]  ✓ Compiled in 335ms (2348 modules)
+[2025-08-04T18:02:37.207Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:02:37.374Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 167ms
+[2025-08-04T18:02:37.497Z] [frontend-with-browser]  ✓ Compiled in 290ms (2348 modules)
+[2025-08-04T18:03:23.286Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:23.287Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:23.401Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 112ms (1239 modules)
+[2025-08-04T18:03:23.460Z] [frontend-with-browser]  GET /favicon.ico 200 in 174ms
+[2025-08-04T18:03:23.531Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 6
+[2025-08-04T18:03:23.531Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 2
+[2025-08-04T18:03:23.532Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object]
+[2025-08-04T18:03:23.534Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 6
+[2025-08-04T18:03:23.535Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 2
+[2025-08-04T18:03:23.535Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object]
+[2025-08-04T18:03:23.676Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:23.679Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:23.890Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:03:24.036Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 146ms
+[2025-08-04T18:03:24.123Z] [frontend-with-browser]  ✓ Compiled /_not-found in 242ms (2382 modules)
+[2025-08-04T18:03:24.192Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:03:24.192Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:03:24.194Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 316ms
+[2025-08-04T18:03:27.763Z] [frontend-with-browser]  GET /home 200 in 42ms
+[2025-08-04T18:03:27.939Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:03:27.999Z] [frontend-with-browser]  GET /favicon.ico 200 in 7ms
+[2025-08-04T18:03:28.014Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:28.014Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:28.497Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 6
+[2025-08-04T18:03:28.498Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 2
+[2025-08-04T18:03:28.498Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object]
+[2025-08-04T18:03:28.501Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 6
+[2025-08-04T18:03:28.501Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 2
+[2025-08-04T18:03:28.501Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object]
+[2025-08-04T18:03:28.644Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:28.812Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:28.820Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:03:28.820Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:03:28.823Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 23ms
+[2025-08-04T18:03:29.710Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T18:03:41.716Z] [frontend-with-browser] [BROWSER] [LOG] Creating post as user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:41.718Z] [frontend-with-browser] [BROWSER] [LOG] Creating post with data: {title: test test, content: test testtest testtest test, anime: test test, rating: 5, images: Array(0)}
+[2025-08-04T18:03:42.275Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:42.276Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:42.280Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T18:03:42.445Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 7
+[2025-08-04T18:03:42.446Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 3
+[2025-08-04T18:03:42.446Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object, Object]
+[2025-08-04T18:03:42.454Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 7
+[2025-08-04T18:03:42.454Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 3
+[2025-08-04T18:03:42.455Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object, Object]
+[2025-08-04T18:03:42.559Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:42.598Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:42.764Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:03:42.764Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:03:42.766Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 20ms
+[2025-08-04T18:03:48.413Z] [frontend-with-browser]  GET /favicon.ico 200 in 3ms
+[2025-08-04T18:03:48.673Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:48.675Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:48.871Z] [frontend-with-browser] [BROWSER] [LOG] Profile - All posts: 7
+[2025-08-04T18:03:48.871Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:48.872Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" matches: false
+[2025-08-04T18:03:48.872Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:48.872Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:48.873Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" matches: false
+[2025-08-04T18:03:48.873Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:48.873Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:48.874Z] [frontend-with-browser] [BROWSER] [LOG] Profile - All posts: 7
+[2025-08-04T18:03:48.874Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:48.875Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" matches: false
+[2025-08-04T18:03:48.875Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:48.875Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:48.876Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" matches: false
+[2025-08-04T18:03:48.876Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:48.876Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:48.991Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Filtered posts found: 0
+[2025-08-04T18:03:49.024Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Filtered posts found: 0
+[2025-08-04T18:03:51.294Z] [frontend-with-browser]  GET /profile 200 in 18ms
+[2025-08-04T18:03:51.459Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:03:51.505Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T18:03:51.909Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:51.927Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:52.127Z] [frontend-with-browser] [BROWSER] [LOG] Profile - All posts: 7
+[2025-08-04T18:03:52.128Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:52.128Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" matches: false
+[2025-08-04T18:03:52.128Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:52.129Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:52.129Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" matches: false
+[2025-08-04T18:03:52.130Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:52.130Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:52.132Z] [frontend-with-browser] [BROWSER] [LOG] Profile - All posts: 7
+[2025-08-04T18:03:52.132Z] [frontend-with-browser] [BROWSER] [LOG] - "goat goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:52.133Z] [frontend-with-browser] [BROWSER] [LOG] - "new anime" owner: "c4089438-4031-701e-9c90-972ff955fa77" matches: false
+[2025-08-04T18:03:52.133Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:52.133Z] [frontend-with-browser] [BROWSER] [LOG] - "test test" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:52.133Z] [frontend-with-browser] [BROWSER] [LOG] - "anime" owner: "null" matches: false
+[2025-08-04T18:03:52.133Z] [frontend-with-browser] [BROWSER] [LOG] - "one piece is the goat" owner: "046824a8-20a1-70a6-7a5f-1e50456cba48" matches: false
+[2025-08-04T18:03:52.134Z] [frontend-with-browser] [BROWSER] [LOG] - "Naruto is the Goat anime" owner: "d418f418-8031-70cf-142c-d758c88de8b3" matches: true
+[2025-08-04T18:03:52.222Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Filtered posts found: 0
+[2025-08-04T18:03:52.258Z] [frontend-with-browser] [BROWSER] [LOG] Profile - Filtered posts found: 0
+[2025-08-04T18:03:55.569Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:55.569Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:03:55.575Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T18:03:55.706Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 7
+[2025-08-04T18:03:55.706Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 3
+[2025-08-04T18:03:55.706Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object, Object]
+[2025-08-04T18:03:55.724Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 7
+[2025-08-04T18:03:55.724Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 3
+[2025-08-04T18:03:55.724Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object, Object]
+[2025-08-04T18:03:55.866Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:55.877Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:03:56.061Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:03:56.061Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:03:56.064Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 21ms
+[2025-08-04T18:04:13.431Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:04:13.587Z] [frontend-with-browser]  ✓ Compiled /explore in 221ms (2376 modules)
+[2025-08-04T18:04:13.622Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 191ms
+[2025-08-04T18:04:13.710Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T18:04:15.066Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:04:15.067Z] [frontend-with-browser] [BROWSER] [LOG] Home - Current user: d418f418-8031-70cf-142c-d758c88de8b3 userId: d418f418-8031-70cf-142c-d758c88de8b3
+[2025-08-04T18:04:15.072Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T18:04:15.196Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 7
+[2025-08-04T18:04:15.197Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 3
+[2025-08-04T18:04:15.197Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object, Object]
+[2025-08-04T18:04:15.200Z] [frontend-with-browser] [BROWSER] [LOG] Home - Total posts in DB: 7
+[2025-08-04T18:04:15.200Z] [frontend-with-browser] [BROWSER] [LOG] Home - My posts (manual filter): 3
+[2025-08-04T18:04:15.200Z] [frontend-with-browser] [BROWSER] [LOG] Home - Sample of my posts: [Object, Object, Object]
+[2025-08-04T18:04:15.340Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:04:15.371Z] [frontend-with-browser] [BROWSER] [LOG] Home - Filtered posts found: 0
+[2025-08-04T18:04:15.584Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:04:15.584Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:04:15.585Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 55ms
+[2025-08-04T18:05:14.372Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:05:14.397Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:06:02.184Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:06:02.423Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 239ms
+[2025-08-04T18:06:02.533Z] [frontend-with-browser]  ✓ Compiled in 350ms (2351 modules)
+[2025-08-04T18:06:23.278Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:06:23.419Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 142ms
+[2025-08-04T18:06:23.550Z] [frontend-with-browser]  ✓ Compiled in 272ms (2351 modules)
+[2025-08-04T18:06:32.086Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:06:32.252Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 167ms
+[2025-08-04T18:06:32.369Z] [frontend-with-browser]  ✓ Compiled in 284ms (2351 modules)
+[2025-08-04T18:06:54.169Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:06:54.360Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 192ms
+[2025-08-04T18:06:54.497Z] [frontend-with-browser]  ✓ Compiled in 329ms (2351 modules)
+[2025-08-04T18:07:03.118Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:07:03.256Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 139ms
+[2025-08-04T18:07:03.332Z] [frontend-with-browser]  ✓ Compiled in 215ms (2351 modules)
+[2025-08-04T18:08:04.117Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:08:04.163Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:11:09.314Z] [frontend-with-browser]  GET /home 200 in 97ms
+[2025-08-04T18:11:09.491Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:11:09.797Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 251ms (1239 modules)
+[2025-08-04T18:11:09.842Z] [frontend-with-browser]  GET /favicon.ico 200 in 299ms
+[2025-08-04T18:11:10.423Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:11:10.619Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 197ms
+[2025-08-04T18:11:10.708Z] [frontend-with-browser]  ✓ Compiled /_not-found in 291ms (2385 modules)
+[2025-08-04T18:11:10.772Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:11:10.772Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:11:10.774Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 358ms
+[2025-08-04T18:11:26.010Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T18:11:29.176Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T18:11:29.532Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:11:29.532Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:11:29.534Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 26ms
+[2025-08-04T18:11:39.973Z] [frontend-with-browser]  GET /favicon.ico 200 in 7ms
+[2025-08-04T18:11:44.074Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T18:11:44.436Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:11:44.436Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:11:44.439Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 26ms
+[2025-08-04T18:12:11.474Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:12:11.559Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:15:03.675Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:15:03.932Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 258ms
+[2025-08-04T18:15:04.026Z] [frontend-with-browser]  ✓ Compiled in 352ms (2351 modules)
+[2025-08-04T18:15:11.230Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:15:11.372Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 141ms
+[2025-08-04T18:15:11.536Z] [frontend-with-browser]  ✓ Compiled in 307ms (2351 modules)
+[2025-08-04T18:15:49.297Z] [frontend-with-browser]  GET /home 200 in 81ms
+[2025-08-04T18:15:49.469Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:15:49.642Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 123ms (1239 modules)
+[2025-08-04T18:15:49.707Z] [frontend-with-browser]  GET /favicon.ico 200 in 190ms
+[2025-08-04T18:15:51.256Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:15:51.400Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 145ms
+[2025-08-04T18:15:51.477Z] [frontend-with-browser]  ✓ Compiled /_not-found in 225ms (2385 modules)
+[2025-08-04T18:15:51.542Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:15:51.542Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:15:51.545Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 295ms
+[2025-08-04T18:16:02.381Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T18:16:05.525Z] [frontend-with-browser]  GET /favicon.ico 200 in 5ms
+[2025-08-04T18:16:06.149Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:16:06.150Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:16:06.151Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 28ms
+[2025-08-04T18:16:52.376Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:16:52.430Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:18:14.665Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:18:14.872Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 206ms
+[2025-08-04T18:18:14.967Z] [frontend-with-browser]  ✓ Compiled in 303ms (2351 modules)
+[2025-08-04T18:18:20.306Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:18:20.421Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 116ms
+[2025-08-04T18:18:20.546Z] [frontend-with-browser]  ✓ Compiled in 241ms (2351 modules)
+[2025-08-04T18:18:35.586Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:18:35.780Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 194ms
+[2025-08-04T18:18:35.917Z] [frontend-with-browser]  ✓ Compiled in 332ms (2351 modules)
+[2025-08-04T18:19:36.684Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:19:36.813Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:22:19.627Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 191ms (1239 modules)
+[2025-08-04T18:22:19.665Z] [frontend-with-browser]  GET /favicon.ico 200 in 233ms
+[2025-08-04T18:23:20.171Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:25:08.887Z] [frontend-with-browser]  GET /favicon.ico 200 in 8ms
+[2025-08-04T18:25:09.824Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:25:10.032Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 208ms
+[2025-08-04T18:25:10.126Z] [frontend-with-browser]  ✓ Compiled /_not-found in 308ms (2385 modules)
+[2025-08-04T18:25:10.197Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:25:10.197Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:25:10.200Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 385ms
+[2025-08-04T18:26:11.032Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:26:11.085Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:29:24.921Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:29:25.219Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 298ms
+[2025-08-04T18:29:25.313Z] [frontend-with-browser]  ✓ Compiled in 393ms (2351 modules)
+[2025-08-04T18:29:26.144Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:29:26.205Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 61ms
+[2025-08-04T18:29:26.274Z] [frontend-with-browser]  ✓ Compiled /_not-found in 136ms (2340 modules)
+[2025-08-04T18:29:26.332Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:29:26.332Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:29:26.335Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 198ms
+[2025-08-04T18:29:43.939Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:29:44.159Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 220ms
+[2025-08-04T18:29:44.284Z] [frontend-with-browser]  ✓ Compiled in 346ms (2354 modules)
+[2025-08-04T18:30:13.983Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:30:14.237Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 253ms
+[2025-08-04T18:30:14.282Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T18:30:14.497Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 215ms
+[2025-08-04T18:30:14.570Z] [frontend-with-browser]  ✓ Compiled in 588ms (2354 modules)
+[2025-08-04T18:30:14.639Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:30:14.639Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:30:14.642Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 370ms
+[2025-08-04T18:30:56.200Z] [frontend-with-browser]  GET /home 200 in 63ms
+[2025-08-04T18:30:56.370Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T18:30:56.622Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 200ms (1240 modules)
+[2025-08-04T18:30:56.692Z] [frontend-with-browser]  GET /favicon.ico 200 in 273ms
+[2025-08-04T18:30:57.863Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T18:30:57.864Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T18:30:57.865Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 66ms
+[2025-08-04T18:31:15.033Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:31:51.580Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 20ms
+[2025-08-04T18:31:57.207Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:32:05.025Z] [frontend-with-browser]  GET /home 200 in 67ms
+[2025-08-04T18:32:05.498Z] [frontend-with-browser]  GET /icon-192.png 404 in 17ms
+[2025-08-04T18:32:05.579Z] [frontend-with-browser]  GET /icon-192.png 404 in 14ms
+[2025-08-04T18:32:17.265Z] [frontend-with-browser]  GET /icon-192.png 404 in 17ms
+[2025-08-04T18:32:18.389Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 28ms
+[2025-08-04T18:32:27.549Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 21ms
+[2025-08-04T18:35:02.577Z] [frontend-with-browser]  ✓ Compiled in 439ms (2351 modules)
+[2025-08-04T18:35:03.044Z] [frontend-with-browser]  ✓ Compiled /_not-found in 332ms (2340 modules)
+[2025-08-04T18:35:03.119Z] [frontend-with-browser]  GET /icon-192.png 404 in 408ms
+[2025-08-04T18:36:04.071Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:36:04.130Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T18:37:39.596Z] [frontend-with-browser]  ✓ Compiled in 337ms (2351 modules)
+[2025-08-04T18:37:53.655Z] [frontend-with-browser]  ✓ Compiled in 281ms (2351 modules)
+[2025-08-04T18:38:53.535Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/mini-css-extract-plugin/loader.js' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App'
+<w> while resolving '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/mini-css-extract-plugin/loader.js' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App as file
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/mini-css-extract-plugin/loader.js
+[2025-08-04T18:38:53.680Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App'
+<w> while resolving '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App to a directory

@@ -1,0 +1,272 @@
+[2025-08-04T16:48:55.881Z] Starting: npm run dev (Process ID: frontend-with-browser)
+[2025-08-04T16:48:55.881Z] [frontend-with-browser] ✅ Starting development server...
+[2025-08-04T16:48:55.977Z] [frontend-with-browser] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T16:48:56.328Z] [frontend-with-browser]   ▲ Next.js 14.2.10
+[2025-08-04T16:48:56.329Z] [frontend-with-browser]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-08-04T16:48:56.329Z] [frontend-with-browser] ✅ Server ready on http://localhost:3000
+[2025-08-04T16:48:56.329Z] [frontend-with-browser] ⏳ Waiting 1000ms before launching browser...
+[2025-08-04T16:48:57.272Z] [frontend-with-browser]  ✓ Ready in 998ms
+[2025-08-04T16:48:57.330Z] [frontend-with-browser] ✅ Launching test browser...
+[2025-08-04T16:48:58.974Z] [frontend-with-browser]  ○ Compiling / ...
+[2025-08-04T16:49:01.221Z] [frontend-with-browser]  ✓ Compiled / in 2.7s (1763 modules)
+[2025-08-04T16:49:01.416Z] [frontend-with-browser]  GET / 200 in 2948ms
+[2025-08-04T16:49:01.468Z] [frontend-with-browser] [BROWSER] Console capture started for http://localhost:3000
+[2025-08-04T16:49:01.468Z] [frontend-with-browser] 
+🎯 TEST BROWSER LAUNCHED!
+
+👉 Use the browser window that just opened (with green banner)
+📝 All console logs are being saved
+🔍 DevTools is open for debugging
+⚠️  Errors will flash red on screen
+
+Happy debugging! 🚀
+
+[2025-08-04T16:49:01.673Z] [frontend-with-browser]  ✓ Compiled /_not-found in 402ms (1743 modules)
+[2025-08-04T16:49:01.730Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 379ms
+[2025-08-04T16:49:01.864Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T16:49:02.035Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 112ms (938 modules)
+[2025-08-04T16:49:02.075Z] [frontend-with-browser]  GET /favicon.ico 200 in 154ms
+[2025-08-04T16:49:03.115Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T16:49:03.410Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T16:49:13.108Z] [frontend-with-browser]  GET / 200 in 87ms
+[2025-08-04T16:49:13.631Z] [frontend-with-browser]  GET /icon-192.png 404 in 21ms
+[2025-08-04T16:49:15.765Z] [frontend-with-browser]  ✓ Compiled /login in 396ms (1832 modules)
+[2025-08-04T16:49:15.940Z] [frontend-with-browser]  GET /icon-192.png 404 in 48ms
+[2025-08-04T16:49:57.076Z] [frontend-with-browser]  GET /login 200 in 30ms
+[2025-08-04T16:49:57.117Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 30ms
+[2025-08-04T16:49:57.413Z] [frontend-with-browser]  GET /favicon.ico 200 in 12ms
+[2025-08-04T16:50:16.150Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T16:50:16.252Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T16:51:22.123Z] [frontend-with-browser]  ✓ Compiled /signup in 235ms (1801 modules)
+[2025-08-04T16:51:22.411Z] [frontend-with-browser]  ✓ Compiled /_not-found in 155ms (1804 modules)
+[2025-08-04T16:51:22.476Z] [frontend-with-browser]  GET /icon-192.png 404 in 222ms
+[2025-08-04T16:51:53.327Z] [frontend-with-browser]  GET /icon-192.png 404 in 31ms
+[2025-08-04T16:52:22.913Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T16:52:22.940Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T16:53:25.263Z] [frontend-with-browser]  GET /signup 404 in 231ms
+[2025-08-04T16:53:25.359Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326405241 404 in 58ms
+[2025-08-04T16:53:25.361Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 57ms
+ GET /_next/static/chunks/webpack.js?v=1754326405241 404 in 61ms
+ GET /_next/static/chunks/app/layout.js 404 in 57ms
+[2025-08-04T16:53:25.456Z] [frontend-with-browser]  GET /icon-192.png 404 in 14ms
+[2025-08-04T16:53:28.115Z] [frontend-with-browser]  GET /login 200 in 48ms
+[2025-08-04T16:53:28.209Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/login/page.js 404 in 52ms
+[2025-08-04T16:53:28.210Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326408076 404 in 54ms
+[2025-08-04T16:53:28.210Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 53ms
+[2025-08-04T16:53:28.211Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326408076 404 in 56ms
+[2025-08-04T16:53:28.213Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/layout.js 404 in 54ms
+[2025-08-04T16:53:28.229Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 25ms
+[2025-08-04T16:53:28.255Z] [frontend-with-browser]  GET /icon-192.png 404 in 13ms
+[2025-08-04T16:53:29.816Z] [frontend-with-browser]  GET /signup 404 in 230ms
+[2025-08-04T16:53:29.897Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326409799 404 in 39ms
+[2025-08-04T16:53:29.898Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326409799 404 in 37ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 36ms
+ GET /_next/static/chunks/app/layout.js 404 in 35ms
+[2025-08-04T16:53:29.943Z] [frontend-with-browser]  GET /icon-192.png 404 in 14ms
+[2025-08-04T16:53:31.964Z] [frontend-with-browser]  GET /login 200 in 23ms
+[2025-08-04T16:53:32.064Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 72ms
+[2025-08-04T16:53:32.064Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326411948 404 in 79ms
+[2025-08-04T16:53:32.065Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326411948 404 in 77ms
+[2025-08-04T16:53:32.065Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/layout.js 404 in 71ms
+[2025-08-04T16:53:32.065Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/login/page.js 404 in 72ms
+[2025-08-04T16:53:32.066Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 65ms
+[2025-08-04T16:53:32.216Z] [frontend-with-browser]  GET /icon-192.png 404 in 10ms
+[2025-08-04T16:53:35.945Z] [frontend-with-browser]  GET /signup 404 in 227ms
+[2025-08-04T16:53:35.993Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326415929 404 in 27ms
+[2025-08-04T16:53:36.010Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326415929 404 in 23ms
+[2025-08-04T16:53:36.010Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 22ms
+[2025-08-04T16:53:36.010Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 23ms
+[2025-08-04T16:53:36.372Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 330ms (1835 modules)
+[2025-08-04T16:53:36.460Z] [frontend-with-browser]  GET /favicon.ico 200 in 431ms
+[2025-08-04T16:53:36.465Z] [frontend-with-browser]  GET /icon-192.png 404 in 413ms
+[2025-08-04T16:53:40.435Z] [frontend-with-browser]  ✓ Compiled / in 117ms (977 modules)
+[2025-08-04T16:53:40.690Z] [frontend-with-browser] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading 'clientModules')
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24658
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:191:62
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+    at NoopContextManager.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:122:103
+    at NoopContextManager.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NextTracerImpl.trace (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:122:28)
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:191:31
+    at r3 (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1678)
+    at async doRender (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/base-server.js:1420:30)
+    at async cacheEntry.responseCache.get.routeKind (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/base-server.js:1581:28) {
+  page: '/'
+}
+[2025-08-04T16:53:41.197Z] [frontend-with-browser]  ○ Compiling /_error ...
+[2025-08-04T16:53:41.328Z] [frontend-with-browser]  ✓ Compiled /_error in 637ms (2070 modules)
+[2025-08-04T16:53:41.406Z] [frontend-with-browser]  GET / 500 in 1091ms
+[2025-08-04T16:53:41.489Z] [frontend-with-browser]  GET / 200 in 76ms
+[2025-08-04T16:53:41.568Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326421431 404 in 46ms
+[2025-08-04T16:53:41.569Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 45ms
+[2025-08-04T16:53:41.569Z] [frontend-with-browser]  GET /_next/static/chunks/app/page.js 404 in 45ms
+[2025-08-04T16:53:41.570Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 46ms
+[2025-08-04T16:53:41.669Z] [frontend-with-browser]  GET /icon-192.png 404 in 49ms
+[2025-08-04T16:53:43.361Z] [frontend-with-browser]  GET /login 404 in 231ms
+[2025-08-04T16:53:43.435Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326423343 404 in 53ms
+[2025-08-04T16:53:43.436Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 39ms
+[2025-08-04T16:53:43.436Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 38ms
+ GET /_next/static/chunks/main-app.js?v=1754326423343 404 in 41ms
+[2025-08-04T16:53:43.552Z] [frontend-with-browser]  GET /icon-192.png 404 in 14ms
+[2025-08-04T16:53:50.696Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 21ms
+[2025-08-04T16:53:57.788Z] [frontend-with-browser]  GET /login 404 in 237ms
+[2025-08-04T16:53:57.840Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 21ms
+[2025-08-04T16:53:57.910Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 30ms
+[2025-08-04T16:53:57.911Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326437767 404 in 44ms
+[2025-08-04T16:53:57.911Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326437767 404 in 41ms
+[2025-08-04T16:53:57.912Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 30ms
+[2025-08-04T16:53:58.133Z] [frontend-with-browser]  GET /favicon.ico 404 in 6ms
+[2025-08-04T16:53:58.176Z] [frontend-with-browser]  GET /icon-192.png 404 in 17ms
+[2025-08-04T16:54:41.497Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app'
+[2025-08-04T16:54:41.504Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+[2025-08-04T16:54:41.504Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+[2025-08-04T16:54:41.608Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app'
+[2025-08-04T16:54:41.610Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T16:54:41.610Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T16:56:23.962Z] [frontend-with-browser]  ✓ Compiled in 299ms (2038 modules)
+[2025-08-04T16:56:36.802Z] [frontend-with-browser]  ✓ Compiled in 313ms (2038 modules)
+[2025-08-04T16:56:54.520Z] [frontend-with-browser]  ✓ Compiled in 246ms (2038 modules)
+[2025-08-04T16:57:54.508Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app'
+[2025-08-04T16:57:54.511Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+[2025-08-04T16:57:54.511Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+[2025-08-04T16:57:54.824Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app'
+[2025-08-04T16:57:54.825Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T16:57:54.825Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T16:59:56.345Z] [frontend-with-browser]  ✓ Compiled / in 101ms (984 modules)
+[2025-08-04T16:59:56.614Z] [frontend-with-browser] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading 'clientModules')
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24658
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:191:62
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+    at NoopContextManager.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:122:103
+    at NoopContextManager.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NextTracerImpl.trace (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:122:28)
+    at /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/lib/trace/tracer.js:191:31
+    at r3 (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1678)
+    at async doRender (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/base-server.js:1420:30)
+    at async cacheEntry.responseCache.get.routeKind (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/base-server.js:1581:28) {
+  page: '/'
+}
+[2025-08-04T16:59:56.811Z] [frontend-with-browser]  ✓ Compiled /_error in 194ms (2050 modules)
+[2025-08-04T16:59:56.825Z] [frontend-with-browser]  GET / 500 in 585ms
+[2025-08-04T16:59:56.999Z] [frontend-with-browser]  ✓ Compiled /_not-found in 136ms (2039 modules)
+[2025-08-04T16:59:57.082Z] [frontend-with-browser]  GET /_next/static/chunks/main.js 404 in 222ms
+[2025-08-04T16:59:57.082Z] [frontend-with-browser]  GET /_next/static/chunks/pages/_error.js 404 in 205ms
+[2025-08-04T16:59:57.083Z] [frontend-with-browser]  GET /_next/static/chunks/react-refresh.js 404 in 220ms
+[2025-08-04T16:59:57.083Z] [frontend-with-browser]  GET /_next/static/chunks/pages/_app.js 404 in 208ms
+[2025-08-04T17:00:05.981Z] [frontend-with-browser]  GET /login 404 in 241ms
+[2025-08-04T17:00:06.067Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 36ms
+[2025-08-04T17:00:06.067Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 35ms
+[2025-08-04T17:00:06.068Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326805957 404 in 38ms
+[2025-08-04T17:00:06.069Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754326805957 404 in 40ms
+[2025-08-04T17:00:06.132Z] [frontend-with-browser]  GET /icon-192.png 404 in 13ms
+[2025-08-04T17:00:09.865Z] [frontend-with-browser]  GET / 404 in 241ms
+[2025-08-04T17:00:10.608Z] [frontend-with-browser]  ○ Compiling /home ...
+[2025-08-04T17:00:10.944Z] [frontend-with-browser]  ✓ Compiled /home in 840ms (2555 modules)
+[2025-08-04T17:00:11.061Z] [frontend-with-browser]  GET /home 200 in 962ms
+[2025-08-04T17:00:11.151Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754326810990 404 in 24ms
+[2025-08-04T17:00:11.151Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 23ms
+[2025-08-04T17:00:11.151Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 22ms
+[2025-08-04T17:00:11.371Z] [frontend-with-browser]  GET /icon-192.png 404 in 18ms

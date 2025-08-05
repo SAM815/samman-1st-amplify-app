@@ -1,0 +1,47 @@
+[2025-08-04T19:09:06.888Z] Starting: npm run dev (Process ID: npm-dev150906log)
+[2025-08-04T19:09:06.982Z] [npm-dev150906log] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T19:09:07.340Z] [npm-dev150906log]   ▲ Next.js 14.2.10
+[2025-08-04T19:09:07.341Z] [npm-dev150906log]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-08-04T19:09:08.355Z] [npm-dev150906log]  ✓ Ready in 1079ms
+[2025-08-04T19:09:19.153Z] [npm-dev150906log]  ○ Compiling / ...
+[2025-08-04T19:09:21.597Z] [npm-dev150906log]  ✓ Compiled / in 2.9s (1765 modules)
+[2025-08-04T19:09:21.850Z] [npm-dev150906log]  GET / 200 in 3209ms
+[2025-08-04T19:09:21.912Z] [npm-dev150906log]  ✓ Compiled in 261ms (850 modules)
+[2025-08-04T19:09:22.498Z] [npm-dev150906log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:09:22.556Z] [npm-dev150906log]  ✓ Compiled /_not-found in 227ms (1745 modules)
+[2025-08-04T19:09:22.619Z] [npm-dev150906log]  GET /icon-192.png 404 in 293ms
+[2025-08-04T19:09:23.433Z] [npm-dev150906log]  ✓ Compiled /login in 322ms (1803 modules)
+[2025-08-04T19:09:24.061Z] [npm-dev150906log]  ○ Compiling /home ...
+[2025-08-04T19:09:24.919Z] [npm-dev150906log] [ERROR]  ⨯ ./node_modules/@aws-amplify/data-schema/dist/esm/runtime/index.mjs:1:1
+Module not found: Can't resolve '@aws-amplify/data-schema-types'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/aws-amplify/node_modules/@aws-amplify/api-graphql/dist/esm/GraphQLAPI.mjs
+./node_modules/aws-amplify/node_modules/@aws-amplify/api-graphql/dist/esm/index.mjs
+./node_modules/aws-amplify/node_modules/@aws-amplify/api/dist/esm/index.mjs
+./node_modules/aws-amplify/dist/esm/api/index.mjs
+./app/home/page.tsx
+[2025-08-04T19:09:26.106Z] [npm-dev150906log] [ERROR]  ⨯ ./node_modules/@aws-amplify/data-schema/dist/esm/runtime/index.mjs:1:1
+Module not found: Can't resolve '@aws-amplify/data-schema-types'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/aws-amplify/node_modules/@aws-amplify/api-graphql/dist/esm/GraphQLAPI.mjs
+./node_modules/aws-amplify/node_modules/@aws-amplify/api-graphql/dist/esm/index.mjs
+./node_modules/aws-amplify/node_modules/@aws-amplify/api/dist/esm/index.mjs
+./node_modules/aws-amplify/dist/esm/api/index.mjs
+./app/home/page.tsx
+[2025-08-04T19:09:26.171Z] [npm-dev150906log]  GET /icon-192.png 500 in 2588ms
+[2025-08-04T19:09:26.198Z] [npm-dev150906log]  GET /home 500 in 4ms
+[2025-08-04T19:09:27.492Z] [npm-dev150906log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:09:27.563Z] [npm-dev150906log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:09:27.695Z] [npm-dev150906log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:10:26.521Z] [npm-dev150906log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies

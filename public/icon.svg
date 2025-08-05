@@ -1,0 +1,15 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="24" fill="url(#gradient)"/>
+  <path d="M96 140C118.091 140 136 122.091 136 100C136 77.9086 118.091 60 96 60C73.9086 60 56 77.9086 56 100C56 122.091 73.9086 140 96 140Z" fill="white" fill-opacity="0.9"/>
+  <path d="M96 48L106.928 78.336H138.641L113.856 97.328L124.784 127.664L96 108.672L67.216 127.664L78.144 97.328L53.359 78.336H85.072L96 48Z" fill="url(#star-gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="star-gradient" x1="96" y1="48" x2="96" y2="127.664" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE047"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+</svg>

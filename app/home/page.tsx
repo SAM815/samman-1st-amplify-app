@@ -68,6 +68,10 @@ export default function HomePage() {
       // Filter out current user's posts (handle null owners and null posts)
       const otherPosts = response.data?.filter(post => post && post.owner && post.owner !== user.userId) || []
       
+      // Get current user display name for anonymous posts
+      const userAttributes = await fetchUserAttributes()
+      const currentUserDisplayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0] || 'Anonymous'
+      
       // For each post, check if current user has liked it
       const postsWithLikeStatus = await Promise.all(
         otherPosts.map(async (post) => {
@@ -98,7 +102,7 @@ export default function HomePage() {
             animeName: post.anime || '',
             rating: post.rating || 0,
             coverImage: post.images?.[0] || '',
-            tags: post.tags || [],
+            tags: (post.tags || []).filter((tag): tag is string => tag !== null),
             publishedAt: new Date(post.createdAt || '').toLocaleDateString(),
             readTime: Math.ceil((post.content?.length || 0) / 200),
             likes: post.likesCount || 0,
@@ -155,7 +159,7 @@ export default function HomePage() {
         await client.models.PostLike.create({
           postId,
           userId: user.userId,
-          userName: displayName
+          userName: displayName || 'User'
         }, {
           authMode: 'userPool'
         })
@@ -272,13 +276,13 @@ export default function HomePage() {
             excerpt: post.content?.substring(0, 150) + '...' || '',
             fullContent: post.content || '',
             author: {
-              name: post.authorName || displayName,
-              avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${post.authorName || displayName}`
+              name: post.authorName || displayName || 'Anonymous',
+              avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${post.authorName || displayName || 'Anonymous'}`
             },
             animeName: post.anime || '',
             rating: post.rating || 0,
             coverImage: post.images?.[0] || '',
-            tags: post.tags || [],
+            tags: (post.tags || []).filter((tag): tag is string => tag !== null),
             publishedAt: new Date(post.createdAt || '').toLocaleDateString(),
             readTime: Math.ceil((post.content?.length || 0) / 200),
             likes: post.likesCount || 0,
@@ -303,8 +307,8 @@ export default function HomePage() {
       
       // Use actual username from preferred_username
       const displayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0]
-      setUserName(displayName)
-      setUserId(user.userId)
+      setUserName(displayName || 'User')
+      setUserId(user.userId || '')
       
       // Fetch user posts with proper counts
       await fetchUserPosts()

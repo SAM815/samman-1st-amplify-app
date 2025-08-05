@@ -1,0 +1,192 @@
+[2025-08-04T15:12:35.822Z] Starting: npm run dev (Process ID: frontend-dev)
+[2025-08-04T15:12:35.823Z] [frontend-dev] ✅ Starting development server...
+[2025-08-04T15:12:35.914Z] [frontend-dev] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T15:12:36.398Z] [frontend-dev]   ▲ Next.js 14.2.10
+[2025-08-04T15:12:36.398Z] [frontend-dev]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-08-04T15:12:36.398Z] [frontend-dev] ✅ Server ready on http://localhost:3000
+[2025-08-04T15:12:36.399Z] [frontend-dev] ⏳ Waiting 1000ms before launching browser...
+[2025-08-04T15:12:37.400Z] [frontend-dev] ✅ Launching test browser...
+[2025-08-04T15:12:38.134Z] [frontend-dev]  ✓ Ready in 1792ms
+[2025-08-04T15:12:39.075Z] [frontend-dev]  ○ Compiling / ...
+[2025-08-04T15:12:41.289Z] [frontend-dev]  ✓ Compiled / in 2.7s (1763 modules)
+[2025-08-04T15:12:41.481Z] [frontend-dev]  GET / 200 in 2916ms
+[2025-08-04T15:12:41.541Z] [frontend-dev] [BROWSER] Console capture started for http://localhost:3000
+[2025-08-04T15:12:41.541Z] [frontend-dev] 
+🎯 TEST BROWSER LAUNCHED!
+
+👉 Use the browser window that just opened (with green banner)
+📝 All console logs are being saved
+🔍 DevTools is open for debugging
+⚠️  Errors will flash red on screen
+
+Happy debugging! 🚀
+
+[2025-08-04T15:12:41.749Z] [frontend-dev]  ✓ Compiled /_not-found in 408ms (1743 modules)
+[2025-08-04T15:12:41.805Z] [frontend-dev]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 331ms
+[2025-08-04T15:12:41.934Z] [frontend-dev] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T15:12:42.144Z] [frontend-dev]  ✓ Compiled /favicon.ico in 127ms (938 modules)
+[2025-08-04T15:12:42.184Z] [frontend-dev]  GET /favicon.ico 200 in 169ms
+[2025-08-04T15:12:43.137Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:12:43.470Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:13:09.821Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:13:10.186Z] [frontend-dev]  ✓ Compiled /login in 423ms (1832 modules)
+[2025-08-04T15:13:10.236Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 415ms
+[2025-08-04T15:13:10.335Z] [frontend-dev]  GET /favicon.ico 200 in 15ms
+[2025-08-04T15:13:10.389Z] [frontend-dev] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T15:13:26.006Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T15:13:26.007Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T15:13:33.589Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:13:34.061Z] [frontend-dev]  ○ Compiling /home ...
+[2025-08-04T15:13:34.403Z] [frontend-dev]  ✓ Compiled /home in 852ms (2346 modules)
+[2025-08-04T15:13:34.466Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 879ms
+[2025-08-04T15:13:34.560Z] [frontend-dev]  GET /favicon.ico 200 in 5ms
+[2025-08-04T15:13:34.831Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 400  - https://cognito-identity.us-east-1.amazonaws.com/
+[2025-08-04T15:13:34.832Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T15:13:34.835Z] [frontend-dev] [BROWSER] [ERROR] Error fetching user posts: NoSignedUser: No current user
+    at headerBasedAuth (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/api-graphql/dist/esm/internals/graphqlAuth.mjs:40:23)
+    at async GraphQLAPIClass._graphql (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/api-graphql/dist/esm/internals/InternalGraphQLAPI.mjs:150:29)
+    at async eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/data-schema/dist/esm/runtime/internals/operations/list.mjs:47:42)
+[2025-08-04T15:13:35.336Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:13:35.336Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:13:35.337Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 53ms
+[2025-08-04T15:13:35.486Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:13:50.838Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:13:51.073Z] [frontend-dev]  ✓ Compiled /create in 285ms (2360 modules)
+[2025-08-04T15:13:51.102Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 265ms
+[2025-08-04T15:13:51.181Z] [frontend-dev]  GET /favicon.ico 200 in 9ms
+[2025-08-04T15:13:57.294Z] [frontend-dev]  GET /favicon.ico 200 in 3ms
+[2025-08-04T15:13:57.800Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:13:57.800Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:13:57.801Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 68ms
+[2025-08-04T15:14:09.288Z] [frontend-dev]  GET /favicon.ico 200 in 4ms
+[2025-08-04T15:14:51.505Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:14:51.585Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:15:02.332Z] [frontend-dev]  GET /favicon.ico 200 in 4ms
+[2025-08-04T15:15:02.761Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:15:02.761Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:15:02.762Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 30ms
+[2025-08-04T15:15:24.877Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:15:25.090Z] [frontend-dev]  ✓ Compiled /explore in 271ms (2368 modules)
+[2025-08-04T15:15:25.117Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 241ms
+[2025-08-04T15:15:25.177Z] [frontend-dev]  GET /favicon.ico 200 in 6ms
+[2025-08-04T15:15:28.815Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:15:28.966Z] [frontend-dev]  ✓ Compiled /profile in 198ms (2374 modules)
+[2025-08-04T15:15:28.987Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 172ms
+[2025-08-04T15:15:29.042Z] [frontend-dev]  GET /favicon.ico 200 in 4ms
+[2025-08-04T15:15:35.119Z] [frontend-dev]  GET /profile 200 in 57ms
+[2025-08-04T15:15:35.278Z] [frontend-dev] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T15:15:35.319Z] [frontend-dev]  GET /favicon.ico 200 in 3ms
+[2025-08-04T15:16:29.482Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:16:29.503Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:20:21.256Z] [frontend-dev]  GET /favicon.ico 200 in 8ms
+[2025-08-04T15:20:21.914Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:20:21.914Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:20:21.918Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 32ms
+[2025-08-04T15:21:54.873Z] [frontend-dev]  GET /favicon.ico 200 in 5ms
+[2025-08-04T15:21:59.780Z] [frontend-dev]  GET /favicon.ico 200 in 5ms
+[2025-08-04T15:22:00.293Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:22:00.293Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:22:00.295Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 27ms
+[2025-08-04T15:22:08.196Z] [frontend-dev]  GET /favicon.ico 200 in 4ms
+[2025-08-04T15:22:11.817Z] [frontend-dev]  GET /favicon.ico 200 in 5ms
+[2025-08-04T15:22:12.313Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:22:12.314Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:22:12.315Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 23ms
+[2025-08-04T15:22:36.217Z] [frontend-dev]  GET /favicon.ico 200 in 4ms
+[2025-08-04T15:23:29.405Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:23:29.686Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 282ms
+[2025-08-04T15:23:29.765Z] [frontend-dev]  ✓ Compiled in 362ms (2375 modules)
+[2025-08-04T15:23:40.992Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:23:41.207Z] [frontend-dev]  ✓ Compiled in 216ms (2344 modules)
+[2025-08-04T15:23:41.219Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 226ms
+[2025-08-04T15:24:32.517Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:24:32.848Z] [frontend-dev]  ✓ Compiled in 332ms (2344 modules)
+[2025-08-04T15:24:32.886Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 370ms
+[2025-08-04T15:24:43.568Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:24:43.696Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 128ms
+[2025-08-04T15:24:43.762Z] [frontend-dev]  ✓ Compiled in 195ms (2344 modules)
+[2025-08-04T15:24:58.820Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:24:59.107Z] [frontend-dev]  ✓ Compiled in 289ms (2344 modules)
+[2025-08-04T15:24:59.117Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 298ms
+[2025-08-04T15:25:14.007Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:25:14.311Z] [frontend-dev]  ✓ Compiled in 305ms (2344 modules)
+[2025-08-04T15:25:14.358Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 352ms
+[2025-08-04T15:25:20.919Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:25:21.055Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 137ms
+[2025-08-04T15:25:21.123Z] [frontend-dev]  ✓ Compiled in 205ms (2344 modules)
+[2025-08-04T15:25:33.347Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:25:33.471Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 125ms
+[2025-08-04T15:25:33.535Z] [frontend-dev]  ✓ Compiled in 189ms (2344 modules)
+[2025-08-04T15:25:48.370Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:25:48.544Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 175ms
+[2025-08-04T15:25:48.649Z] [frontend-dev]  ✓ Compiled in 279ms (2344 modules)
+[2025-08-04T15:26:49.130Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:26:49.216Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:40:55.333Z] [frontend-dev] [ERROR] Amplify has not been configured. Please call Amplify.configure() before using this service.
+[2025-08-04T15:40:55.364Z] [frontend-dev]  GET /profile 200 in 70ms
+[2025-08-04T15:40:55.532Z] [frontend-dev] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T15:40:55.735Z] [frontend-dev]  ✓ Compiled /favicon.ico in 155ms (1233 modules)
+[2025-08-04T15:40:55.791Z] [frontend-dev]  GET /favicon.ico 200 in 213ms
+[2025-08-04T15:41:10.824Z] [frontend-dev]  GET /favicon.ico 200 in 6ms
+[2025-08-04T15:41:11.306Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:41:11.467Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 165ms
+[2025-08-04T15:41:11.559Z] [frontend-dev]  ✓ Compiled /_not-found in 268ms (2364 modules)
+[2025-08-04T15:41:11.632Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 343ms
+[2025-08-04T15:41:11.661Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:41:11.661Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:41:16.989Z] [frontend-dev]  GET /favicon.ico 200 in 9ms
+[2025-08-04T15:41:19.529Z] [frontend-dev]  GET /profile 200 in 40ms
+[2025-08-04T15:41:19.694Z] [frontend-dev] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T15:41:19.727Z] [frontend-dev]  GET /favicon.ico 200 in 2ms
+[2025-08-04T15:41:24.333Z] [frontend-dev]  GET /favicon.ico 200 in 11ms
+[2025-08-04T15:41:24.813Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:41:24.813Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:41:24.816Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 22ms
+[2025-08-04T15:41:44.192Z] [frontend-dev]  GET /favicon.ico 200 in 4ms
+[2025-08-04T15:41:46.723Z] [frontend-dev]  GET /profile 200 in 15ms
+[2025-08-04T15:41:46.890Z] [frontend-dev] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T15:41:46.923Z] [frontend-dev]  GET /favicon.ico 200 in 3ms
+[2025-08-04T15:41:50.904Z] [frontend-dev]  GET /favicon.ico 200 in 8ms
+[2025-08-04T15:41:51.355Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:41:51.355Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:41:51.357Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 25ms
+[2025-08-04T15:41:52.427Z] [frontend-dev]  GET /favicon.ico 200 in 5ms
+[2025-08-04T15:42:09.172Z] [frontend-dev]  GET /favicon.ico 200 in 5ms
+[2025-08-04T15:42:09.550Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:42:09.551Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:42:09.553Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 27ms
+[2025-08-04T15:42:12.101Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:42:12.174Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:42:17.371Z] [frontend-dev]  GET /favicon.ico 200 in 3ms
+[2025-08-04T15:42:21.087Z] [frontend-dev]  GET /favicon.ico 200 in 3ms
+[2025-08-04T15:42:21.530Z] [frontend-dev] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T15:42:21.531Z] [frontend-dev] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T15:42:21.531Z] [frontend-dev]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 20ms
+[2025-08-04T15:45:25.503Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:45:25.729Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 225ms
+[2025-08-04T15:45:25.813Z] [frontend-dev]  ✓ Compiled in 311ms (2344 modules)
+[2025-08-04T15:45:53.870Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:45:54.067Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 197ms
+[2025-08-04T15:45:54.182Z] [frontend-dev]  ✓ Compiled in 313ms (2344 modules)
+[2025-08-04T15:46:07.578Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:46:07.716Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 137ms
+[2025-08-04T15:46:07.783Z] [frontend-dev]  ✓ Compiled in 206ms (2344 modules)
+[2025-08-04T15:46:19.272Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:46:19.449Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 177ms
+[2025-08-04T15:46:19.562Z] [frontend-dev]  ✓ Compiled in 290ms (2344 modules)
+[2025-08-04T15:46:28.516Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:46:28.653Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 136ms
+[2025-08-04T15:46:28.728Z] [frontend-dev]  ✓ Compiled in 213ms (2346 modules)
+[2025-08-04T15:46:35.056Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:46:35.227Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 171ms
+[2025-08-04T15:46:35.296Z] [frontend-dev]  ✓ Compiled in 241ms (2346 modules)
+[2025-08-04T15:46:48.918Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T15:46:49.094Z] [frontend-dev] [BROWSER] [LOG] [Fast Refresh] done in 176ms
+[2025-08-04T15:46:49.214Z] [frontend-dev]  ✓ Compiled in 297ms (2346 modules)
+[2025-08-04T15:47:49.712Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T15:47:49.809Z] [frontend-dev] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies

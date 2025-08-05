@@ -1,0 +1,48 @@
+[2025-08-04T15:12:25.127Z] Starting: npx ampx sandbox (Process ID: amplify-sandbox)
+[2025-08-04T15:12:27.564Z] [amplify-sandbox]   
+  Amplify Sandbox
+  [2025-08-04T15:12:27.565Z] [amplify-sandbox] 
+  Identifier: 	sammanbhetwal
+  Stack: 	amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa
+  Region: 	us-east-1
+  
+  To specify a different sandbox identifier, use --identifier
+
+[2025-08-04T15:12:27.814Z] [amplify-sandbox] 11:12:27 AM Synthesizing backend...
+[2025-08-04T15:12:28.778Z] [amplify-sandbox] 11:12:28 AM WARNING: owners may reassign ownership for the following model(s) and role(s): AnimeBlogPost: [owner], Comment: [owner]. If this is not intentional, you may want to apply field-level authorization rules to these fields. To read more: https://docs.amplify.aws/cli/graphql/authorization-rules/#per-user--owner-based-data-access.
+11:12:28 AM [2025-08-04T15:12:28.778Z] [amplify-sandbox] 
+[2025-08-04T15:12:29.018Z] [amplify-sandbox] 11:12:29 AM ✔ Backend synthesized in 1.21 seconds[2025-08-04T15:12:29.019Z] [amplify-sandbox] 
+11:12:29 AM Running type checks...
+[2025-08-04T15:12:31.838Z] [amplify-sandbox] 11:12:31 AM ✔ Type checks completed in 2.82 seconds
+[2025-08-04T15:12:31.843Z] [amplify-sandbox] 11:12:31 AM Building and publishing assets...
+[2025-08-04T15:12:34.981Z] [amplify-sandbox] 11:12:34 AM ✔ Built and published assets
+[2025-08-04T15:12:44.764Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:42 AM | UPDATE_IN_PROGRESS | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa User Initiated[2025-08-04T15:12:44.766Z] [amplify-sandbox] 
+[2025-08-04T15:12:46.937Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:45 AM | UPDATE_IN_PROGRESS | AWS::CloudFormation::Stack | auth.NestedStack/auth.NestedStackResource (auth179371D7)
+[2025-08-04T15:12:46.937Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:45 AM | UPDATE_IN_PROGRESS | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:12:46 AM | UPDATE_IN_PROGRESS | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B User Initiated
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   1 | 11:12:46 AM | UPDATE_COMPLETE | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+[2025-08-04T15:12:51.304Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   1 | 11:12:49 AM | UPDATE_IN_PROGRESS | AWS::Cognito::UserPool | auth/amplifyAuth/UserPool (amplifyAuthUserPool4BA7F805)
+[2025-08-04T15:12:51.305Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   1 | 11:12:49 AM | UPDATE_IN_PROGRESS | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:12:50 AM | UPDATE_COMPLETE | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+[2025-08-04T15:12:53.464Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:12:51 AM | UPDATE_FAILED | AWS::Cognito::UserPool | auth/amplifyAuth/UserPool (amplifyAuthUserPool4BA7F805) Resource handler returned message: "Invalid AttributeDataType input, consider using the provided AttributeDataType enum. (Service: CognitoIdentityProvider, Status Code: 400, Request ID: abcef8f3-0b82-4d7f-8590-e721c0e06e08) (SDK Attempt Count: 1)" (RequestToken: 5d3ca0ae-a9c9-3545-5e5a-de5517b0756d, HandlerErrorCode: InvalidRequest)
+[2025-08-04T15:12:53.465Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:12:51 AM | UPDATE_ROLLBACK_IN_PROGRESS | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B The following resource(s) failed to update: [amplifyAuthUserPool4BA7F805].
+[2025-08-04T15:12:57.836Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:56 AM | UPDATE_FAILED | AWS::CloudFormation::Stack | auth.NestedStack/auth.NestedStackResource (auth179371D7) Embedded stack arn:aws:cloudformation:us-east-1:905307302838:stack/amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B/904948d0-6db7-11f0-8ed3-0afffee27add was not successfully updated. Currently in UPDATE_ROLLBACK_IN_PROGRESS with reason: The following resource(s) failed to update: [amplifyAuthUserPool4BA7F805].
+[2025-08-04T15:12:57.836Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:56 AM | UPDATE_ROLLBACK_IN_PROGRESS | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa The following resource(s) failed to update: [auth179371D7].
+[2025-08-04T15:13:00.009Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:59 AM | UPDATE_IN_PROGRESS | AWS::CloudFormation::Stack | auth.NestedStack/auth.NestedStackResource (auth179371D7)[2025-08-04T15:13:00.009Z] [amplify-sandbox] 
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:59 AM | UPDATE_IN_PROGRESS | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+[2025-08-04T15:13:02.175Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   0 | 11:12:59 AM | UPDATE_COMPLETE | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+[2025-08-04T15:13:10.850Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:13:09 AM | UPDATE_IN_PROGRESS | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+[2025-08-04T15:13:10.850Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:13:09 AM | UPDATE_IN_PROGRESS | AWS::Cognito::UserPool | auth/amplifyAuth/UserPool (amplifyAuthUserPool4BA7F805)
+amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   0 | 11:13:10 AM | UPDATE_COMPLETE | AWS::CDK::Metadata | auth/CDKMetadata/Default (CDKMetadata)
+[2025-08-04T15:13:13.041Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   1 | 11:13:11 AM | UPDATE_COMPLETE | AWS::Cognito::UserPool | auth/amplifyAuth/UserPool (amplifyAuthUserPool4BA7F805)
+[2025-08-04T15:13:15.256Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   2 | 11:13:13 AM | UPDATE_ROLLBACK_COMPLETE_CLEANUP_IN_PROGRESS | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B
+[2025-08-04T15:13:21.756Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   3 | 11:13:20 AM | UPDATE_COMPLETE | AWS::CloudFormation::Stack | auth.NestedStack/auth.NestedStackResource (auth179371D7)
+[2025-08-04T15:13:21.757Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   4 | 11:13:21 AM | UPDATE_ROLLBACK_COMPLETE_CLEANUP_IN_PROGRESS | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa
+[2025-08-04T15:13:23.906Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B |   5 | 11:13:23 AM | UPDATE_ROLLBACK_COMPLETE | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B
+[2025-08-04T15:13:33.508Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   4 | 11:13:32 AM | UPDATE_COMPLETE | AWS::CloudFormation::Stack | auth.NestedStack/auth.NestedStackResource (auth179371D7)
+[2025-08-04T15:13:33.508Z] [amplify-sandbox] amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa |   5 | 11:13:33 AM | UPDATE_ROLLBACK_COMPLETE | AWS::CloudFormation::Stack | amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa
+[2025-08-04T15:13:33.521Z] [amplify-sandbox] 11:13:33 AM [ERROR] [CFNUpdateNotSupportedError] User pool attributes cannot be changed after a user pool has been created.
+  ∟ Caused by: [ToolkitError] ❌  amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa failed: ToolkitError: The stack named amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa failed to deploy: UPDATE_ROLLBACK_COMPLETE: Resource handler returned message: "Invalid AttributeDataType input, consider using the provided AttributeDataType enum. (Service: CognitoIdentityProvider, Status Code: 400, Request ID: abcef8f3-0b82-4d7f-8590-e721c0e06e08) (SDK Attempt Count: 1)" (RequestToken: 5d3ca0ae-a9c9-3545-5e5a-de5517b0756d, HandlerErrorCode: InvalidRequest), Embedded stack arn:aws:cloudformation:us-east-1:905307302838:stack/amplify-awsamplifygen2-sammanbhetwal-sandbox-eef5a04faa-auth179371D7-WAZ4OM9CF39B/904948d0-6db7-11f0-8ed3-0afffee27add was not successfully updated. Currently in UPDATE_ROLLBACK_IN_PROGRESS with reason: The following resource(s) failed to update: [amplifyAuthUserPool4BA7F805]. 
+Resolution: To change these attributes, remove `defineAuth` from your backend, deploy, then add it back. Note that removing `defineAuth` and deploying will delete any users stored in your UserPool.[2025-08-04T15:13:33.522Z] [amplify-sandbox] 
+[2025-08-04T15:13:33.522Z] [amplify-sandbox] [Sandbox] We cannot deploy your new changes. You can either revert them or recreate your sandbox with the new changes (deleting all user data)
+[2025-08-04T15:13:33.528Z] [amplify-sandbox] [34m?[39m [1mWould you like to recreate your sandbox (deleting all user data)?[22m [2m(y/N)[22m[75G

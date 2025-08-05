@@ -5,7 +5,7 @@ import { X, Heart, MessageCircle, Eye, Star, Share2 } from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
 import { StorageImage } from '@aws-amplify/ui-react-storage';
 import CommentSection from './blog/CommentSection';
-import { amplifyPostsAPI } from '@/src/services/amplify-api';
+// import { amplifyPostsAPI } from '@/src/services/amplify-api';
 
 interface Post {
   _id: string;
@@ -47,7 +47,7 @@ export function PostModal({ post, isOpen, onClose, currentUserId }: PostModalPro
     if (!currentUserId) return;
     
     try {
-      await amplifyPostsAPI.toggleLike(post._id);
+      // await amplifyPostsAPI.toggleLike(post._id);
       setIsLiked(!isLiked);
       setLikesCount(prev => isLiked ? prev - 1 : prev + 1);
     } catch (error) {

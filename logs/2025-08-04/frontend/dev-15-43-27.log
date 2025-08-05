@@ -1,0 +1,172 @@
+[2025-08-04T19:43:27.981Z] Starting: npm run dev (Process ID: npm-dev154327log)
+[2025-08-04T19:43:28.074Z] [npm-dev154327log] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T19:43:28.402Z] [npm-dev154327log]   ▲ Next.js 14.2.10
+[2025-08-04T19:43:28.402Z] [npm-dev154327log]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-08-04T19:43:29.350Z] [npm-dev154327log]  ✓ Ready in 1003ms
+[2025-08-04T19:51:29.413Z] [npm-dev154327log]  ○ Compiling / ...
+[2025-08-04T19:51:31.919Z] [npm-dev154327log]  ✓ Compiled / in 3s (1642 modules)
+[2025-08-04T19:51:32.031Z] [npm-dev154327log]  GET / 200 in 3127ms
+[2025-08-04T19:51:32.126Z] [npm-dev154327log]  ✓ Compiled in 154ms (812 modules)
+[2025-08-04T19:51:32.398Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:51:33.492Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:52:09.126Z] [npm-dev154327log]  GET / 200 in 41ms
+[2025-08-04T19:52:09.877Z] [npm-dev154327log]  ✓ Compiled /_not-found in 184ms (1622 modules)
+[2025-08-04T19:52:09.944Z] [npm-dev154327log]  GET /icon-192.png 404 in 253ms
+[2025-08-04T19:52:11.145Z] [npm-dev154327log]  ✓ Compiled /login in 260ms (1660 modules)
+[2025-08-04T19:52:11.783Z] [npm-dev154327log]  ○ Compiling /home ...
+[2025-08-04T19:52:12.269Z] [npm-dev154327log]  ✓ Compiled /home in 987ms (2150 modules)
+[2025-08-04T19:52:12.358Z] [npm-dev154327log]  GET /icon-192.png 404 in 1073ms
+[2025-08-04T19:52:12.528Z] [npm-dev154327log] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2025-08-04T19:52:12.531Z] [npm-dev154327log] [ERROR]  ⨯ TypeError: Cannot read properties of null (reading 'useState')
+    at eval (./app/home/page.tsx:43:92)
+    at (ssr)/./app/home/page.tsx (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/home/page.js:151:1)
+    at Object.__webpack_require__ [as require] (/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/webpack-runtime.js:33:42)
+[2025-08-04T19:52:12.531Z] [npm-dev154327log] [ERROR] digest: "3699437301"
+[2025-08-04T19:52:12.573Z] [npm-dev154327log]  GET /home 500 in 95ms
+[2025-08-04T19:52:13.528Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:52:35.311Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 18ms
+[2025-08-04T19:52:59.084Z] [npm-dev154327log]  ✓ Compiled in 269ms (2164 modules)
+[2025-08-04T19:52:59.185Z] [npm-dev154327log] [ERROR]  ⨯ app/home/page.tsx (212:49) @ communityPosts
+[2025-08-04T19:52:59.185Z] [npm-dev154327log] [ERROR]  ⨯ ReferenceError: communityPosts is not defined
+    at HomePage (./app/home/page.tsx:234:31)
+digest: "4179880838"
+[0m [90m 210 |[39m   }[0m
+[0m [90m 211 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 212 |[39m   [36mconst[39m allTags [33m=[39m [[32m'all'[39m[33m,[39m [33m...[39m[33mArray[39m[33m.[39m[36mfrom[39m([36mnew[39m [33mSet[39m(communityPosts[33m.[39mflatMap(post [33m=>[39m post[33m.[39mtags)))][0m
+[0m [90m     |[39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 213 |[39m[0m
+[0m [90m 214 |[39m   [36mconst[39m filteredPosts [33m=[39m communityPosts[0m
+[0m [90m 215 |[39m     [33m.[39mfilter(post [33m=>[39m {[0m
+[2025-08-04T19:52:59.195Z] [npm-dev154327log]  GET /home 500 in 102ms
+[2025-08-04T19:52:59.255Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 30ms
+[2025-08-04T19:53:15.646Z] [npm-dev154327log]  ✓ Compiled in 244ms (2154 modules)
+[2025-08-04T19:53:15.702Z] [npm-dev154327log]  GET /home 200 in 47ms
+[2025-08-04T19:53:15.713Z] [npm-dev154327log] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-04T19:53:15.778Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 24ms
+[2025-08-04T19:53:16.947Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:53:46.609Z] [npm-dev154327log] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-04T19:53:46.669Z] [npm-dev154327log]  ✓ Compiled in 289ms (2140 modules)
+[2025-08-04T19:53:46.813Z] [npm-dev154327log]  GET /home 200 in 198ms
+[2025-08-04T19:53:46.887Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 32ms
+[2025-08-04T19:53:47.699Z] [npm-dev154327log]  GET /icon-192.png 404 in 19ms
+[2025-08-04T19:53:58.542Z] [npm-dev154327log]  ✓ Compiled in 222ms (2140 modules)
+[2025-08-04T19:53:58.691Z] [npm-dev154327log]  GET /icon-192.png 404 in 39ms
+[2025-08-04T19:54:15.491Z] [npm-dev154327log]  ✓ Compiled in 158ms (2126 modules)
+[2025-08-04T19:54:23.275Z] [npm-dev154327log]  GET /home 200 in 97ms
+[2025-08-04T19:54:29.612Z] [npm-dev154327log]  GET /api/health 404 in 17ms
+[2025-08-04T19:55:16.045Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:55:16.069Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:55:23.917Z] [npm-dev154327log]  ✓ Compiled /messages in 214ms (2136 modules)
+[2025-08-04T19:55:24.020Z] [npm-dev154327log]  GET /icon-192.png 404 in 25ms
+[2025-08-04T19:55:26.902Z] [npm-dev154327log]  ✓ Compiled /shop in 200ms (2150 modules)
+[2025-08-04T19:55:27.011Z] [npm-dev154327log]  GET /icon-192.png 404 in 26ms
+[2025-08-04T19:55:33.467Z] [npm-dev154327log]  ✓ Compiled /profile in 175ms (2156 modules)
+[2025-08-04T19:55:33.595Z] [npm-dev154327log]  GET /icon-192.png 404 in 41ms
+[2025-08-04T19:55:36.893Z] [npm-dev154327log]  ✓ Compiled /explore in 200ms (2162 modules)
+[2025-08-04T19:55:36.984Z] [npm-dev154327log]  GET /icon-192.png 404 in 24ms
+[2025-08-04T19:55:40.225Z] [npm-dev154327log]  GET /icon-192.png 404 in 22ms
+[2025-08-04T19:56:37.470Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:56:37.486Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:57:05.067Z] [npm-dev154327log]  GET /home 200 in 82ms
+[2025-08-04T19:57:05.548Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T19:57:08.335Z] [npm-dev154327log]  ✓ Compiled / in 199ms (1097 modules)
+[2025-08-04T19:57:08.476Z] [npm-dev154327log]  GET /icon-192.png 404 in 48ms
+[2025-08-04T19:57:09.651Z] [npm-dev154327log]  ✓ Compiled /login in 167ms (1111 modules)
+[2025-08-04T19:57:09.801Z] [npm-dev154327log]  GET /icon-192.png 404 in 40ms
+[2025-08-04T19:57:12.340Z] [npm-dev154327log]  ✓ Compiled /signup in 298ms (2199 modules)
+[2025-08-04T19:57:12.470Z] [npm-dev154327log]  GET /icon-192.png 404 in 33ms
+[2025-08-04T19:57:44.829Z] [npm-dev154327log]  ✓ Compiled in 176ms (1094 modules)
+[2025-08-04T19:57:57.123Z] [npm-dev154327log]  ✓ Compiled in 115ms (1094 modules)
+[2025-08-04T19:58:07.873Z] [npm-dev154327log]  ✓ Compiled /create in 297ms (2207 modules)
+[2025-08-04T19:58:08.028Z] [npm-dev154327log]  GET /icon-192.png 404 in 46ms
+[2025-08-04T19:58:08.089Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T19:58:37.561Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T19:58:57.893Z] [npm-dev154327log]  GET /icon-192.png 404 in 20ms
+[2025-08-04T19:59:08.365Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:59:08.437Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T19:59:21.485Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T19:59:35.722Z] [npm-dev154327log]  GET /home 200 in 61ms
+[2025-08-04T19:59:36.227Z] [npm-dev154327log]  GET /icon-192.png 404 in 13ms
+[2025-08-04T20:00:00.977Z] [npm-dev154327log]  GET /home 200 in 32ms
+[2025-08-04T20:00:01.323Z] [npm-dev154327log]  GET /icon-192.png 404 in 11ms
+[2025-08-04T20:00:09.602Z] [npm-dev154327log]  GET /icon-192.png 404 in 16ms
+[2025-08-04T20:00:11.164Z] [npm-dev154327log]  GET /icon-192.png 404 in 14ms
+[2025-08-04T20:00:12.942Z] [npm-dev154327log]  GET /icon-192.png 404 in 13ms
+[2025-08-04T20:00:45.910Z] [npm-dev154327log]  GET /icon-192.png 404 in 27ms
+[2025-08-04T20:01:18.781Z] [npm-dev154327log]  GET /icon-192.png 404 in 28ms
+[2025-08-04T20:02:55.914Z] [npm-dev154327log]  GET /icon-192.png 404 in 24ms
+[2025-08-04T20:03:00.024Z] [npm-dev154327log]  GET /icon-192.png 404 in 17ms
+[2025-08-04T20:05:55.058Z] [npm-dev154327log]  GET /home 200 in 38ms
+[2025-08-04T20:05:55.535Z] [npm-dev154327log]  GET /icon-192.png 404 in 16ms
+[2025-08-04T20:05:56.164Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T20:05:56.316Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T20:05:56.467Z] [npm-dev154327log]  GET /icon-192.png 404 in 18ms
+[2025-08-04T20:05:56.601Z] [npm-dev154327log]  GET /icon-192.png 404 in 20ms
+[2025-08-04T20:07:21.754Z] [npm-dev154327log]  GET /icon-192.png 404 in 27ms
+[2025-08-04T20:08:06.877Z] [npm-dev154327log]  GET /icon-192.png 404 in 24ms
+[2025-08-04T20:08:50.839Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 23ms
+[2025-08-04T20:09:09.669Z] [npm-dev154327log]  ✓ Compiled in 252ms (2185 modules)
+[2025-08-04T20:09:28.601Z] [npm-dev154327log]  ✓ Compiled in 187ms (2185 modules)
+[2025-08-04T20:10:27.102Z] [npm-dev154327log]  ✓ Compiled / in 143ms (1108 modules)
+[2025-08-04T20:10:27.218Z] [npm-dev154327log]  GET / 200 in 266ms
+[2025-08-04T20:10:29.057Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:10:56.557Z] [npm-dev154327log]  ✓ Compiled in 301ms (2206 modules)
+[2025-08-04T20:11:57.081Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:11:57.183Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:17:18.570Z] [npm-dev154327log]  ✓ Compiled in 452ms (2196 modules)
+[2025-08-04T20:17:34.644Z] [npm-dev154327log]  ✓ Compiled in 164ms (2182 modules)
+[2025-08-04T20:17:35.600Z] [npm-dev154327log]  ✓ Compiled /_not-found in 382ms (2185 modules)
+[2025-08-04T20:17:35.765Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 550ms
+[2025-08-04T20:18:02.744Z] [npm-dev154327log]  ✓ Compiled in 180ms (1100 modules)
+[2025-08-04T20:18:07.690Z] [npm-dev154327log]  ✓ Compiled in 140ms (1100 modules)
+[2025-08-04T20:18:07.957Z] [npm-dev154327log]  ✓ Compiled in 204ms (2199 modules)
+[2025-08-04T20:18:14.696Z] [npm-dev154327log]  ✓ Compiled in 203ms (2199 modules)
+[2025-08-04T20:18:23.065Z] [npm-dev154327log]  ✓ Compiled in 300ms (2199 modules)
+[2025-08-04T20:18:31.067Z] [npm-dev154327log]  ✓ Compiled in 316ms (2199 modules)
+[2025-08-04T20:19:09.286Z] [npm-dev154327log]  ✓ Compiled in 235ms (2182 modules)
+[2025-08-04T20:20:02.381Z] [npm-dev154327log]  GET /login 200 in 150ms
+[2025-08-04T20:20:04.045Z] [npm-dev154327log]  ✓ Compiled /create-profile in 284ms (2193 modules)
+[2025-08-04T20:20:24.649Z] [npm-dev154327log]  ✓ Compiled / in 146ms (1111 modules)
+[2025-08-04T20:20:24.743Z] [npm-dev154327log]  GET / 200 in 249ms
+[2025-08-04T20:20:34.576Z] [npm-dev154327log]  GET / 200 in 43ms
+[2025-08-04T20:20:35.798Z] [npm-dev154327log]  GET /login 200 in 49ms
+[2025-08-04T20:20:45.587Z] [npm-dev154327log]  ✓ Compiled /_not-found in 252ms (2202 modules)
+[2025-08-04T20:20:45.656Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 324ms
+[2025-08-04T20:21:46.410Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:21:46.714Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:21:46.754Z] [npm-dev154327log]  ✓ Compiled in 761ms (2206 modules)
+[2025-08-04T20:21:57.900Z] [npm-dev154327log]  ✓ Compiled in 288ms (2203 modules)
+[2025-08-04T20:22:12.160Z] [npm-dev154327log]  ✓ Compiled in 222ms (2203 modules)
+[2025-08-04T20:22:53.851Z] [npm-dev154327log]  ✓ Compiled in 311ms (2189 modules)
+[2025-08-04T20:23:54.405Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:23:54.562Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:24:46.279Z] [npm-dev154327log]  GET /create-profile 200 in 120ms
+[2025-08-04T20:24:51.466Z] [npm-dev154327log]  ✓ Compiled / in 171ms (1111 modules)
+[2025-08-04T20:24:51.555Z] [npm-dev154327log]  GET / 200 in 264ms
+[2025-08-04T20:24:52.249Z] [npm-dev154327log]  GET /login 200 in 41ms
+[2025-08-04T20:25:03.284Z] [npm-dev154327log]  ✓ Compiled /_not-found in 256ms (2202 modules)
+[2025-08-04T20:25:03.358Z] [npm-dev154327log]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 334ms
+[2025-08-04T20:26:03.989Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:26:04.041Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:26:34.728Z] [npm-dev154327log]  ✓ Compiled /_not-found in 411ms (2181 modules)
+[2025-08-04T20:26:34.803Z] [npm-dev154327log]  GET /create-profile 404 in 37ms
+[2025-08-04T20:26:40.015Z] [npm-dev154327log]  ✓ Compiled in 123ms (1100 modules)
+[2025-08-04T20:26:40.065Z] [npm-dev154327log]  GET /create-profile 404 in 17ms
+[2025-08-04T20:26:51.273Z] [npm-dev154327log]  ✓ Compiled in 323ms (2195 modules)
+[2025-08-04T20:26:51.366Z] [npm-dev154327log]  GET /create-profile 404 in 44ms
+[2025-08-04T20:26:59.863Z] [npm-dev154327log]  ✓ Compiled in 222ms (2195 modules)
+[2025-08-04T20:27:08.696Z] [npm-dev154327log]  ✓ Compiled in 266ms (2195 modules)
+[2025-08-04T20:28:09.265Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:28:09.363Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:29:01.254Z] [npm-dev154327log]  ✓ Compiled in 282ms (2178 modules)
+[2025-08-04T20:30:01.804Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T20:30:01.914Z] [npm-dev154327log] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies

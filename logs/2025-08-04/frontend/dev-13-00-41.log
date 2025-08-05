@@ -1,0 +1,297 @@
+[2025-08-04T17:00:41.701Z] Starting: npm run dev (Process ID: frontend-with-browser)
+[2025-08-04T17:00:41.701Z] [frontend-with-browser] ✅ Starting development server...
+[2025-08-04T17:00:41.808Z] [frontend-with-browser] 
+> aws-amplify-gen2@0.1.0 dev
+> next dev
+
+[2025-08-04T17:00:42.107Z] [frontend-with-browser]   ▲ Next.js 14.2.10
+[2025-08-04T17:00:42.107Z] [frontend-with-browser]   - Local:        http://localhost:3000
+
+ ✓ Starting...
+[2025-08-04T17:00:42.107Z] [frontend-with-browser] ✅ Server ready on http://localhost:3000
+[2025-08-04T17:00:42.107Z] [frontend-with-browser] ⏳ Waiting 1000ms before launching browser...
+[2025-08-04T17:00:43.029Z] [frontend-with-browser]  ✓ Ready in 977ms
+[2025-08-04T17:00:43.108Z] [frontend-with-browser] ✅ Launching test browser...
+[2025-08-04T17:00:44.386Z] [frontend-with-browser]  ○ Compiling / ...
+[2025-08-04T17:00:46.359Z] [frontend-with-browser]  ✓ Compiled / in 2.6s (1763 modules)
+[2025-08-04T17:00:46.565Z] [frontend-with-browser]  GET / 200 in 2830ms
+[2025-08-04T17:00:46.617Z] [frontend-with-browser] [BROWSER] Console capture started for http://localhost:3000
+[2025-08-04T17:00:46.618Z] [frontend-with-browser] 
+🎯 TEST BROWSER LAUNCHED!
+
+👉 Use the browser window that just opened (with green banner)
+📝 All console logs are being saved
+🔍 DevTools is open for debugging
+⚠️  Errors will flash red on screen
+
+Happy debugging! 🚀
+
+[2025-08-04T17:00:46.677Z] [frontend-with-browser] [BROWSER] [PAGE ERROR] Invalid or unexpected token
+
+[2025-08-04T17:00:46.806Z] [frontend-with-browser]  ✓ Compiled /_not-found in 399ms (1743 modules)
+[2025-08-04T17:00:46.873Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 386ms
+[2025-08-04T17:00:47.000Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:00:47.164Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 108ms (938 modules)
+[2025-08-04T17:00:47.203Z] [frontend-with-browser]  GET /favicon.ico 200 in 148ms
+[2025-08-04T17:00:48.230Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:00:48.512Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:01:07.225Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 66ms
+[2025-08-04T17:01:23.901Z] [frontend-with-browser]  ✓ Compiled /login in 410ms (1832 modules)
+[2025-08-04T17:01:23.999Z] [frontend-with-browser]  GET /login 200 in 510ms
+[2025-08-04T17:01:24.023Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:01:24.041Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 25ms
+[2025-08-04T17:01:24.216Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-04T17:01:24.303Z] [frontend-with-browser]  GET /favicon.ico 200 in 10ms
+[2025-08-04T17:01:38.703Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:01:38.705Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:01:38.708Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Incorrect username or password.
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordVerifierChallenge (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/utils/handlePasswordVerifierChallenge.mjs:90:22)
+    at async retryOnResourceNotFoundException (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/utils/retryOnResourceNotFoundException.mjs:17:16)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:01:49.982Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:01:49.983Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:01:49.987Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Password attempts exceeded
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/client/flows/shared/handlePasswordSRP.mjs:82:18)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:01:57.830Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:01:57.830Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:01:57.832Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Password attempts exceeded
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/client/flows/shared/handlePasswordSRP.mjs:82:18)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:02:15.680Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:02:15.680Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:02:15.682Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Password attempts exceeded
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/client/flows/shared/handlePasswordSRP.mjs:82:18)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:02:24.290Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:02:24.386Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:02:26.861Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:02:26.862Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:02:26.863Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Password attempts exceeded
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/client/flows/shared/handlePasswordSRP.mjs:82:18)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:03:23.868Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:03:23.869Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:03:23.872Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Incorrect username or password.
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordVerifierChallenge (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/utils/handlePasswordVerifierChallenge.mjs:90:22)
+    at async retryOnResourceNotFoundException (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/utils/retryOnResourceNotFoundException.mjs:17:16)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:03:32.389Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:03:32.390Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:03:32.393Z] [frontend-with-browser] [BROWSER] [ERROR] Sign in error: NotAuthorizedException: Incorrect username or password.
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/foundation/factories/serviceClients/cognitoIdentityProvider/shared/serde/createUserPoolDeserializer.mjs:18:15)
+    at async handlePasswordVerifierChallenge (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/utils/handlePasswordVerifierChallenge.mjs:90:22)
+    at async retryOnResourceNotFoundException (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/utils/retryOnResourceNotFoundException.mjs:17:16)
+    at async signInWithSRP (webpack-internal:///(app-pages-browser)/./node_modules/@aws-amplify/auth/dist/esm/providers/cognito/apis/signInWithSRP.mjs:58:138)
+    at async handleSubmit (webpack-internal:///(app-pages-browser)/./components/auth/Login.tsx:41:36)
+[2025-08-04T17:03:56.694Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:03:56.894Z] [frontend-with-browser]  ✓ Compiled /signup in 252ms (1801 modules)
+[2025-08-04T17:03:56.943Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 249ms
+[2025-08-04T17:03:57.089Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 54ms (966 modules)
+[2025-08-04T17:03:57.103Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:03:57.103Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:03:57.132Z] [frontend-with-browser]  GET /favicon.ico 200 in 98ms
+[2025-08-04T17:04:30.241Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:04:30.241Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:04:41.264Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 400  - https://cognito-idp.us-east-1.amazonaws.com/
+[2025-08-04T17:04:41.265Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 400 ()
+[2025-08-04T17:04:57.320Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:04:57.502Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:05:11.874Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:05:11.927Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:05:25.271Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:05:25.747Z] [frontend-with-browser]  ○ Compiling /home ...
+[2025-08-04T17:05:26.148Z] [frontend-with-browser]  ✓ Compiled /home in 924ms (2348 modules)
+[2025-08-04T17:05:26.190Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 919ms
+[2025-08-04T17:05:26.336Z] [frontend-with-browser]  GET /favicon.ico 200 in 7ms
+[2025-08-04T17:05:27.393Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:05:27.471Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 78ms
+[2025-08-04T17:05:27.552Z] [frontend-with-browser]  ✓ Compiled /_not-found in 166ms (2351 modules)
+[2025-08-04T17:05:27.618Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg
+[2025-08-04T17:05:27.619Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:05:27.620Z] [frontend-with-browser]  GET /blog-images/046824a8-20a1-70a6-7a5f-1e50456cba48/1753930957026__.jpg 404 in 239ms
+[2025-08-04T17:05:42.740Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:05:42.938Z] [frontend-with-browser]  ✓ Compiled /profile in 251ms (2357 modules)
+[2025-08-04T17:05:42.967Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 227ms
+[2025-08-04T17:05:43.045Z] [frontend-with-browser]  GET /favicon.ico 200 in 9ms
+[2025-08-04T17:06:43.456Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:06:43.505Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+[2025-08-04T17:12:10.712Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-04T17:12:11.223Z] [frontend-with-browser]  ○ Compiling /_error ...
+[2025-08-04T17:12:11.261Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 549ms
+[2025-08-04T17:12:11.416Z] [frontend-with-browser]  ✓ Compiled /_error in 706ms (2551 modules)
+[2025-08-04T17:12:11.460Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/home?_rsc=qzsvp
+[2025-08-04T17:12:11.460Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:11.585Z] [frontend-with-browser]  GET /home 200 in 62ms
+[2025-08-04T17:12:11.617Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754327531525 404 in 25ms
+[2025-08-04T17:12:11.617Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 24ms
+[2025-08-04T17:12:11.618Z] [frontend-with-browser]  GET /_next/static/chunks/app/home/page.js 404 in 24ms
+ GET /_next/static/chunks/app/layout.js 404 in 25ms
+[2025-08-04T17:12:11.618Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1754327531525
+[2025-08-04T17:12:11.618Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:11.619Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-04T17:12:11.619Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:11.620Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/home/page.js
+[2025-08-04T17:12:11.620Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:11.620Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-04T17:12:11.620Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:11.701Z] [frontend-with-browser]  ✓ Compiled /favicon.ico in 81ms (1270 modules)
+[2025-08-04T17:12:11.738Z] [frontend-with-browser]  GET /favicon.ico 200 in 118ms
+[2025-08-04T17:12:17.600Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 52ms
+[2025-08-04T17:12:22.300Z] [frontend-with-browser]  GET /home 200 in 48ms
+[2025-08-04T17:12:22.335Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 28ms
+[2025-08-04T17:12:22.343Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 30ms
+[2025-08-04T17:12:22.344Z] [frontend-with-browser]  GET /_next/static/chunks/app/home/page.js 404 in 30ms
+ GET /_next/static/chunks/main-app.js?v=1754327542260 404 in 33ms
+[2025-08-04T17:12:22.345Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-04T17:12:22.345Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:22.346Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 25ms
+[2025-08-04T17:12:22.346Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/home/page.js
+[2025-08-04T17:12:22.346Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:22.347Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1754327542260
+[2025-08-04T17:12:22.347Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:22.347Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-04T17:12:22.347Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:22.350Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:12:25.802Z] [frontend-with-browser]  GET /home 200 in 16ms
+[2025-08-04T17:12:25.832Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 22ms
+[2025-08-04T17:12:25.842Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 25ms
+[2025-08-04T17:12:25.843Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754327545789 404 in 27ms
+[2025-08-04T17:12:25.844Z] [frontend-with-browser]  GET /_next/static/chunks/app/home/page.js 404 in 26ms
+ GET /_next/static/chunks/app/layout.js 404 in 24ms
+[2025-08-04T17:12:25.845Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-04T17:12:25.845Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:25.845Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1754327545789
+[2025-08-04T17:12:25.845Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:25.846Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/home/page.js
+[2025-08-04T17:12:25.846Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:25.846Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-04T17:12:25.846Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:25.849Z] [frontend-with-browser]  GET /favicon.ico 200 in 4ms
+[2025-08-04T17:12:30.468Z] [frontend-with-browser]  GET /login 200 in 28ms
+[2025-08-04T17:12:30.483Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:12:30.513Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 38ms
+[2025-08-04T17:12:30.529Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754327550446 404 in 48ms
+[2025-08-04T17:12:30.529Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 48ms
+[2025-08-04T17:12:30.529Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/login/page.js 404 in 47ms
+[2025-08-04T17:12:30.530Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 35ms
+[2025-08-04T17:12:30.532Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/layout.js 404 in 37ms
+[2025-08-04T17:12:30.532Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1754327550446
+[2025-08-04T17:12:30.532Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:30.532Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-04T17:12:30.532Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:30.533Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/(auth)/login/page.js
+[2025-08-04T17:12:30.533Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:30.533Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-04T17:12:30.533Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:30.533Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/(auth)/layout.js
+[2025-08-04T17:12:30.533Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:30.536Z] [frontend-with-browser]  GET /favicon.ico 200 in 3ms
+[2025-08-04T17:12:43.539Z] [frontend-with-browser]  GET /login? 200 in 17ms
+[2025-08-04T17:12:43.560Z] [frontend-with-browser] [BROWSER] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2025-08-04T17:12:43.589Z] [frontend-with-browser]  GET /.well-known/appspecific/com.chrome.devtools.json 404 in 31ms
+[2025-08-04T17:12:43.602Z] [frontend-with-browser]  GET /_next/static/chunks/webpack.js?v=1754327563526 404 in 49ms
+[2025-08-04T17:12:43.603Z] [frontend-with-browser]  GET /_next/static/chunks/app-pages-internals.js 404 in 40ms
+[2025-08-04T17:12:43.604Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/webpack.js?v=1754327563526
+[2025-08-04T17:12:43.604Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:43.605Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-04T17:12:43.605Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:43.605Z] [frontend-with-browser]  GET /_next/static/chunks/main-app.js?v=1754327563526 404 in 41ms
+ GET /_next/static/chunks/app/(auth)/login/page.js 404 in 38ms
+[2025-08-04T17:12:43.606Z] [frontend-with-browser]  GET /_next/static/chunks/app/(auth)/layout.js 404 in 32ms
+[2025-08-04T17:12:43.606Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1754327563526
+[2025-08-04T17:12:43.606Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:43.607Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/(auth)/login/page.js
+[2025-08-04T17:12:43.607Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:43.607Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/(auth)/layout.js
+[2025-08-04T17:12:43.607Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:43.615Z] [frontend-with-browser]  GET /_next/static/chunks/app/layout.js 404 in 15ms
+[2025-08-04T17:12:43.618Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-04T17:12:43.618Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-04T17:12:43.624Z] [frontend-with-browser]  GET /favicon.ico 200 in 6ms
+[2025-08-04T17:13:11.637Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app'
+[2025-08-04T17:13:11.640Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/home/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/home/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/home/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/home/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/home/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T17:13:11.640Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/(auth)/login/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/(auth)/login/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/(auth)/login/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/(auth)/login/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/(auth)/login/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T17:13:11.640Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+[2025-08-04T17:13:11.802Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app'
+[2025-08-04T17:13:11.804Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/home/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/home/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/home/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/home/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/home/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+[2025-08-04T17:13:11.804Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/(auth)/login/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/(auth)/login/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/(auth)/login/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/(auth)/login/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/(auth)/login/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+[2025-08-04T17:13:11.804Z] [frontend-with-browser] [ERROR] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/require.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /Users/sammanbhetwal/Documents/Repos/CHI/Samman-1st-Amplify-App/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
