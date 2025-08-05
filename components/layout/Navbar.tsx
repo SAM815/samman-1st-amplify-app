@@ -3,8 +3,36 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter, usePathname } from 'next/navigation'
-import { signOut, getCurrentUser } from 'aws-amplify/auth'
+import { signOut, getCurrentUser, fetchUserAttributes } from 'aws-amplify/auth'
 import { APP_NAME } from '@/lib/utils/constants'
+
+// Helper function to check if a string is a UUID
+const isUUID = (str: string): boolean => {
+  const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+  return uuidRegex.test(str)
+}
+
+// Helper function to get a user-friendly display name
+const getDisplayName = (attributes: any, user: any): string => {
+  // If there's a preferred username, use it
+  if (attributes?.preferred_username) {
+    return attributes.preferred_username
+  }
+  
+  // If user has an email, create a display name from email
+  if (attributes?.email) {
+    const emailPrefix = attributes.email.split('@')[0]
+    return emailPrefix
+  }
+  
+  // If username is not a UUID, use it
+  if (user?.username && !isUUID(user.username)) {
+    return user.username
+  }
+  
+  // Default fallback
+  return 'User'
+}
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -19,7 +47,9 @@ const Navbar = () => {
   const checkUser = async () => {
     try {
       const user = await getCurrentUser()
-      setUserName(user.username)
+      const userAttributes = await fetchUserAttributes()
+      const displayName = getDisplayName(userAttributes, user)
+      setUserName(displayName)
     } catch (error) {
       console.error('Error fetching user:', error)
     }
@@ -37,6 +67,8 @@ const Navbar = () => {
   const navLinks = [
     { href: '/home', label: 'Home' },
     { href: '/explore', label: 'Explore' },
+    { href: '/messages', label: 'Messages' },
+    { href: '/shop', label: 'Shop' },
     { href: '/profile', label: 'Profile' },
   ]
 
