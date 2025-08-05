@@ -3,12 +3,23 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { getCurrentUser } from 'aws-amplify/auth'
+import { getCurrentUser, fetchUserAttributes } from 'aws-amplify/auth'
+import { Amplify } from 'aws-amplify'
+import { generateClient } from 'aws-amplify/api'
+import outputs from '@/amplify_outputs.json'
+import type { Schema } from '@/amplify/data/resource'
 import Navbar from '@/components/layout/Navbar'
 import BlogPostCard from '@/components/blog/BlogPostCard'
 import BlogPostModal from '@/components/blog/BlogPostModal'
 import AnimeQuotes from '@/components/home/AnimeQuotes'
 import { PenSquare, BookOpen, TrendingUp, Clock, Filter } from 'lucide-react'
+import toast from 'react-hot-toast'
+
+// Configure Amplify
+Amplify.configure(outputs)
+
+// Generate the client after configuration
+const client = generateClient<Schema>()
 
 interface BlogPost {
   id: string
@@ -27,118 +38,16 @@ interface BlogPost {
   likes: number
   comments: number
   isUserPost?: boolean
+  isLikedByUser?: boolean
 }
-
-const mockBlogPosts: BlogPost[] = [
-  {
-    id: '1',
-    title: 'Why Attack on Titan\'s Final Season is a Masterpiece',
-    excerpt: 'An in-depth analysis of the storytelling, character development, and thematic brilliance that makes the final season of Attack on Titan one of the greatest anime conclusions ever...',
-    author: {
-      name: 'Sarah Chen',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah'
-    },
-    animeName: 'Attack on Titan',
-    rating: 10,
-    coverImage: 'https://images.unsplash.com/photo-1601850494422-3cf14624b0b3?w=800&h=400&fit=crop',
-    tags: ['Analysis', 'Shonen', 'Dark Fantasy', 'Character Study'],
-    publishedAt: '2 days ago',
-    readTime: 12,
-    likes: 342,
-    comments: 67
-  },
-  {
-    id: '2',
-    title: 'The Philosophy of Death Note: Light vs L',
-    excerpt: 'Exploring the moral complexities and philosophical debates at the heart of Death Note. Is Light a hero or villain? Let\'s dive deep into the psychology of these genius characters...',
-    author: {
-      name: 'Alex Kumar',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Alex'
-    },
-    animeName: 'Death Note',
-    rating: 9,
-    coverImage: 'https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=800&h=400&fit=crop',
-    tags: ['Psychological', 'Thriller', 'Philosophy', 'Review'],
-    publishedAt: '1 week ago',
-    readTime: 15,
-    likes: 523,
-    comments: 128
-  },
-  {
-    id: '3',
-    title: 'One Piece Episode 1000: A Journey Worth Taking',
-    excerpt: 'Celebrating 1000 episodes of adventure, friendship, and dreams. From East Blue to Wano, here\'s why One Piece remains the king of long-running shonen anime...',
-    author: {
-      name: 'Maria Rodriguez',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Maria'
-    },
-    animeName: 'One Piece',
-    rating: 9,
-    coverImage: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&h=400&fit=crop',
-    tags: ['Adventure', 'Shonen', 'Milestone', 'Review'],
-    publishedAt: '3 days ago',
-    readTime: 8,
-    likes: 891,
-    comments: 234
-  },
-  {
-    id: '4',
-    title: 'Demon Slayer: The Art of Visual Storytelling',
-    excerpt: 'How Ufotable\'s stunning animation and Koyoharu Gotouge\'s emotional narrative combine to create one of the most visually spectacular anime of the decade...',
-    author: {
-      name: 'James Wilson',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=James'
-    },
-    animeName: 'Demon Slayer',
-    rating: 8,
-    coverImage: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=400&fit=crop',
-    tags: ['Animation', 'Action', 'Visual Analysis', 'Ufotable'],
-    publishedAt: '5 days ago',
-    readTime: 10,
-    likes: 456,
-    comments: 89
-  },
-  {
-    id: '5',
-    title: 'My Hero Academia: Deku\'s Journey from Zero to Hero',
-    excerpt: 'Tracking the incredible character development of Izuku Midoriya and how his journey embodies the true meaning of heroism in modern anime...',
-    author: {
-      name: 'Emily Zhang',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Emily'
-    },
-    animeName: 'My Hero Academia',
-    rating: 8,
-    coverImage: 'https://images.unsplash.com/photo-1560707303-4e980ce876ad?w=800&h=400&fit=crop',
-    tags: ['Superhero', 'Character Development', 'Shonen', 'Review'],
-    publishedAt: '1 day ago',
-    readTime: 11,
-    likes: 267,
-    comments: 45
-  },
-  {
-    id: '6',
-    title: 'Steins;Gate: A Time Travel Masterpiece Explained',
-    excerpt: 'Breaking down the complex timeline, scientific concepts, and emotional core of Steins;Gate. Why this anime stands as the pinnacle of sci-fi storytelling...',
-    author: {
-      name: 'David Park',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David'
-    },
-    animeName: 'Steins;Gate',
-    rating: 10,
-    coverImage: 'https://images.unsplash.com/photo-1533709752211-118fcaf03312?w=800&h=400&fit=crop',
-    tags: ['Sci-Fi', 'Time Travel', 'Analysis', 'Thriller'],
-    publishedAt: '4 days ago',
-    readTime: 18,
-    likes: 612,
-    comments: 156
-  }
-]
 
 export default function HomePage() {
   const router = useRouter()
   const [loading, setLoading] = useState(true)
   const [userName, setUserName] = useState('')
+  const [userId, setUserId] = useState('')
   const [userPosts, setUserPosts] = useState<BlogPost[]>([])
+  const [communityPosts, setCommunityPosts] = useState<BlogPost[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedTag, setSelectedTag] = useState('all')
   const [sortBy, setSortBy] = useState('recent')
@@ -149,21 +58,269 @@ export default function HomePage() {
     checkAuth()
   }, [])
 
+  const fetchCommunityPosts = async () => {
+    try {
+      const user = await getCurrentUser()
+      const response = await client.models.AnimeBlogPost.list({
+        authMode: 'userPool'
+      })
+      
+      // Filter out current user's posts (handle null owners and null posts)
+      const otherPosts = response.data?.filter(post => post && post.owner && post.owner !== user.userId) || []
+      
+      // For each post, check if current user has liked it
+      const postsWithLikeStatus = await Promise.all(
+        otherPosts.map(async (post) => {
+          // Check if user liked this post
+          const userLikeResponse = await client.models.PostLike.list({
+            filter: {
+              postId: { eq: post.id },
+              userId: { eq: user.userId }
+            },
+            authMode: 'userPool'
+          })
+          
+          // Get comment count
+          const commentsResponse = await client.models.Comment.list({
+            filter: { postId: { eq: post.id } },
+            authMode: 'userPool'
+          })
+          
+          return {
+            id: post.id,
+            title: post.title || '',
+            excerpt: post.content?.substring(0, 150) + '...' || '',
+            fullContent: post.content || '',
+            author: {
+              name: post.authorName || 'Anonymous',
+              avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${post.authorName || 'Anonymous'}`
+            },
+            animeName: post.anime || '',
+            rating: post.rating || 0,
+            coverImage: post.images?.[0] || '',
+            tags: post.tags || [],
+            publishedAt: new Date(post.createdAt || '').toLocaleDateString(),
+            readTime: Math.ceil((post.content?.length || 0) / 200),
+            likes: post.likesCount || 0,
+            comments: commentsResponse.data?.length || 0,
+            isLikedByUser: (userLikeResponse.data?.length || 0) > 0,
+            isUserPost: false
+          }
+        })
+      )
+      
+      setCommunityPosts(postsWithLikeStatus)
+    } catch (error) {
+      console.error('Error fetching community posts:', error)
+    }
+  }
+
+  const handleLikePost = async (postId: string, isCurrentlyLiked: boolean) => {
+    try {
+      const user = await getCurrentUser()
+      const userAttributes = await fetchUserAttributes()
+      const displayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0]
+      
+      if (isCurrentlyLiked) {
+        // Unlike: Remove like from database
+        const existingLike = await client.models.PostLike.list({
+          filter: {
+            postId: { eq: postId },
+            userId: { eq: user.userId }
+          },
+          authMode: 'userPool'
+        })
+        
+        if (existingLike.data && existingLike.data.length > 0) {
+          await client.models.PostLike.delete({ id: existingLike.data[0].id }, {
+            authMode: 'userPool'
+          })
+          
+          // Update likes count
+          const post = await client.models.AnimeBlogPost.get({ id: postId }, {
+            authMode: 'userPool'
+          })
+          
+          if (post.data) {
+            await client.models.AnimeBlogPost.update({
+              id: postId,
+              likesCount: Math.max((post.data.likesCount || 0) - 1, 0)
+            }, {
+              authMode: 'userPool'
+            })
+          }
+        }
+      } else {
+        // Like: Add like to database
+        await client.models.PostLike.create({
+          postId,
+          userId: user.userId,
+          userName: displayName
+        }, {
+          authMode: 'userPool'
+        })
+        
+        // Update likes count
+        const post = await client.models.AnimeBlogPost.get({ id: postId }, {
+          authMode: 'userPool'
+        })
+        
+        if (post.data) {
+          await client.models.AnimeBlogPost.update({
+            id: postId,
+            likesCount: (post.data.likesCount || 0) + 1
+          }, {
+            authMode: 'userPool'
+          })
+        }
+      }
+      
+      // Refresh the posts to show updated counts
+      await fetchCommunityPosts()
+      
+      // If it's a user post, refresh user posts too
+      const isUserPost = userPosts.some(post => post.id === postId)
+      if (isUserPost) {
+        await fetchUserPosts()
+      }
+      
+      // Update the selected post in modal if it's the same post
+      if (selectedPost && selectedPost.id === postId) {
+        setSelectedPost({
+          ...selectedPost,
+          likes: isCurrentlyLiked ? selectedPost.likes - 1 : selectedPost.likes + 1,
+          isLikedByUser: !isCurrentlyLiked
+        })
+      }
+      
+      toast.success(isCurrentlyLiked ? 'Post unliked!' : 'Post liked!')
+    } catch (error) {
+      console.error('Error toggling like:', error)
+      toast.error('Failed to update like')
+    }
+  }
+
+  const handleDeletePost = async (postId: string) => {
+    try {
+      const user = await getCurrentUser()
+      
+      // First, delete all associated likes
+      const likes = await client.models.PostLike.list({
+        filter: { postId: { eq: postId } },
+        authMode: 'userPool'
+      })
+      
+      for (const like of likes.data || []) {
+        await client.models.PostLike.delete({ id: like.id }, {
+          authMode: 'userPool'
+        })
+      }
+      
+      // Delete all associated comments
+      const comments = await client.models.Comment.list({
+        filter: { postId: { eq: postId } },
+        authMode: 'userPool'
+      })
+      
+      for (const comment of comments.data || []) {
+        await client.models.Comment.delete({ id: comment.id }, {
+          authMode: 'userPool'
+        })
+      }
+      
+      // Finally, delete the post itself
+      await client.models.AnimeBlogPost.delete({ id: postId }, {
+        authMode: 'userPool'
+      })
+      
+      // Refresh the posts
+      await fetchUserPosts()
+      await fetchCommunityPosts()
+      
+      toast.success('Post deleted successfully!')
+    } catch (error) {
+      console.error('Error deleting post:', error)
+      toast.error('Failed to delete post')
+    }
+  }
+
+  const fetchUserPosts = async () => {
+    try {
+      const user = await getCurrentUser()
+      const userAttributes = await fetchUserAttributes()
+      const displayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0]
+      
+      // Get all posts and filter manually to handle any null owners
+      const response = await client.models.AnimeBlogPost.list({
+        authMode: 'userPool'
+      })
+      
+      // Filter for current user's posts (handle null owners and null posts)
+      const userPostsData = response.data?.filter(post => post && post.owner && post.owner === user.userId) || []
+      
+      // For each user post, get comment count and like status
+      const postsWithCounts = await Promise.all(
+        userPostsData.map(async (post) => {
+          const commentsResponse = await client.models.Comment.list({
+            filter: { postId: { eq: post.id } },
+            authMode: 'userPool'
+          })
+          
+          return {
+            id: post.id,
+            title: post.title || '',
+            excerpt: post.content?.substring(0, 150) + '...' || '',
+            fullContent: post.content || '',
+            author: {
+              name: post.authorName || displayName,
+              avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${post.authorName || displayName}`
+            },
+            animeName: post.anime || '',
+            rating: post.rating || 0,
+            coverImage: post.images?.[0] || '',
+            tags: post.tags || [],
+            publishedAt: new Date(post.createdAt || '').toLocaleDateString(),
+            readTime: Math.ceil((post.content?.length || 0) / 200),
+            likes: post.likesCount || 0,
+            comments: commentsResponse.data?.length || 0,
+            isUserPost: true,
+            isLikedByUser: false // User can't like their own posts
+          }
+        })
+      )
+      
+      setUserPosts(postsWithCounts)
+    } catch (error) {
+      console.error('Error fetching user posts:', error)
+      toast.error('Failed to load your posts')
+    }
+  }
+
   const checkAuth = async () => {
     try {
       const user = await getCurrentUser()
-      setUserName(user.username)
-      // Mock user posts - in real app, fetch from backend
-      setUserPosts([]) // Empty for now to show empty state
+      const userAttributes = await fetchUserAttributes()
+      
+      // Use actual username from preferred_username
+      const displayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0]
+      setUserName(displayName)
+      setUserId(user.userId)
+      
+      // Fetch user posts with proper counts
+      await fetchUserPosts()
+      
+      // Fetch community posts
+      await fetchCommunityPosts()
+      
       setLoading(false)
     } catch (error) {
       router.push('/login')
     }
   }
 
-  const allTags = ['all', ...Array.from(new Set(mockBlogPosts.flatMap(post => post.tags)))]
+  const allTags = ['all', ...Array.from(new Set(communityPosts.flatMap(post => post.tags)))]
 
-  const filteredPosts = mockBlogPosts
+  const filteredPosts = communityPosts
     .filter(post => {
       const matchesSearch = post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                           post.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -186,6 +343,29 @@ export default function HomePage() {
   const handleModalClose = () => {
     setIsModalOpen(false)
     setSelectedPost(null)
+  }
+
+  const handleCommentCountChange = (postId: string, newCount: number) => {
+    // Update the selected post in modal
+    if (selectedPost && selectedPost.id === postId) {
+      setSelectedPost({
+        ...selectedPost,
+        comments: newCount
+      })
+    }
+    
+    // Update the post in the respective arrays
+    setUserPosts(prevPosts => 
+      prevPosts.map(post => 
+        post.id === postId ? { ...post, comments: newCount } : post
+      )
+    )
+    
+    setCommunityPosts(prevPosts => 
+      prevPosts.map(post => 
+        post.id === postId ? { ...post, comments: newCount } : post
+      )
+    )
   }
 
   if (loading) {
@@ -253,7 +433,13 @@ export default function HomePage() {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {userPosts.map((post) => (
-                <BlogPostCard key={post.id} {...post} onClick={() => handlePostClick(post)} />
+                <BlogPostCard 
+                  key={post.id} 
+                  {...post} 
+                  onLike={handleLikePost}
+                  onDelete={handleDeletePost}
+                  onClick={() => handlePostClick(post)} 
+                />
               ))}
             </div>
           )}
@@ -315,7 +501,13 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredPosts.map((post) => (
-              <BlogPostCard key={post.id} {...post} onClick={() => handlePostClick(post)} />
+              <BlogPostCard 
+                key={post.id} 
+                {...post} 
+                onLike={handleLikePost}
+                onDelete={handleDeletePost}
+                onClick={() => handlePostClick(post)} 
+              />
             ))}
           </div>
 
@@ -341,6 +533,8 @@ export default function HomePage() {
         isOpen={isModalOpen}
         onClose={handleModalClose}
         post={selectedPost}
+        onLike={handleLikePost}
+        onCommentCountChange={handleCommentCountChange}
       />
     </div>
   )

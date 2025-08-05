@@ -24,6 +24,7 @@ const Login = () => {
       const { isSignedIn } = await signIn({ username: email, password })
       
       if (isSignedIn) {
+        // After successful login, the home page will check for profile
         router.push('/home')
       }
     } catch (error: any) {

@@ -2,13 +2,24 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { getCurrentUser } from 'aws-amplify/auth'
+import { getCurrentUser, fetchUserAttributes } from 'aws-amplify/auth'
+import { Amplify } from 'aws-amplify'
+import { generateClient } from 'aws-amplify/api'
+import outputs from '@/amplify_outputs.json'
+import type { Schema } from '@/amplify/data/resource'
 import Navbar from '@/components/layout/Navbar'
 // import RichTextEditor from '@/components/blog/RichTextEditorWrapper'
 import SimpleTextEditor from '@/components/blog/SimpleTextEditor'
 import TagsInput from '@/components/blog/TagsInput'
 import ImageUpload from '@/components/common/ImageUpload'
 import { GENRES } from '@/lib/utils/constants'
+import toast from 'react-hot-toast'
+
+// Configure Amplify
+Amplify.configure(outputs)
+
+// Generate the client
+const client = generateClient<Schema>()
 
 export default function CreatePage() {
   const router = useRouter()
@@ -20,6 +31,7 @@ export default function CreatePage() {
   const [animeName, setAnimeName] = useState('')
   const [rating, setRating] = useState(5)
   const [publishing, setPublishing] = useState(false)
+  const [userName, setUserName] = useState('')
 
   useEffect(() => {
     checkAuth()
@@ -27,7 +39,13 @@ export default function CreatePage() {
 
   const checkAuth = async () => {
     try {
-      await getCurrentUser()
+      const user = await getCurrentUser()
+      const userAttributes = await fetchUserAttributes()
+      
+      // Use actual username from preferred_username
+      const displayName = userAttributes.preferred_username || user.username || userAttributes.email?.split('@')[0]
+      setUserName(displayName)
+      
       setLoading(false)
     } catch (error) {
       router.push('/login')
@@ -36,17 +54,38 @@ export default function CreatePage() {
 
   const handlePublish = async () => {
     if (!title.trim() || !content.trim() || !animeName.trim()) {
-      alert('Please fill in all required fields')
+      toast.error('Please fill in all required fields')
       return
     }
 
     setPublishing(true)
     
-    // TODO: Implement actual publish functionality with Amplify Data
-    setTimeout(() => {
-      alert('Blog post published successfully!')
-      router.push('/home')
-    }, 1500)
+    try {
+      // Create the blog post
+      const result = await client.models.AnimeBlogPost.create({
+        title: title.trim(),
+        content: content.trim(),
+        anime: animeName.trim(),
+        rating: rating,
+        tags: tags,
+        images: coverImage ? [coverImage] : [],
+        authorName: userName,
+        createdAt: new Date().toISOString(),
+      }, {
+        authMode: 'userPool'
+      })
+      
+      if (result.data) {
+        toast.success('Blog post published successfully!')
+        router.push('/home')
+      } else {
+        throw new Error('Failed to create post')
+      }
+    } catch (error) {
+      console.error('Error publishing post:', error)
+      toast.error('Failed to publish post. Please try again.')
+      setPublishing(false)
+    }
   }
 
   const handleSaveDraft = () => {

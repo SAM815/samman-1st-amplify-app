@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { X, Heart, MessageCircle, Star, Calendar, Clock, User, Bookmark } from 'lucide-react'
+import CommentSection from './CommentSection'
 
 interface BlogPost {
   id: string
@@ -20,24 +21,26 @@ interface BlogPost {
   readTime: number
   likes: number
   comments: number
+  isLikedByUser?: boolean
+  isUserPost?: boolean
 }
 
 interface BlogPostModalProps {
   isOpen: boolean
   onClose: () => void
   post: BlogPost | null
+  onLike?: (postId: string, isCurrentlyLiked: boolean) => void
+  onCommentCountChange?: (postId: string, newCount: number) => void
 }
 
-export default function BlogPostModal({ isOpen, onClose, post }: BlogPostModalProps) {
-  const [isLiked, setIsLiked] = useState(false)
+export default function BlogPostModal({ isOpen, onClose, post, onLike, onCommentCountChange }: BlogPostModalProps) {
   const [isBookmarked, setIsBookmarked] = useState(false)
-  const [likeCount, setLikeCount] = useState(0)
+  const [commentCount, setCommentCount] = useState(0)
 
   useEffect(() => {
     if (post) {
-      setLikeCount(post.likes)
-      setIsLiked(false) // Reset state when post changes
       setIsBookmarked(false)
+      setCommentCount(post.comments)
     }
   }, [post])
 
@@ -54,32 +57,26 @@ export default function BlogPostModal({ isOpen, onClose, post }: BlogPostModalPr
   }, [isOpen])
 
   const handleLike = () => {
-    setIsLiked(!isLiked)
-    setLikeCount(isLiked ? likeCount - 1 : likeCount + 1)
+    if (onLike && post && !post.isUserPost) {
+      onLike(post.id, post.isLikedByUser || false)
+    }
   }
 
   const handleBookmark = () => {
     setIsBookmarked(!isBookmarked)
   }
 
+  const handleCommentCountUpdate = (newCount: number) => {
+    setCommentCount(newCount)
+    if (onCommentCountChange && post) {
+      onCommentCountChange(post.id, newCount)
+    }
+  }
+
   if (!isOpen || !post) return null
 
-  // Mock full content - in a real app, this would come from the API
-  const fullContent = post.fullContent || `
-    ${post.excerpt}
-    
-    This is where the full blog post content would appear. In a real application, this would be fetched from your backend API or database.
-    
-    The author ${post.author.name} has written an in-depth analysis of ${post.animeName}, giving it a rating of ${post.rating}/10.
-    
-    This detailed review covers various aspects of the anime including:
-    - Character development and storytelling
-    - Animation quality and visual design
-    - Music and sound design
-    - Overall impact and themes
-    
-    Whether you're a longtime fan or new to the series, this review provides valuable insights into what makes ${post.animeName} worth watching.
-  `
+  // Use the actual post content, not mock content
+  const fullContent = post.fullContent || post.excerpt.replace('...', '')
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
@@ -105,11 +102,20 @@ export default function BlogPostModal({ isOpen, onClose, post }: BlogPostModalPr
         <div className="overflow-y-auto max-h-[calc(90vh-80px)]">
           {/* Cover Image */}
           <div className="relative h-64 md:h-80 bg-gray-800">
-            <img 
-              src={post.coverImage} 
-              alt={post.title}
-              className="w-full h-full object-contain"
-            />
+            {post.coverImage ? (
+              <img 
+                src={post.coverImage} 
+                alt={post.title}
+                className="w-full h-full object-contain"
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center bg-gray-700">
+                <div className="text-center text-gray-400">
+                  <div className="text-6xl mb-4">📷</div>
+                  <div className="text-lg">No Image</div>
+                </div>
+              </div>
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-gray-800/60 via-transparent to-transparent"></div>
             
             {/* Rating badge */}
@@ -170,17 +176,23 @@ export default function BlogPostModal({ isOpen, onClose, post }: BlogPostModalPr
               <div className="flex items-center space-x-6">
                 <button 
                   onClick={handleLike}
+                  disabled={post.isUserPost}
                   className={`flex items-center space-x-2 transition-colors ${
-                    isLiked ? 'text-red-500' : 'text-gray-400 hover:text-red-500'
+                    post.isUserPost 
+                      ? 'text-gray-500 cursor-not-allowed' 
+                      : post.isLikedByUser 
+                        ? 'text-red-500' 
+                        : 'text-gray-400 hover:text-red-500'
                   }`}
+                  title={post.isUserPost ? "You can't like your own post" : (post.isLikedByUser ? "Unlike" : "Like")}
                 >
-                  <Heart className={`w-6 h-6 ${isLiked ? 'fill-current' : ''}`} />
-                  <span className="font-medium">{likeCount}</span>
+                  <Heart className={`w-6 h-6 ${post.isLikedByUser && !post.isUserPost ? 'fill-current' : ''}`} />
+                  <span className="font-medium">{post.likes}</span>
                 </button>
                 
                 <div className="flex items-center space-x-2 text-gray-400">
                   <MessageCircle className="w-6 h-6" />
-                  <span className="font-medium">{post.comments}</span>
+                  <span className="font-medium">{commentCount}</span>
                 </div>
               </div>
               
@@ -203,72 +215,12 @@ export default function BlogPostModal({ isOpen, onClose, post }: BlogPostModalPr
               </div>
             </div>
 
-            {/* Comments section placeholder */}
+            {/* Comments section */}
             <div className="mt-12 pt-8 border-t border-gray-700">
-              <h3 className="text-xl font-bold text-white mb-6">Comments ({post.comments})</h3>
-              
-              {/* Comment input */}
-              <div className="mb-8">
-                <textarea
-                  placeholder="Share your thoughts about this review..."
-                  className="w-full p-4 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"
-                  rows={3}
-                />
-                <div className="flex justify-end mt-3">
-                  <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
-                    Post Comment
-                  </button>
-                </div>
-              </div>
-
-              {/* Sample comments */}
-              <div className="space-y-6">
-                <div className="flex space-x-4">
-                  <img 
-                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=commenter1" 
-                    alt="Commenter"
-                    className="w-10 h-10 rounded-full flex-shrink-0"
-                  />
-                  <div className="flex-1">
-                    <div className="bg-gray-700 rounded-lg p-4">
-                      <div className="flex items-center space-x-2 mb-2">
-                        <span className="font-medium text-white">AnimeWatcher2024</span>
-                        <span className="text-gray-400 text-sm">2 hours ago</span>
-                      </div>
-                      <p className="text-gray-200">
-                        Great review! I completely agree with your analysis of the character development. This anime really exceeded my expectations.
-                      </p>
-                    </div>
-                    <div className="flex items-center space-x-4 mt-2 text-sm text-gray-400">
-                      <button className="hover:text-white transition-colors">Reply</button>
-                      <button className="hover:text-red-400 transition-colors">❤️ 5</button>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="flex space-x-4">
-                  <img 
-                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=commenter2" 
-                    alt="Commenter"
-                    className="w-10 h-10 rounded-full flex-shrink-0"
-                  />
-                  <div className="flex-1">
-                    <div className="bg-gray-700 rounded-lg p-4">
-                      <div className="flex items-center space-x-2 mb-2">
-                        <span className="font-medium text-white">OtakuReviewer</span>
-                        <span className="text-gray-400 text-sm">1 day ago</span>
-                      </div>
-                      <p className="text-gray-200">
-                        Thanks for the spoiler-free review! Adding this to my watchlist now 📝
-                      </p>
-                    </div>
-                    <div className="flex items-center space-x-4 mt-2 text-sm text-gray-400">
-                      <button className="hover:text-white transition-colors">Reply</button>
-                      <button className="hover:text-red-400 transition-colors">❤️ 12</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <CommentSection 
+                postId={post.id} 
+                onCommentCountChange={handleCommentCountUpdate}
+              />
             </div>
           </div>
         </div>
