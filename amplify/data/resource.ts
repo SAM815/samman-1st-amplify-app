@@ -58,6 +58,8 @@ const schema = a.schema({
       allow.authenticated().to(['read', 'create']),  // Other users can read and create likes
       allow.publicApiKey().to(['read']),  // Public can read likes
     ]),
+
+
 });
 
 export type Schema = ClientSchema<typeof schema>;
