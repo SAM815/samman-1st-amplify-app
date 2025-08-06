@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { getCurrentUser, signOut, fetchUserAttributes } from 'aws-amplify/auth'
-import { generateClient } from 'aws-amplify/api'
+import { generateClient } from 'aws-amplify/data'
 import type { Schema } from '@/amplify/data/resource'
 import Navbar from '@/components/layout/Navbar'
 import { User } from '@/types'
@@ -52,10 +52,23 @@ export default function ProfilePage() {
     comments: 0,
     likes: 0
   })
+  const [refreshingStats, setRefreshingStats] = useState(false)
 
   useEffect(() => {
     loadUserData()
   }, [])
+
+  // Auto-refresh stats when page gains focus
+  useEffect(() => {
+    const handleFocus = () => {
+      if (!loading && !refreshingStats) {
+        loadUserStats()
+      }
+    }
+
+    window.addEventListener('focus', handleFocus)
+    return () => window.removeEventListener('focus', handleFocus)
+  }, [loading, refreshingStats])
 
   const loadUserData = async () => {
     try {
@@ -82,26 +95,41 @@ export default function ProfilePage() {
 
   const loadUserStats = async () => {
     try {
+      setRefreshingStats(true)
       const currentUser = await getCurrentUser()
       
-      // Get all posts and manually filter for current user
-      const allPostsResult = await client.models.AnimeBlogPost.list()
+      let userPosts: any[] = []
+      let userComments: any[] = []
       
-      // Manually filter posts for current user (handle null owners)
-      const userPostsData = allPostsResult.data?.filter((post: any) => post.owner && post.owner === currentUser.userId) || []
-      const postsResult = { data: userPostsData }
-      const userPosts = postsResult.data || []
+      try {
+        // Get user's posts
+        const postsResult = await client.models.AnimeBlogPost.list({
+          filter: {
+            owner: { eq: currentUser.userId }
+          }
+        })
+        userPosts = postsResult.data || []
+      } catch (postsError) {
+        console.warn('Error fetching posts:', postsError)
+      }
       
-      // Get all comments and manually filter for current user
-      const allCommentsResult = await client.models.Comment.list()
+      try {
+        // Get user's comments
+        const commentsResult = await client.models.Comment.list({
+          filter: {
+            owner: { eq: currentUser.userId }
+          }
+        })
+        userComments = commentsResult.data || []
+      } catch (commentsError) {
+        console.warn('Error fetching comments:', commentsError)
+      }
       
-      // Manually filter comments for current user (handle null owners)
-      const userCommentsData = allCommentsResult.data?.filter((comment: any) => comment.owner && comment.owner === currentUser.userId) || []
-      const commentsResult = { data: userCommentsData }
-      const userComments = commentsResult.data || []
-      
-      // Calculate total likes on user's posts
-      const totalLikes = userPosts.reduce((sum: number, post: any) => sum + (post.likes || 0), 0)
+      // Calculate total likes on user's posts (safely)
+      const totalLikes = userPosts.reduce((sum: number, post: any) => {
+        const likesCount = post?.likesCount || 0
+        return sum + (typeof likesCount === 'number' ? likesCount : 0)
+      }, 0)
       
       setStats({
         posts: userPosts.length,
@@ -110,6 +138,14 @@ export default function ProfilePage() {
       })
     } catch (error) {
       console.error('Error loading user stats:', error)
+      // Set default values on error
+      setStats({
+        posts: 0,
+        comments: 0,
+        likes: 0
+      })
+    } finally {
+      setRefreshingStats(false)
     }
   }
 
@@ -166,7 +202,17 @@ export default function ProfilePage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-medium text-white mb-2">Statistics</h3>
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="text-lg font-medium text-white">Statistics</h3>
+                <button
+                  onClick={loadUserStats}
+                  disabled={refreshingStats}
+                  className="text-purple-400 hover:text-purple-300 disabled:text-gray-500 transition-colors text-sm"
+                  title="Refresh statistics"
+                >
+                  {refreshingStats ? 'Updating...' : 'Refresh'}
+                </button>
+              </div>
               <div className="grid grid-cols-3 gap-4">
                 <div className="bg-gray-700 rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-purple-400">{stats.posts}</div>
