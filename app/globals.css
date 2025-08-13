@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 :root {
+  --foreground-rgb: 17, 24, 39;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 249, 250, 251;
+}
+
+.dark {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 17, 24, 39;
   --background-end-rgb: 17, 24, 39;
@@ -23,7 +29,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-start-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
@@ -38,16 +49,15 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1f2937;
+  @apply bg-gray-200 dark:bg-gray-800;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #4b5563;
-  border-radius: 4px;
+  @apply bg-gray-400 dark:bg-gray-600 rounded;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6b7280;
+  @apply bg-gray-500 dark:bg-gray-500;
 }
 
 /* Animation classes */

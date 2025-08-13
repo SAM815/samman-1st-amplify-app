@@ -194,7 +194,7 @@ export default function CommentSection({ postId, onCommentCountChange }: Comment
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center space-x-2 text-gray-300">
+      <div className="flex items-center space-x-2 text-gray-700 dark:text-gray-300">
         <MessageCircle className="w-5 h-5" />
         <h3 className="text-lg font-semibold">
           Comments ({comments.length})
@@ -202,17 +202,17 @@ export default function CommentSection({ postId, onCommentCountChange }: Comment
       </div>
 
       {/* Add Comment Form */}
-      <div className="bg-gray-700 rounded-lg p-4">
+      <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
         <textarea
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
           placeholder="Share your thoughts about this post..."
-          className="w-full bg-gray-600 text-white rounded-lg p-3 resize-none focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full bg-white dark:bg-gray-600 text-gray-900 dark:text-white rounded-lg p-3 resize-none focus:outline-none focus:ring-2 focus:ring-purple-500 border border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400"
           rows={3}
           maxLength={500}
         />
         <div className="flex items-center justify-between mt-3">
-          <span className="text-sm text-gray-400">
+          <span className="text-sm text-gray-600 dark:text-gray-400">
             {newComment.length}/500 characters
           </span>
           <button
@@ -230,17 +230,17 @@ export default function CommentSection({ postId, onCommentCountChange }: Comment
       <div className="space-y-4">
         {loading ? (
           <div className="text-center py-8">
-            <div className="text-gray-400">Loading comments...</div>
+            <div className="text-gray-600 dark:text-gray-400">Loading comments...</div>
           </div>
         ) : comments.length === 0 ? (
           <div className="text-center py-8">
-            <MessageCircle className="w-12 h-12 text-gray-500 mx-auto mb-2" />
-            <p className="text-gray-400">No comments yet.</p>
-            <p className="text-gray-500 text-sm">Be the first to share your thoughts!</p>
+            <MessageCircle className="w-12 h-12 text-gray-400 dark:text-gray-500 mx-auto mb-2" />
+            <p className="text-gray-600 dark:text-gray-400">No comments yet.</p>
+            <p className="text-gray-500 dark:text-gray-500 text-sm">Be the first to share your thoughts!</p>
           </div>
         ) : (
           comments.map((comment) => (
-            <div key={comment.id} className="bg-gray-700 rounded-lg p-4">
+            <div key={comment.id} className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 border border-gray-200 dark:border-gray-600">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <div className="flex items-center space-x-2 mb-2">
@@ -250,13 +250,13 @@ export default function CommentSection({ postId, onCommentCountChange }: Comment
                       className="w-8 h-8 rounded-full"
                     />
                     <div>
-                      <span className="font-medium text-white">{comment.authorName}</span>
-                      <span className="text-gray-400 text-sm ml-2">
+                      <span className="font-medium text-gray-900 dark:text-white">{comment.authorName}</span>
+                      <span className="text-gray-600 dark:text-gray-400 text-sm ml-2">
                         {formatTimeAgo(comment.createdAt)}
                       </span>
                     </div>
                   </div>
-                  <p className="text-gray-300 leading-relaxed whitespace-pre-wrap">
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">
                     {comment.content}
                   </p>
                 </div>
@@ -264,7 +264,7 @@ export default function CommentSection({ postId, onCommentCountChange }: Comment
                 {comment.owner === currentUserId && (
                   <button
                     onClick={() => handleDeleteComment(comment.id)}
-                    className="text-gray-400 hover:text-red-400 transition-colors ml-2"
+                    className="text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors ml-2"
                     title="Delete comment"
                   >
                     <Trash2 className="w-4 h-4" />

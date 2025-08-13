@@ -374,14 +374,14 @@ export default function HomePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-900">
-        <div className="text-white text-xl">Loading...</div>
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
+        <div className="text-gray-900 dark:text-white text-xl">Loading...</div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Navbar />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -404,7 +404,7 @@ export default function HomePage() {
         {/* Your Posts Section */}
         <section className="mb-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-white flex items-center">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center">
               <BookOpen className="w-6 h-6 mr-2" />
               Your Posts
             </h2>
@@ -416,13 +416,13 @@ export default function HomePage() {
           </div>
 
           {userPosts.length === 0 ? (
-            <div className="bg-gray-800 rounded-lg p-12 text-center">
+            <div className="bg-white dark:bg-gray-800 rounded-lg p-12 text-center shadow-sm dark:shadow-none">
               <div className="max-w-md mx-auto">
-                <div className="w-20 h-20 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <PenSquare className="w-10 h-10 text-gray-500" />
+                <div className="w-20 h-20 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <PenSquare className="w-10 h-10 text-gray-400 dark:text-gray-500" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-2">No posts yet</h3>
-                <p className="text-gray-400 mb-6">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No posts yet</h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-6">
                   Start sharing your anime thoughts with the community! Your first post is just a click away.
                 </p>
                 <button
@@ -452,14 +452,14 @@ export default function HomePage() {
         {/* Community Posts Section */}
         <section>
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-white flex items-center">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center">
               <TrendingUp className="w-6 h-6 mr-2" />
               Community Posts
             </h2>
           </div>
 
           {/* Search and Filter Bar */}
-          <div className="bg-gray-800 rounded-lg shadow-xl p-6 mb-8">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm dark:shadow-xl p-6 mb-8">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
               <div className="flex-1 max-w-xl">
                 <div className="relative">
@@ -468,7 +468,7 @@ export default function HomePage() {
                     placeholder="Search posts, anime titles, or authors..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full px-4 py-3 pl-10 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    className="w-full px-4 py-3 pl-10 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder-gray-500 dark:placeholder-gray-400"
                   />
                   <svg className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -480,7 +480,7 @@ export default function HomePage() {
                 <select
                   value={selectedTag}
                   onChange={(e) => setSelectedTag(e.target.value)}
-                  className="px-4 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 >
                   {allTags.map(tag => (
                     <option key={tag} value={tag}>
@@ -492,7 +492,7 @@ export default function HomePage() {
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
-                  className="px-4 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 >
                   <option value="recent">Most Recent</option>
                   <option value="popular">Most Popular</option>
@@ -517,13 +517,13 @@ export default function HomePage() {
 
           {filteredPosts.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-gray-400 text-lg">No posts found matching your criteria.</p>
+              <p className="text-gray-600 dark:text-gray-400 text-lg">No posts found matching your criteria.</p>
               <button 
                 onClick={() => {
                   setSearchTerm('')
                   setSelectedTag('all')
                 }}
-                className="mt-4 text-purple-400 hover:text-purple-300 underline"
+                className="mt-4 text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 underline"
               >
                 Clear filters
               </button>

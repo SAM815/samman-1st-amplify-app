@@ -67,16 +67,16 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-20 lg:py-32 bg-gray-900 relative overflow-hidden">
+    <section className="py-20 lg:py-32 bg-gray-50 dark:bg-gray-900 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-900/5 to-transparent"></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
             Everything You Need
           </h2>
-          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Powerful features designed to enhance your anime journey and connect you with the community
           </p>
         </div>
@@ -85,7 +85,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 border border-gray-700/50 hover:border-purple-500/50"
+              className="group relative bg-white dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 border border-gray-200 dark:border-gray-700/50 hover:border-purple-500/50 shadow-lg dark:shadow-none"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Gradient overlay on hover */}
@@ -97,10 +97,10 @@ const Features = () => {
               </div>
               
               {/* Content */}
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
                 {feature.title}
               </h3>
-              <p className="text-gray-400 leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 {feature.description}
               </p>
               
@@ -117,7 +117,7 @@ const Features = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <p className="text-gray-400 mb-4">Ready to start your journey?</p>
+          <p className="text-gray-600 dark:text-gray-400 mb-4">Ready to start your journey?</p>
           <a href="/signup" className="inline-flex items-center space-x-2 text-purple-400 hover:text-purple-300 font-medium transition-colors">
             <span>Get started for free</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -6,7 +6,7 @@ import { APP_NAME, APP_DESCRIPTION } from '@/lib/utils/constants'
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-gray-900 via-purple-900/10 to-gray-900">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-gray-50 dark:from-gray-900 via-purple-100/10 dark:via-purple-900/10 to-gray-50 dark:to-gray-900">
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-transparent to-blue-600/20 animate-pulse"></div>
       
@@ -25,7 +25,7 @@ const Hero = () => {
           alt="Anime Background"
           className="w-full h-full object-cover opacity-30 scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-50 dark:from-gray-900 via-gray-50/50 dark:via-gray-900/50 to-transparent"></div>
       </div>
 
       {/* Content */}
@@ -34,11 +34,11 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-full px-4 py-2 animate-fadeIn">
             <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
-            <span className="text-purple-300 text-sm font-medium">Welcome to the Anime Community</span>
+            <span className="text-purple-700 dark:text-purple-300 text-sm font-medium">Welcome to the Anime Community</span>
           </div>
 
           {/* Main heading */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight animate-fadeIn" style={{ animationDelay: '0.1s' }}>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white leading-tight animate-fadeIn" style={{ animationDelay: '0.1s' }}>
             <span className="block">{APP_NAME}</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 mt-2">
               Your Anime Journey
@@ -46,7 +46,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed animate-fadeIn" style={{ animationDelay: '0.2s' }}>
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed animate-fadeIn" style={{ animationDelay: '0.2s' }}>
             {APP_DESCRIPTION}
           </p>
 
@@ -61,7 +61,7 @@ const Hero = () => {
               </button>
             </Link>
             <Link href="/login">
-              <button className="bg-white/10 backdrop-blur-sm border-2 border-white/20 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:bg-white/20 hover:border-white/40 hover:shadow-xl">
+              <button className="bg-gray-900/10 dark:bg-white/10 backdrop-blur-sm border-2 border-gray-900/20 dark:border-white/20 text-gray-900 dark:text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:bg-gray-900/20 dark:hover:bg-white/20 hover:border-gray-900/40 dark:hover:border-white/40 hover:shadow-xl">
                 Sign In
               </button>
             </Link>
@@ -70,16 +70,16 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto animate-fadeIn" style={{ animationDelay: '0.4s' }}>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-white">10K+</div>
-              <div className="text-gray-400 text-sm sm:text-base">Active Users</div>
+              <div className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">10K+</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">Active Users</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-white">50K+</div>
-              <div className="text-gray-400 text-sm sm:text-base">Anime Titles</div>
+              <div className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">50K+</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">Anime Titles</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-white">100K+</div>
-              <div className="text-gray-400 text-sm sm:text-base">Reviews</div>
+              <div className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">100K+</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm sm:text-base">Reviews</div>
             </div>
           </div>
         </div>
@@ -88,8 +88,8 @@ const Hero = () => {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="flex flex-col items-center space-y-2">
-          <span className="text-gray-400 text-sm">Scroll to explore</span>
-          <svg className="w-6 h-6 text-gray-400" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+          <span className="text-gray-600 dark:text-gray-400 text-sm">Scroll to explore</span>
+          <svg className="w-6 h-6 text-gray-600 dark:text-gray-400" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
           </svg>
         </div>

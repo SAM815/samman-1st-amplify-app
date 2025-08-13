@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { useRouter, usePathname } from 'next/navigation'
 import { signOut, getCurrentUser, fetchUserAttributes } from 'aws-amplify/auth'
 import { APP_NAME } from '@/lib/utils/constants'
+import { useTheme } from 'next-themes'
+import { Sun, Moon } from 'lucide-react'
 
 // Helper function to check if a string is a UUID
 const isUUID = (str: string): boolean => {
@@ -39,9 +41,12 @@ const Navbar = () => {
   const [userName, setUserName] = useState('')
   const router = useRouter()
   const pathname = usePathname()
+  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     checkUser()
+    setMounted(true)
   }, [])
 
   const checkUser = async () => {
@@ -70,7 +75,7 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="bg-gray-800 border-b border-gray-700">
+    <nav className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/home" className="flex items-center space-x-2">
@@ -84,8 +89,8 @@ const Navbar = () => {
                 href={link.href}
                 className={`transition-colors ${
                   pathname === link.href
-                    ? 'text-purple-400 font-medium'
-                    : 'text-gray-300 hover:text-white'
+                    ? 'text-purple-600 dark:text-purple-400 font-medium'
+                    : 'text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
                 }`}
               >
                 {link.label}
@@ -94,15 +99,28 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
+            {mounted && (
+              <button
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                aria-label="Toggle theme"
+              >
+                {theme === 'dark' ? (
+                  <Sun className="w-5 h-5" />
+                ) : (
+                  <Moon className="w-5 h-5" />
+                )}
+              </button>
+            )}
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">
                 {userName ? userName.charAt(0).toUpperCase() : 'U'}
               </div>
-              <span className="text-gray-300 text-sm">{userName || 'User'}</span>
+              <span className="text-gray-700 dark:text-gray-300 text-sm">{userName || 'User'}</span>
             </div>
             <button
               onClick={handleSignOut}
-              className="bg-gray-700 hover:bg-gray-600 text-gray-300 hover:text-white px-4 py-2 rounded-lg text-sm transition-colors"
+              className="bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-4 py-2 rounded-lg text-sm transition-colors"
             >
               Sign Out
             </button>
@@ -110,7 +128,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-gray-300 hover:text-white focus:outline-none"
+            className="md:hidden text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white focus:outline-none"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMenuOpen ? (
@@ -123,7 +141,7 @@ const Navbar = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-700">
+          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col space-y-3">
               {navLinks.map((link) => (
                 <Link
@@ -132,23 +150,41 @@ const Navbar = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className={`py-2 transition-colors ${
                     pathname === link.href
-                      ? 'text-purple-400 font-medium'
-                      : 'text-gray-300 hover:text-white'
+                      ? 'text-purple-600 dark:text-purple-400 font-medium'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
                   }`}
                 >
                   {link.label}
                 </Link>
               ))}
-              <div className="pt-3 border-t border-gray-700">
+              <div className="pt-3 border-t border-gray-200 dark:border-gray-700">
                 <div className="flex items-center space-x-2 mb-3">
                   <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">
                     {userName ? userName.charAt(0).toUpperCase() : 'U'}
                   </div>
-                  <span className="text-gray-300 text-sm">{userName || 'User'}</span>
+                  <span className="text-gray-700 dark:text-gray-300 text-sm">{userName || 'User'}</span>
                 </div>
+                {mounted && (
+                  <button
+                    onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                    className="flex items-center justify-center w-full mb-3 px-4 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-lg text-sm transition-colors"
+                  >
+                    {theme === 'dark' ? (
+                      <>
+                        <Sun className="w-4 h-4 mr-2" />
+                        Light Mode
+                      </>
+                    ) : (
+                      <>
+                        <Moon className="w-4 h-4 mr-2" />
+                        Dark Mode
+                      </>
+                    )}
+                  </button>
+                )}
                 <button
                   onClick={handleSignOut}
-                  className="bg-gray-700 hover:bg-gray-600 text-gray-300 hover:text-white px-4 py-2 rounded-lg text-sm transition-colors w-full"
+                  className="bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-4 py-2 rounded-lg text-sm transition-colors w-full"
                 >
                   Sign Out
                 </button>

@@ -87,12 +87,12 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
       />
       
       {/* Modal */}
-      <div className="relative w-full max-w-4xl max-h-[90vh] mx-4 bg-gray-800 rounded-2xl shadow-2xl overflow-hidden">
+      <div className="relative w-full max-w-4xl max-h-[90vh] mx-4 bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden">
         {/* Header with close button */}
-        <div className="sticky top-0 z-10 bg-gray-800/95 backdrop-blur border-b border-gray-700 p-4">
+        <div className="sticky top-0 z-10 bg-white/95 dark:bg-gray-800/95 backdrop-blur border-b border-gray-200 dark:border-gray-700 p-4">
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 p-2 bg-gray-700 hover:bg-gray-600 rounded-full text-gray-300 hover:text-white transition-colors"
+            className="absolute top-4 right-4 p-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 rounded-full text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
           >
             <X className="w-5 h-5" />
           </button>
@@ -101,7 +101,7 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
         {/* Scrollable content */}
         <div className="overflow-y-auto max-h-[calc(90vh-80px)]">
           {/* Cover Image */}
-          <div className="relative h-64 md:h-80 bg-gray-800">
+          <div className="relative h-64 md:h-80 bg-gray-100 dark:bg-gray-800">
             {post.coverImage ? (
               <img 
                 src={post.coverImage} 
@@ -109,14 +109,14 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
                 className="w-full h-full object-contain"
               />
             ) : (
-              <div className="w-full h-full flex items-center justify-center bg-gray-700">
-                <div className="text-center text-gray-400">
+              <div className="w-full h-full flex items-center justify-center bg-gray-200 dark:bg-gray-700">
+                <div className="text-center text-gray-500 dark:text-gray-400">
                   <div className="text-6xl mb-4">📷</div>
                   <div className="text-lg">No Image</div>
                 </div>
               </div>
             )}
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-800/60 via-transparent to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-white/60 dark:from-gray-800/60 via-transparent to-transparent"></div>
             
             {/* Rating badge */}
             <div className="absolute top-4 right-4 bg-purple-600 text-white px-3 py-1 rounded-full font-bold text-sm flex items-center space-x-1">
@@ -129,16 +129,16 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
           <div className="p-6 md:p-8">
             {/* Anime name */}
             <div className="mb-4">
-              <span className="text-purple-400 font-semibold text-lg">{post.animeName}</span>
+              <span className="text-purple-600 dark:text-purple-400 font-semibold text-lg">{post.animeName}</span>
             </div>
 
             {/* Title */}
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
               {post.title}
             </h1>
 
             {/* Meta information */}
-            <div className="flex flex-wrap items-center gap-4 mb-8 text-sm text-gray-400">
+            <div className="flex flex-wrap items-center gap-4 mb-8 text-sm text-gray-600 dark:text-gray-400">
               <div className="flex items-center space-x-2">
                 <img 
                   src={post.author.avatar} 
@@ -164,7 +164,7 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
               {post.tags.map((tag) => (
                 <span 
                   key={tag} 
-                  className="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm hover:bg-gray-600 transition-colors cursor-pointer"
+                  className="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors cursor-pointer"
                 >
                   #{tag}
                 </span>
@@ -172,17 +172,17 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
             </div>
 
             {/* Action buttons */}
-            <div className="flex items-center justify-between mb-8 p-4 bg-gray-700/50 rounded-lg">
+            <div className="flex items-center justify-between mb-8 p-4 bg-gray-100 dark:bg-gray-700/50 rounded-lg">
               <div className="flex items-center space-x-6">
                 <button 
                   onClick={handleLike}
                   disabled={post.isUserPost}
                   className={`flex items-center space-x-2 transition-colors ${
                     post.isUserPost 
-                      ? 'text-gray-500 cursor-not-allowed' 
+                      ? 'text-gray-400 dark:text-gray-500 cursor-not-allowed' 
                       : post.isLikedByUser 
                         ? 'text-red-500' 
-                        : 'text-gray-400 hover:text-red-500'
+                        : 'text-gray-600 dark:text-gray-400 hover:text-red-500'
                   }`}
                   title={post.isUserPost ? "You can't like your own post" : (post.isLikedByUser ? "Unlike" : "Like")}
                 >
@@ -190,7 +190,7 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
                   <span className="font-medium">{post.likes}</span>
                 </button>
                 
-                <div className="flex items-center space-x-2 text-gray-400">
+                <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
                   <MessageCircle className="w-6 h-6" />
                   <span className="font-medium">{commentCount}</span>
                 </div>
@@ -201,7 +201,7 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
                 className={`p-2 rounded-full transition-colors ${
                   isBookmarked 
                     ? 'bg-purple-600 text-white' 
-                    : 'bg-gray-700 text-gray-400 hover:bg-gray-600 hover:text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-600 hover:text-gray-900 dark:hover:text-white'
                 }`}
               >
                 <Bookmark className={`w-5 h-5 ${isBookmarked ? 'fill-current' : ''}`} />
@@ -209,14 +209,14 @@ export default function BlogPostModal({ isOpen, onClose, post, onLike, onComment
             </div>
 
             {/* Full content */}
-            <div className="prose prose-lg prose-invert max-w-none">
-              <div className="text-gray-200 leading-relaxed whitespace-pre-line">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
+              <div className="text-gray-800 dark:text-gray-200 leading-relaxed whitespace-pre-line">
                 {fullContent}
               </div>
             </div>
 
             {/* Comments section */}
-            <div className="mt-12 pt-8 border-t border-gray-700">
+            <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
               <CommentSection 
                 postId={post.id} 
                 onCommentCountChange={handleCommentCountUpdate}

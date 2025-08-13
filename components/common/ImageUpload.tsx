@@ -36,7 +36,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
   return (
     <div 
       onClick={handleClick}
-      className="border-2 border-dashed border-gray-600 rounded-lg p-8 text-center cursor-pointer hover:border-purple-500 transition-colors bg-gray-700/50"
+      className="border-2 border-dashed border-gray-400 dark:border-gray-600 rounded-lg p-8 text-center cursor-pointer hover:border-purple-500 transition-colors bg-gray-50 dark:bg-gray-700/50"
     >
       <input
         ref={fileInputRef}
@@ -47,7 +47,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
       />
       <div className="space-y-2">
         <svg 
-          className="mx-auto h-12 w-12 text-gray-400"
+          className="mx-auto h-12 w-12 text-gray-500 dark:text-gray-400"
           stroke="currentColor" 
           fill="none" 
           viewBox="0 0 48 48"
@@ -59,8 +59,8 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
             strokeLinejoin="round" 
           />
         </svg>
-        <p className="text-gray-300">Click to upload image</p>
-        <p className="text-xs text-gray-500">PNG, JPG, GIF up to {maxSize}MB</p>
+        <p className="text-gray-700 dark:text-gray-300">Click to upload image</p>
+        <p className="text-xs text-gray-600 dark:text-gray-500">PNG, JPG, GIF up to {maxSize}MB</p>
       </div>
     </div>
   )

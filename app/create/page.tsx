@@ -95,56 +95,56 @@ export default function CreatePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-900">
-        <div className="text-white text-xl">Loading...</div>
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
+        <div className="text-gray-900 dark:text-white text-xl">Loading...</div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Navbar />
       
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-white mb-2">Create New Blog Post</h1>
-          <p className="text-gray-400">Share your thoughts about your favorite anime</p>
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">Create New Blog Post</h1>
+          <p className="text-gray-600 dark:text-gray-400">Share your thoughts about your favorite anime</p>
         </div>
         
-        <div className="bg-gray-800 rounded-lg p-6 space-y-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 space-y-6 shadow-sm dark:shadow-none">
           {/* Title */}
           <div>
-            <label className="block text-white text-sm font-medium mb-2">
-              Post Title <span className="text-red-400">*</span>
+            <label className="block text-gray-700 dark:text-gray-200 text-sm font-medium mb-2">
+              Post Title <span className="text-red-500 dark:text-red-400">*</span>
             </label>
             <input
               type="text"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 border border-gray-600"
+              className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 border border-gray-300 dark:border-gray-600"
               placeholder="Enter your blog post title..."
               maxLength={100}
             />
-            <p className="text-gray-500 text-sm mt-1">{title.length}/100 characters</p>
+            <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">{title.length}/100 characters</p>
           </div>
 
           {/* Anime Name and Rating */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-white text-sm font-medium mb-2">
-                Anime Name <span className="text-red-400">*</span>
+              <label className="block text-gray-700 dark:text-gray-200 text-sm font-medium mb-2">
+                Anime Name <span className="text-red-500 dark:text-red-400">*</span>
               </label>
               <input
                 type="text"
                 value={animeName}
                 onChange={(e) => setAnimeName(e.target.value)}
-                className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 border border-gray-600"
+                className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 border border-gray-300 dark:border-gray-600"
                 placeholder="Which anime are you reviewing?"
               />
             </div>
             
             <div>
-              <label className="block text-white text-sm font-medium mb-2">
+              <label className="block text-gray-700 dark:text-gray-200 text-sm font-medium mb-2">
                 Your Rating
               </label>
               <div className="flex items-center space-x-4">
@@ -165,7 +165,7 @@ export default function CreatePage() {
 
           {/* Cover Image */}
           <div>
-            <label className="block text-white text-sm font-medium mb-2">
+            <label className="block text-gray-700 dark:text-gray-200 text-sm font-medium mb-2">
               Cover Image
             </label>
             <ImageUpload
@@ -198,8 +198,8 @@ export default function CreatePage() {
 
           {/* Content */}
           <div>
-            <label className="block text-white text-sm font-medium mb-2">
-              Content <span className="text-red-400">*</span>
+            <label className="block text-gray-700 dark:text-gray-200 text-sm font-medium mb-2">
+              Content <span className="text-red-500 dark:text-red-400">*</span>
             </label>
             <SimpleTextEditor
               content={content}
@@ -210,21 +210,21 @@ export default function CreatePage() {
 
           {/* Tags */}
           <div>
-            <label className="block text-white text-sm font-medium mb-2">
+            <label className="block text-gray-700 dark:text-gray-200 text-sm font-medium mb-2">
               Tags
             </label>
             <TagsInput
               tags={tags}
               onChange={setTags}
             />
-            <p className="text-gray-500 text-sm mt-1">Add tags to help others find your post</p>
+            <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">Add tags to help others find your post</p>
           </div>
 
           {/* Action Buttons */}
-          <div className="flex justify-between items-center pt-6 border-t border-gray-700">
+          <div className="flex justify-between items-center pt-6 border-t border-gray-200 dark:border-gray-700">
             <button
               onClick={handleSaveDraft}
-              className="px-6 py-2 bg-gray-700 hover:bg-gray-600 text-white font-medium rounded-lg transition-colors"
+              className="px-6 py-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-medium rounded-lg transition-colors"
             >
               Save as Draft
             </button>
@@ -232,7 +232,7 @@ export default function CreatePage() {
             <div className="flex space-x-4">
               <button
                 onClick={() => router.push('/home')}
-                className="px-6 py-2 bg-gray-700 hover:bg-gray-600 text-white font-medium rounded-lg transition-colors"
+                className="px-6 py-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-medium rounded-lg transition-colors"
               >
                 Cancel
               </button>
@@ -258,9 +258,9 @@ export default function CreatePage() {
         </div>
 
         {/* Writing Tips */}
-        <div className="mt-8 bg-gray-800/50 rounded-lg p-6 border border-gray-700">
-          <h3 className="text-lg font-semibold text-white mb-4">Writing Tips</h3>
-          <ul className="space-y-2 text-gray-400 text-sm">
+        <div className="mt-8 bg-gray-100 dark:bg-gray-800/50 rounded-lg p-6 border border-gray-300 dark:border-gray-700">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Writing Tips</h3>
+          <ul className="space-y-2 text-gray-700 dark:text-gray-400 text-sm">
             <li className="flex items-start">
               <span className="text-purple-400 mr-2">•</span>
               <span>Start with a compelling introduction that hooks your readers</span>

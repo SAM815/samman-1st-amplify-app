@@ -88,10 +88,10 @@ export default function BlogPostCard({
 
   return (
     <article 
-      className="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl cursor-pointer"
+      className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg dark:shadow-xl transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl cursor-pointer"
       onClick={onClick}
     >
-      <div className="relative h-48 md:h-56 bg-gray-700">
+      <div className="relative h-48 md:h-56 bg-gray-100 dark:bg-gray-700">
         {coverImage ? (
           <img 
             src={coverImage} 
@@ -99,14 +99,14 @@ export default function BlogPostCard({
             className="w-full h-full object-contain"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gray-700">
-            <div className="text-center text-gray-400">
+          <div className="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-700">
+            <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="text-4xl mb-2">📷</div>
               <div className="text-sm">No Image</div>
             </div>
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-800/80 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
         <div className="absolute top-3 right-3 flex items-center space-x-2">
           <div className="bg-purple-600 text-white px-3 py-1 rounded-full font-bold text-sm flex items-center space-x-1">
             <Star className="w-4 h-4" />
@@ -124,10 +124,10 @@ export default function BlogPostCard({
               </button>
               
               {showDropdown && (
-                <div className="absolute right-0 top-full mt-1 bg-gray-700 rounded-lg shadow-xl border border-gray-600 py-1 z-10 min-w-[120px]">
+                <div className="absolute right-0 top-full mt-1 bg-white dark:bg-gray-700 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 py-1 z-10 min-w-[120px]">
                   <button
                     onClick={handleDelete}
-                    className="w-full px-3 py-2 text-left text-red-400 hover:bg-gray-600 flex items-center space-x-2 text-sm"
+                    className="w-full px-3 py-2 text-left text-red-600 dark:text-red-400 hover:bg-gray-100 dark:hover:bg-gray-600 flex items-center space-x-2 text-sm"
                   >
                     <Trash2 className="w-4 h-4" />
                     <span>Delete</span>
@@ -141,24 +141,24 @@ export default function BlogPostCard({
       
       <div className="p-6">
         <div className="flex items-center justify-between mb-3">
-          <span className="text-purple-400 text-sm font-semibold">{animeName}</span>
-          <div className="flex items-center text-gray-400 text-sm">
+          <span className="text-purple-600 dark:text-purple-400 text-sm font-semibold">{animeName}</span>
+          <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm">
             <Clock className="w-4 h-4 mr-1" />
             <span>{readTime} min read</span>
           </div>
         </div>
         
-        <h3 className="text-xl font-bold text-white mb-2 line-clamp-2 hover:text-purple-400 transition-colors cursor-pointer">
+        <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 line-clamp-2 hover:text-purple-600 dark:hover:text-purple-400 transition-colors cursor-pointer">
           {title}
         </h3>
         
-        <p className="text-gray-300 mb-4 line-clamp-3">{excerpt}</p>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">{excerpt}</p>
         
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.slice(0, 3).map((tag) => (
             <span 
               key={tag} 
-              className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded-full"
+              className="text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded-full"
             >
               #{tag}
             </span>
@@ -168,7 +168,7 @@ export default function BlogPostCard({
           )}
         </div>
         
-        <div className="flex items-center justify-between pt-4 border-t border-gray-700">
+        <div className="flex items-center justify-between pt-4 border-t border-gray-200 dark:border-gray-700">
           <div className="flex items-center space-x-3">
             <img 
               src={author.avatar} 
@@ -176,8 +176,8 @@ export default function BlogPostCard({
               className="w-8 h-8 rounded-full"
             />
             <div>
-              <p className="text-sm font-medium text-white">{author.name}</p>
-              <p className="text-xs text-gray-400">{publishedAt}</p>
+              <p className="text-sm font-medium text-gray-900 dark:text-white">{author.name}</p>
+              <p className="text-xs text-gray-500 dark:text-gray-400">{publishedAt}</p>
             </div>
           </div>
           
@@ -187,10 +187,10 @@ export default function BlogPostCard({
               disabled={isUserPost}
               className={`flex items-center space-x-1 transition-colors ${
                 isUserPost 
-                  ? 'text-gray-500 cursor-not-allowed' 
+                  ? 'text-gray-400 dark:text-gray-500 cursor-not-allowed' 
                   : isLikedByUser 
                     ? 'text-red-500' 
-                    : 'text-gray-400 hover:text-red-500'
+                    : 'text-gray-500 dark:text-gray-400 hover:text-red-500'
               }`}
               title={isUserPost ? "You can't like your own post" : (isLikedByUser ? "Unlike" : "Like")}
             >
@@ -198,12 +198,12 @@ export default function BlogPostCard({
               <span className="text-sm">{likes}</span>
             </button>
             
-            <div className="flex items-center space-x-1 text-gray-400">
+            <div className="flex items-center space-x-1 text-gray-500 dark:text-gray-400">
               <MessageCircle className="w-5 h-5" />
               <span className="text-sm">{comments}</span>
             </div>
             
-            <button className="text-purple-400 hover:text-purple-300 transition-colors">
+            <button className="text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
               <BookOpen className="w-5 h-5" />
             </button>
           </div>

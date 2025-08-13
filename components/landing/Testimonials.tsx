@@ -28,7 +28,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-20 lg:py-32 bg-gray-800 relative overflow-hidden">
+    <section className="py-20 lg:py-32 bg-white dark:bg-gray-800 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-blue-600"></div>
@@ -37,12 +37,12 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16 space-y-4">
           <div className="inline-flex items-center space-x-2 bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-full px-4 py-2 mb-4">
-            <span className="text-purple-300 text-sm font-medium">Testimonials</span>
+            <span className="text-purple-700 dark:text-purple-300 text-sm font-medium">Testimonials</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
             Loved by Anime Fans Worldwide
           </h2>
-          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Join thousands of satisfied users who have made our platform their home for anime content
           </p>
         </div>
@@ -51,7 +51,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="group relative bg-gray-900/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-purple-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/10"
+              className="group relative bg-gray-50 dark:bg-gray-900/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-200 dark:border-gray-700 hover:border-purple-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/10 shadow-lg dark:shadow-none"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Quote icon */}
@@ -73,7 +73,7 @@ const Testimonials = () => {
                 </div>
 
                 {/* Testimonial text */}
-                <p className="text-gray-300 leading-relaxed mb-6 italic">
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 italic">
                   "{testimonial.content}"
                 </p>
 
@@ -85,8 +85,8 @@ const Testimonials = () => {
                     className="w-12 h-12 rounded-full mr-4 ring-2 ring-purple-500/20"
                   />
                   <div>
-                    <h4 className="text-white font-semibold">{testimonial.name}</h4>
-                    <p className="text-purple-400 text-sm">{testimonial.role}</p>
+                    <h4 className="text-gray-900 dark:text-white font-semibold">{testimonial.name}</h4>
+                    <p className="text-purple-600 dark:text-purple-400 text-sm">{testimonial.role}</p>
                   </div>
                 </div>
               </div>
@@ -96,20 +96,20 @@ const Testimonials = () => {
 
         {/* Social proof */}
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center space-x-6 bg-gray-900/50 backdrop-blur-sm rounded-full px-8 py-4 border border-gray-700">
+          <div className="inline-flex items-center space-x-6 bg-gray-100 dark:bg-gray-900/50 backdrop-blur-sm rounded-full px-8 py-4 border border-gray-200 dark:border-gray-700">
             <div className="flex -space-x-2">
               {[1, 2, 3, 4, 5].map((i) => (
                 <img
                   key={i}
                   src={`https://i.pravatar.cc/40?img=${i}`}
                   alt="User"
-                  className="w-10 h-10 rounded-full border-2 border-gray-900"
+                  className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-900"
                 />
               ))}
             </div>
             <div className="text-left">
-              <p className="text-white font-semibold">Join 10,000+ anime fans</p>
-              <p className="text-gray-400 text-sm">Active community members</p>
+              <p className="text-gray-900 dark:text-white font-semibold">Join 10,000+ anime fans</p>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">Active community members</p>
             </div>
           </div>
         </div>
