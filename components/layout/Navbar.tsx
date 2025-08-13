@@ -72,6 +72,8 @@ const Navbar = () => {
   const navLinks = [
     { href: '/home', label: 'Home' },
     { href: '/profile', label: 'Profile' },
+    { href: '/anime', label: 'Anime Recommendations' },
+    { href: '/shop', label: 'Shop' },
   ]
 
   return (
